@@ -1,3 +1,3 @@
 ToaCoin (TOA)
 
-Prövar om jag kan ändra
+In Lolirofle we trust!
