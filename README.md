@@ -1,3 +1,3 @@
-Toakrona (TKR) - a direct clone of SmallChange (SMC) https://github.com/bfroemel/smallchange
+ToaCoin (TOA)
 
-Intented to be used as a currency in #toa @flygande-toalett.tk
+Blah, blah, blah.
