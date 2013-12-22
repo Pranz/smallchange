@@ -1,7 +1,7 @@
 src/*.exe
-src/smallchange
-src/test_smallchange
-src/build.h
+src/toacoin
+src/toacoincoind
+src/test_freicoin
 .*.swp
 *.*~*
 *.bak
@@ -9,11 +9,11 @@ src/build.h
 *.orig
 *.o
 *.patch
-.bitcoin
+.freicoin
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-smallchange-qt
+toacoin-qt
 #resources cpp
 qrc_*.cpp
 #qt creator
