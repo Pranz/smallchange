@@ -1,9 +1,9 @@
-Building ToaCoin
+Building ToaKrona
 
-See doc/readme-qt.rst for instructions on building toacoin-qt,
+See doc/readme-qt.rst for instructions on building toakrona-qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of ToaCoin.
+implementation of ToaKrona.
 
-See doc/build-*.txt for instructions on building toacoin,
+See doc/build-*.txt for instructions on building toakrona,
 the intended-for-services, no-graphical-interface, reference
-implementation of ToaCoin.
+implementation of ToaKrona.

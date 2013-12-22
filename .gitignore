@@ -1,6 +1,6 @@
 src/*.exe
-src/toacoin
-src/toacoincoind
+src/toakrona
+src/toakronacoind
 src/test_freicoin
 .*.swp
 *.*~*
@@ -13,7 +13,7 @@ src/test_freicoin
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-toacoin-qt
+toakrona-qt
 #resources cpp
 qrc_*.cpp
 #qt creator

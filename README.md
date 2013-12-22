@@ -1,3 +1,3 @@
-ToaCoin (TOA)
+ToaKrona (TOA)
 
 In Lolirofle we trust!
