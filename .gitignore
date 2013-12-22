@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 src/*.exe
+=======
+>>>>>>> 3db755892f526a1841e084add04f9f394b0c2db9
 src/toacoin
 src/toacoincoind
 src/test_freicoin
