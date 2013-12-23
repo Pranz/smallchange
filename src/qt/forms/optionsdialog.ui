@@ -448,7 +448,7 @@
   <customwidget>
    <class>ToakronaAmountField</class>
    <extends>QSpinBox</extends>
-   <header>toakronaamountfield.h</header>
+   <header>bitcoinamountfield.h</header>
   </customwidget>
   <customwidget>
    <class>QValueComboBox</class>

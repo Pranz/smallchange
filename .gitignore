@@ -1,7 +1,5 @@
 src/*.exe
 src/toakronad
-src/toakronacoind
-src/test_toakrona
 .*.swp
 *.*~*
 *.bak
