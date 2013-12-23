@@ -1,6 +1,6 @@
-#include "toakronaamountfield.h"
+#include "bitcoinamountfield.h"
 #include "qvaluecombobox.h"
-#include "toakronaunits.h"
+#include "bitcoinunits.h"
 
 #include "guiconstants.h"
 

@@ -1,5 +1,5 @@
-#include "plumbingpage.h"
-#include "ui_plumbingpage.h"
+#include "miningpage.h"
+#include "ui_miningpage.h"
 
 PlumbingPage::PlumbingPage(QWidget *parent) :
     QWidget(parent),

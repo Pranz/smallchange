@@ -1,7 +1,7 @@
 /*
  * W.J. van der Laan 2011-2012
  */
-#include "toakronagui.h"
+#include "bitcoingui.h"
 #include "clientmodel.h"
 #include "walletmodel.h"
 #include "optionsmodel.h"
@@ -150,7 +150,7 @@ int main(int argc, char *argv[])
     QTextCodec::setCodecForTr(QTextCodec::codecForName("UTF-8"));
     QTextCodec::setCodecForCStrings(QTextCodec::codecForTr());
 
-    Q_INIT_RESOURCE(toakrona);
+    Q_INIT_RESOURCE(bitcoin);
     QApplication app(argc, argv);
 
     // Install global event filter that makes sure that long tooltips can be word-wrapped

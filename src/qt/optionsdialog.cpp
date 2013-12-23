@@ -1,8 +1,8 @@
 #include "optionsdialog.h"
 #include "ui_optionsdialog.h"
 
-#include "toakronaamountfield.h"
-#include "toakronaunits.h"
+#include "bitcoinamountfield.h"
+#include "bitcoinunits.h"
 #include "monitoreddatamapper.h"
 #include "netbase.h"
 #include "optionsmodel.h"

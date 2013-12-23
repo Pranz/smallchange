@@ -5,7 +5,7 @@
  * The Toakrona Developers 2011-2012
  * The Litecoin Developers 201-2013
  */
-#include "toakronagui.h"
+#include "bitcoingui.h"
 #include "transactiontablemodel.h"
 #include "addressbookpage.h"
 #include "sendcoinsdialog.h"
@@ -20,8 +20,8 @@
 #include "addresstablemodel.h"
 #include "transactionview.h"
 #include "overviewpage.h"
-#include "plumbingpage.h"
-#include "toakronaunits.h"
+#include "miningpage.h"
+#include "bitcoinunits.h"
 #include "guiconstants.h"
 #include "askpassphrasedialog.h"
 #include "notificator.h"

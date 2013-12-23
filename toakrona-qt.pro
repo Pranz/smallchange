@@ -90,7 +90,7 @@ QMAKE_CXXFLAGS_WARN_ON = -fdiagnostics-show-option -Wall -Wextra -Wformat -Wform
 
 # Input
 DEPENDPATH += src src/json src/qt
-HEADERS += src/qt/toakronagui.h \
+HEADERS += src/qt/bitcoingui.h \
     src/qt/transactiontablemodel.h \
     src/qt/addresstablemodel.h \
     src/qt/optionsdialog.h \
@@ -99,7 +99,7 @@ HEADERS += src/qt/toakronagui.h \
     src/qt/signverifymessagedialog.h \
     src/qt/aboutdialog.h \
     src/qt/editaddressdialog.h \
-    src/qt/toakronaaddressvalidator.h \
+    src/qt/bitcoinaddressvalidator.h \
     src/addrman.h \
     src/base58.h \
     src/bignum.h \
@@ -136,19 +136,19 @@ HEADERS += src/qt/toakronagui.h \
     src/qt/monitoreddatamapper.h \
     src/qt/transactiondesc.h \
     src/qt/transactiondescdialog.h \
-    src/qt/toakronaamountfield.h \
+    src/qt/bitcoinamountfield.h \
     src/wallet.h \
     src/keystore.h \
     src/qt/transactionfilterproxy.h \
     src/qt/transactionview.h \
     src/qt/walletmodel.h \
-    src/toakronarpc.h \
+    src/bitcoinrpc.h \
     src/qt/overviewpage.h \
     src/qt/csvmodelwriter.h \
     src/crypter.h \
     src/qt/sendcoinsentry.h \
     src/qt/qvalidatedlineedit.h \
-    src/qt/toakronaunits.h \
+    src/qt/bitcoinunits.h \
     src/qt/qvaluecombobox.h \
     src/qt/askpassphrasedialog.h \
     src/protocol.h \
@@ -157,11 +157,11 @@ HEADERS += src/qt/toakronagui.h \
     src/allocators.h \
     src/ui_interface.h \
     src/scrypt.h \
-    src/qt/plumbingpage.h \
+    src/qt/miningpage.h \
     src/version.h \
     src/qt/rpcconsole.h
 
-SOURCES += src/qt/toakrona.cpp src/qt/toakronagui.cpp \
+SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
     src/qt/transactiontablemodel.cpp \
     src/qt/addresstablemodel.cpp \
     src/qt/optionsdialog.cpp \
@@ -170,7 +170,7 @@ SOURCES += src/qt/toakrona.cpp src/qt/toakronagui.cpp \
     src/qt/signverifymessagedialog.cpp \
     src/qt/aboutdialog.cpp \
     src/qt/editaddressdialog.cpp \
-    src/qt/toakronaaddressvalidator.cpp \
+    src/qt/bitcoinaddressvalidator.cpp \
     src/version.cpp \
     src/sync.cpp \
     src/util.cpp \
@@ -195,14 +195,14 @@ SOURCES += src/qt/toakrona.cpp src/qt/toakronagui.cpp \
     src/qt/monitoreddatamapper.cpp \
     src/qt/transactiondesc.cpp \
     src/qt/transactiondescdialog.cpp \
-    src/qt/toakronastrings.cpp \
-    src/qt/toakronaamountfield.cpp \
+    src/qt/bitcoinstrings.cpp \
+    src/qt/bitcoinamountfield.cpp \
     src/wallet.cpp \
     src/keystore.cpp \
     src/qt/transactionfilterproxy.cpp \
     src/qt/transactionview.cpp \
     src/qt/walletmodel.cpp \
-    src/toakronarpc.cpp \
+    src/bitcoinrpc.cpp \
     src/rpcdump.cpp \
     src/rpcnet.cpp \
     src/rpcrawtransaction.cpp \
@@ -211,7 +211,7 @@ SOURCES += src/qt/toakrona.cpp src/qt/toakronagui.cpp \
     src/crypter.cpp \
     src/qt/sendcoinsentry.cpp \
     src/qt/qvalidatedlineedit.cpp \
-    src/qt/toakronaunits.cpp \
+    src/qt/bitcoinunits.cpp \
     src/qt/qvaluecombobox.cpp \
     src/qt/askpassphrasedialog.cpp \
     src/protocol.cpp \
@@ -219,11 +219,11 @@ SOURCES += src/qt/toakrona.cpp src/qt/toakronagui.cpp \
     src/qt/qtipcserver.cpp \
     src/qt/rpcconsole.cpp \
     src/scrypt.c \
-    src/qt/plumbingpage.cpp \
+    src/qt/miningpage.cpp \
     src/noui.cpp
 
 RESOURCES += \
-    src/qt/toakrona.qrc
+    src/qt/bitcoin.qrc
 
 FORMS += \
     src/qt/forms/sendcoinsdialog.ui \
@@ -236,7 +236,7 @@ FORMS += \
     src/qt/forms/sendcoinsentry.ui \
     src/qt/forms/askpassphrasedialog.ui \
     src/qt/forms/rpcconsole.ui \
-    src/qt/forms/plumbingpage.ui \
+    src/qt/forms/miningpage.ui \
     src/qt/forms/optionsdialog.ui
 
 contains(USE_QRCODE, 1) {
@@ -258,8 +258,8 @@ DEFINES += TOAKRONA_QT_TEST
 CODECFORTR = UTF-8
 
 # for lrelease/lupdate
-# also add new translations to src/qt/toakrona.qrc under translations/
-TRANSLATIONS = $$files(src/qt/locale/toakrona_*.ts)
+# also add new translations to src/qt/bitcoin.qrc under translations/
+TRANSLATIONS = $$files(src/qt/locale/bitcoin_*.ts)
 
 isEmpty(QMAKE_LRELEASE) {
     win32:QMAKE_LRELEASE = $$[QT_INSTALL_BINS]\\lrelease.exe
@@ -276,7 +276,7 @@ QMAKE_EXTRA_COMPILERS += TSQM
 
 # "Other files" to show in Qt Creator
 OTHER_FILES += \
-    contrib/gitian-descriptors/* doc/*.rst doc/*.txt doc/README README.md res/toakrona-qt.rc \
+    contrib/gitian-descriptors/* doc/*.rst doc/*.txt doc/README README.md res/bitcoin-qt.rc \
     share/setup.nsi
 
 # platform specific defaults, if not overridden on command line
@@ -311,7 +311,7 @@ isEmpty(BOOST_INCLUDE_PATH) {
 
 windows:LIBS += -lws2_32 -lshlwapi -lmswsock
 windows:DEFINES += WIN32
-windows:RC_FILE = src/qt/res/toakrona-qt.rc
+windows:RC_FILE = src/qt/res/bitcoin-qt.rc
 
 windows:!contains(MINGW_THREAD_BUGFIX, 0) {
     # At least qmake's win32-g++-cross profile is missing the -lmingwthrd
@@ -333,7 +333,7 @@ macx:HEADERS += src/qt/macdockiconhandler.h
 macx:OBJECTIVE_SOURCES += src/qt/macdockiconhandler.mm
 macx:LIBS += -framework Foundation -framework ApplicationServices -framework AppKit
 macx:DEFINES += MAC_OSX MSG_NOSIGNAL=0
-macx:ICON = src/qt/res/icons/toakrona.icns
+macx:ICON = src/qt/res/icons/bitcoin.icns
 macx:TARGET = "toakrona-qt"
 
 # Set libraries and includes at end, to use platform-defined defaults if not overridden

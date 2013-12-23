@@ -4,7 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "init.h" // for pwalletMain
-#include "toakronarpc.h"
+#include "bitcoinrpc.h"
 #include "ui_interface.h"
 #include "base58.h"
 

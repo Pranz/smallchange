@@ -6,7 +6,7 @@
 #include "walletmodel.h"
 #include "optionsmodel.h"
 #include "addresstablemodel.h"
-#include "toakronaunits.h"
+#include "bitcoinunits.h"
 
 #include "wallet.h"
 #include "ui_interface.h"
