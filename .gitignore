@@ -1,5 +1,5 @@
 src/*.exe
-src/toakrona
+src/toakronad
 src/toakronacoind
 src/test_freicoin
 .*.swp
