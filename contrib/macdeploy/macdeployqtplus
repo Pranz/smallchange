@@ -665,7 +665,7 @@ if config.dmg is not None:
             sys.exit(e.returncode)
     else:
         if verbose >= 3:
-            print "Determining size of \"dist\"..."
+            print "Deterplumbing size of \"dist\"..."
         size = 0
         for path, dirs, files in os.walk("dist"):
             for file in files:

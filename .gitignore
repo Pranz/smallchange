@@ -1,7 +1,7 @@
 src/*.exe
 src/toakronad
 src/toakronacoind
-src/test_freicoin
+src/test_toakrona
 .*.swp
 *.*~*
 *.bak
@@ -9,7 +9,7 @@ src/test_freicoin
 *.orig
 *.o
 *.patch
-.freicoin
+.toakrona
 #compilation and Qt preprocessor part
 *.qm
 Makefile

@@ -4,24 +4,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Bitcoin</source>
-        <translation>O Bitcoinu</translation>
+        <source>About Toakrona</source>
+        <translation>O Toakronau</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Bitcoin&lt;/b&gt; verze</translation>
+        <source>&lt;b&gt;Toakrona&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Toakrona&lt;/b&gt; verze</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="97"/>
-        <source>Copyright © 2009-2012 Bitcoin Developers
+        <source>Copyright © 2009-2012 Toakrona Developers
 
 This is experimental software.
 
 Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>Copyright © 2009-2012 Vývojáři Bitcoinu
+        <translation>Copyright © 2009-2012 Vývojáři Toakronau
 
 Tohle je experimentální program.
 
@@ -39,8 +39,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Bitcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Tohle jsou tvé Bitcoinové adresy pro příjem plateb.  Můžeš pokaždé dát každému odesílateli jinou adresu, abys věděl, kdo ti kdy kolik platil.</translation>
+        <source>These are your Toakrona addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Tohle jsou tvé Toakronaové adresy pro příjem plateb.  Můžeš pokaždé dát každému odesílateli jinou adresu, abys věděl, kdo ti kdy kolik platil.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="36"/>
@@ -210,9 +210,9 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="101"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TOAKRONAS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>VAROVÁNÍ: Pokud zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY BITCOINY&lt;/b&gt;!
+        <translation>VAROVÁNÍ: Pokud zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY TOAKRONAY&lt;/b&gt;!
 Jsi si jistý, že chceš peněženku zašifrovat?</translation>
     </message>
     <message>
@@ -223,8 +223,8 @@ Jsi si jistý, že chceš peněženku zašifrovat?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="111"/>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých bitcoinů malwarem, kterým se může počítač nakazit.</translation>
+        <source>Toakrona will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your toakronas from being stolen by malware infecting your computer.</source>
+        <translation>Toakrona se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých toakronaů malwarem, kterým se může počítač nakazit.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="207"/>
@@ -275,301 +275,301 @@ Jsi si jistý, že chceš peněženku zašifrovat?</translation>
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>ToakronaGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="73"/>
-        <source>Bitcoin Wallet</source>
-        <translation>Bitcoinová peněženka</translation>
+        <location filename="../toakronagui.cpp" line="73"/>
+        <source>Toakrona Wallet</source>
+        <translation>Toakronaová peněženka</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="215"/>
+        <location filename="../toakronagui.cpp" line="215"/>
         <source>Sign &amp;message...</source>
         <translation>Po&amp;depiš zprávu...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="248"/>
-        <source>Show/Hide &amp;Bitcoin</source>
-        <translation>Zobrazit/Skrýt &amp;Bitcoin</translation>
+        <location filename="../toakronagui.cpp" line="248"/>
+        <source>Show/Hide &amp;Toakrona</source>
+        <translation>Zobrazit/Skrýt &amp;Toakrona</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="515"/>
+        <location filename="../toakronagui.cpp" line="515"/>
         <source>Synchronizing with network...</source>
         <translation>Synchronizuji se sítí...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="185"/>
+        <location filename="../toakronagui.cpp" line="185"/>
         <source>&amp;Overview</source>
         <translation>&amp;Přehled</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="186"/>
+        <location filename="../toakronagui.cpp" line="186"/>
         <source>Show general overview of wallet</source>
         <translation>Zobraz celkový přehled peněženky</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="191"/>
+        <location filename="../toakronagui.cpp" line="191"/>
         <source>&amp;Transactions</source>
         <translation>&amp;Transakce</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="192"/>
+        <location filename="../toakronagui.cpp" line="192"/>
         <source>Browse transaction history</source>
         <translation>Procházet historii transakcí</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="197"/>
+        <location filename="../toakronagui.cpp" line="197"/>
         <source>&amp;Address Book</source>
         <translation>&amp;Adresář</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="198"/>
+        <location filename="../toakronagui.cpp" line="198"/>
         <source>Edit the list of stored addresses and labels</source>
         <translation>Uprav seznam uložených adres a jejich označení</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="203"/>
+        <location filename="../toakronagui.cpp" line="203"/>
         <source>&amp;Receive coins</source>
         <translation>Pří&amp;jem mincí</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="204"/>
+        <location filename="../toakronagui.cpp" line="204"/>
         <source>Show the list of addresses for receiving payments</source>
         <translation>Zobraz seznam adres pro příjem plateb</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="209"/>
+        <location filename="../toakronagui.cpp" line="209"/>
         <source>&amp;Send coins</source>
         <translation>P&amp;oslání mincí</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="216"/>
+        <location filename="../toakronagui.cpp" line="216"/>
         <source>Prove you control an address</source>
         <translation>Prokaž vlastnictví adresy</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="235"/>
+        <location filename="../toakronagui.cpp" line="235"/>
         <source>E&amp;xit</source>
         <translation>&amp;Konec</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="236"/>
+        <location filename="../toakronagui.cpp" line="236"/>
         <source>Quit application</source>
         <translation>Ukončit aplikaci</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="239"/>
+        <location filename="../toakronagui.cpp" line="239"/>
         <source>&amp;About %1</source>
         <translation>&amp;O %1</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show information about Bitcoin</source>
-        <translation>Zobraz informace o Bitcoinu</translation>
+        <location filename="../toakronagui.cpp" line="240"/>
+        <source>Show information about Toakrona</source>
+        <translation>Zobraz informace o Toakronau</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="242"/>
+        <location filename="../toakronagui.cpp" line="242"/>
         <source>About &amp;Qt</source>
         <translation>O &amp;Qt</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="243"/>
+        <location filename="../toakronagui.cpp" line="243"/>
         <source>Show information about Qt</source>
         <translation>Zobraz informace o Qt</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="245"/>
+        <location filename="../toakronagui.cpp" line="245"/>
         <source>&amp;Options...</source>
         <translation>&amp;Možnosti...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="252"/>
+        <location filename="../toakronagui.cpp" line="252"/>
         <source>&amp;Encrypt Wallet...</source>
         <translation>Zaši&amp;fruj peněženku...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="255"/>
+        <location filename="../toakronagui.cpp" line="255"/>
         <source>&amp;Backup Wallet...</source>
         <translation>&amp;Zazálohovat peněženku...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="257"/>
+        <location filename="../toakronagui.cpp" line="257"/>
         <source>&amp;Change Passphrase...</source>
         <translation>Změň &amp;heslo...</translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="517"/>
+        <location filename="../toakronagui.cpp" line="517"/>
         <source>~%n block(s) remaining</source>
         <translation><numerusform>zbývá ~%n blok</numerusform><numerusform>zbývá ~%n bloky</numerusform><numerusform>zbývá ~%n bloků</numerusform></translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="528"/>
+        <location filename="../toakronagui.cpp" line="528"/>
         <source>Downloaded %1 of %2 blocks of transaction history (%3% done).</source>
         <translation>Staženo %1 z %2 bloků transakční historie (%3 % hotovo).</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="250"/>
+        <location filename="../toakronagui.cpp" line="250"/>
         <source>&amp;Export...</source>
         <translation>&amp;Export...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="210"/>
-        <source>Send coins to a Bitcoin address</source>
+        <location filename="../toakronagui.cpp" line="210"/>
+        <source>Send coins to a Toakrona address</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="246"/>
-        <source>Modify configuration options for Bitcoin</source>
+        <location filename="../toakronagui.cpp" line="246"/>
+        <source>Modify configuration options for Toakrona</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="249"/>
-        <source>Show or hide the Bitcoin window</source>
-        <translation>Zobraz nebo skryj okno Bitcoinu</translation>
+        <location filename="../toakronagui.cpp" line="249"/>
+        <source>Show or hide the Toakrona window</source>
+        <translation>Zobraz nebo skryj okno Toakronau</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="251"/>
+        <location filename="../toakronagui.cpp" line="251"/>
         <source>Export the data in the current tab to a file</source>
         <translation>Exportovat data z tohoto panelu do souboru</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="253"/>
+        <location filename="../toakronagui.cpp" line="253"/>
         <source>Encrypt or decrypt wallet</source>
         <translation>Zašifruj nebo dešifruj peněženku</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="256"/>
+        <location filename="../toakronagui.cpp" line="256"/>
         <source>Backup wallet to another location</source>
         <translation>Zazálohuj peněženku na jiné místo</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="258"/>
+        <location filename="../toakronagui.cpp" line="258"/>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Změň heslo k šifrování peněženky</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="259"/>
+        <location filename="../toakronagui.cpp" line="259"/>
         <source>&amp;Debug window</source>
         <translation>&amp;Ladící okno</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="260"/>
+        <location filename="../toakronagui.cpp" line="260"/>
         <source>Open debugging and diagnostic console</source>
         <translation>Otevři ladící a diagnostickou konzoli</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="261"/>
+        <location filename="../toakronagui.cpp" line="261"/>
         <source>&amp;Verify message...</source>
         <translation>&amp;Ověř zprávu...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="262"/>
+        <location filename="../toakronagui.cpp" line="262"/>
         <source>Verify a message signature</source>
         <translation>Ověř podpis zprávy</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="286"/>
+        <location filename="../toakronagui.cpp" line="286"/>
         <source>&amp;File</source>
         <translation>&amp;Soubor</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="296"/>
+        <location filename="../toakronagui.cpp" line="296"/>
         <source>&amp;Settings</source>
         <translation>&amp;Nastavení</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="302"/>
+        <location filename="../toakronagui.cpp" line="302"/>
         <source>&amp;Help</source>
         <translation>Ná&amp;pověda</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="311"/>
+        <location filename="../toakronagui.cpp" line="311"/>
         <source>Tabs toolbar</source>
         <translation>Panel s listy</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="322"/>
+        <location filename="../toakronagui.cpp" line="322"/>
         <source>Actions toolbar</source>
         <translation>Panel akcí</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="334"/>
-        <location filename="../bitcoingui.cpp" line="343"/>
+        <location filename="../toakronagui.cpp" line="334"/>
+        <location filename="../toakronagui.cpp" line="343"/>
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="343"/>
-        <location filename="../bitcoingui.cpp" line="399"/>
-        <source>Bitcoin client</source>
-        <translation>Bitcoin klient</translation>
+        <location filename="../toakronagui.cpp" line="343"/>
+        <location filename="../toakronagui.cpp" line="399"/>
+        <source>Toakrona client</source>
+        <translation>Toakrona klient</translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="492"/>
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktivní spojení do Bitcoinové sítě</numerusform><numerusform>%n aktivní spojení do Bitcoinové sítě</numerusform><numerusform>%n aktivních spojení do Bitcoinové sítě</numerusform></translation>
+        <location filename="../toakronagui.cpp" line="492"/>
+        <source>%n active connection(s) to Toakrona network</source>
+        <translation><numerusform>%n aktivní spojení do Toakronaové sítě</numerusform><numerusform>%n aktivní spojení do Toakronaové sítě</numerusform><numerusform>%n aktivních spojení do Toakronaové sítě</numerusform></translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="540"/>
+        <location filename="../toakronagui.cpp" line="540"/>
         <source>Downloaded %1 blocks of transaction history.</source>
         <translation>Staženo %1 bloků transakční historie.</translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="555"/>
+        <location filename="../toakronagui.cpp" line="555"/>
         <source>%n second(s) ago</source>
         <translation><numerusform>před vteřinou</numerusform><numerusform>před %n vteřinami</numerusform><numerusform>před %n vteřinami</numerusform></translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="559"/>
+        <location filename="../toakronagui.cpp" line="559"/>
         <source>%n minute(s) ago</source>
         <translation><numerusform>před minutou</numerusform><numerusform>před %n minutami</numerusform><numerusform>před %n minutami</numerusform></translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="563"/>
+        <location filename="../toakronagui.cpp" line="563"/>
         <source>%n hour(s) ago</source>
         <translation><numerusform>před hodinou</numerusform><numerusform>před %n hodinami</numerusform><numerusform>před %n hodinami</numerusform></translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="567"/>
+        <location filename="../toakronagui.cpp" line="567"/>
         <source>%n day(s) ago</source>
         <translation><numerusform>včera</numerusform><numerusform>před %n dny</numerusform><numerusform>před %n dny</numerusform></translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="573"/>
+        <location filename="../toakronagui.cpp" line="573"/>
         <source>Up to date</source>
         <translation>aktuální</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="580"/>
+        <location filename="../toakronagui.cpp" line="580"/>
         <source>Catching up...</source>
         <translation>Stahuji...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="590"/>
+        <location filename="../toakronagui.cpp" line="590"/>
         <source>Last received block was generated %1.</source>
         <translation>Poslední stažený blok byl vygenerován %1.</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="649"/>
+        <location filename="../toakronagui.cpp" line="649"/>
         <source>This transaction is over the size limit.  You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network.  Do you want to pay the fee?</source>
         <translation>Tahle transakce přesahuje velikostní limit.  I tak ji ale můžeš poslat, pokud za ni zaplatíš poplatek %1, který půjde uzlům, které tvou transakci zpracují, a navíc tak podpoříš síť.  Chceš zaplatit poplatek?</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="654"/>
+        <location filename="../toakronagui.cpp" line="654"/>
         <source>Confirm transaction fee</source>
         <translation>Potvrď transakční poplatek</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="681"/>
+        <location filename="../toakronagui.cpp" line="681"/>
         <source>Sent transaction</source>
         <translation>Odeslané transakce</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="682"/>
+        <location filename="../toakronagui.cpp" line="682"/>
         <source>Incoming transaction</source>
         <translation>Příchozí transakce</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="683"/>
+        <location filename="../toakronagui.cpp" line="683"/>
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -582,39 +582,39 @@ Adresa: %4
 </translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="804"/>
+        <location filename="../toakronagui.cpp" line="804"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Peněženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálně &lt;b&gt;odemčená&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="812"/>
+        <location filename="../toakronagui.cpp" line="812"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Peněženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálně &lt;b&gt;zamčená&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="835"/>
+        <location filename="../toakronagui.cpp" line="835"/>
         <source>Backup Wallet</source>
         <translation>Záloha peněženky</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="835"/>
+        <location filename="../toakronagui.cpp" line="835"/>
         <source>Wallet Data (*.dat)</source>
         <translation>Data peněženky (*.dat)</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="838"/>
+        <location filename="../toakronagui.cpp" line="838"/>
         <source>Backup Failed</source>
         <translation>Zálohování selhalo</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="838"/>
+        <location filename="../toakronagui.cpp" line="838"/>
         <source>There was an error trying to save the wallet data to the new location.</source>
         <translation>Při ukládání peněženky na nové místo se přihodila nějaká chyba.</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="112"/>
-        <source>A fatal error occured. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Stala se fatální chyba. Bitcoin nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
+        <location filename="../toakrona.cpp" line="112"/>
+        <source>A fatal error occured. Toakrona can no longer continue safely and will quit.</source>
+        <translation>Stala se fatální chyba. Toakrona nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
     </message>
 </context>
 <context>
@@ -639,8 +639,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="263"/>
-        <source>The user interface language can be set here. This setting will only take effect after restarting Bitcoin.</source>
-        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování Bitcoinu.</translation>
+        <source>The user interface language can be set here. This setting will only take effect after restarting Toakrona.</source>
+        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování Toakronau.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="252"/>
@@ -664,8 +664,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="285"/>
-        <source>Whether to show Bitcoin addresses in the transaction list</source>
-        <translation>Zda ukazovat bitcoinové adresy ve výpisu transakcí nebo ne</translation>
+        <source>Whether to show Toakrona addresses in the transaction list</source>
+        <translation>Zda ukazovat toakronaové adresy ve výpisu transakcí nebo ne</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="303"/>
@@ -674,8 +674,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="303"/>
-        <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation>Nastavení se projeví až po restartování Bitcoinu.</translation>
+        <source>This setting will take effect after restarting Toakrona.</source>
+        <translation>Nastavení se projeví až po restartování Toakronau.</translation>
     </message>
 </context>
 <context>
@@ -732,7 +732,7 @@ Adresa: %4
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Toakrona address.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -749,43 +749,43 @@ Adresa: %4
 <context>
     <name>HelpMessageBox</name>
     <message>
-        <location filename="../bitcoin.cpp" line="133"/>
-        <location filename="../bitcoin.cpp" line="143"/>
-        <source>Bitcoin-Qt</source>
+        <location filename="../toakrona.cpp" line="133"/>
+        <location filename="../toakrona.cpp" line="143"/>
+        <source>Toakrona-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="133"/>
+        <location filename="../toakrona.cpp" line="133"/>
         <source>version</source>
         <translation>verze</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="135"/>
+        <location filename="../toakrona.cpp" line="135"/>
         <source>Usage:</source>
         <translation>Užití:</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="136"/>
+        <location filename="../toakrona.cpp" line="136"/>
         <source>options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="138"/>
+        <location filename="../toakrona.cpp" line="138"/>
         <source>UI options</source>
         <translation>Možnosti UI</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="139"/>
+        <location filename="../toakrona.cpp" line="139"/>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
         <translation>Nastavit jazyk, například &quot;de_DE&quot; (výchozí: systémové nastavení)</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="140"/>
+        <location filename="../toakrona.cpp" line="140"/>
         <source>Start minimized</source>
         <translation>Startovat minimalizovaně</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="141"/>
+        <location filename="../toakrona.cpp" line="141"/>
         <source>Show splash screen on startup (default: 1)</source>
         <translation>Zobrazovat startovací obrazovku (výchozí: 1)</translation>
     </message>
@@ -814,13 +814,13 @@ Adresa: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="222"/>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation>&amp;Spustit Bitcoin po přihlášení do systému</translation>
+        <source>&amp;Start Toakrona on system login</source>
+        <translation>&amp;Spustit Toakrona po přihlášení do systému</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="223"/>
-        <source>Automatically start Bitcoin after logging in to the system</source>
-        <translation>Automaticky spustí Bitcoin po přihlášení do systému</translation>
+        <source>Automatically start Toakrona after logging in to the system</source>
+        <translation>Automaticky spustí Toakrona po přihlášení do systému</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="226"/>
@@ -907,8 +907,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../messagepage.cpp" line="30"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Zadej Bitcoinovou adresu (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Toakrona address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Zadej Toakronaovou adresu (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location filename="../messagepage.cpp" line="83"/>
@@ -953,7 +953,7 @@ Adresa: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="348"/>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Toakrona client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automaticky otevře potřebný port na routeru. Tohle funguje jen za předpokladu, že tvůj router podporuje UPnP a že je UPnP povolené.</translation>
     </message>
     <message>
@@ -964,7 +964,7 @@ Adresa: %4
     <message>
         <location filename="../optionsdialog.cpp" line="352"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Připojí se do Bitcoinové sítě přes SOCKS4 proxy (např. když se připojuje přes Tor)</translation>
+        <translation>Připojí se do Toakronaové sítě přes SOCKS4 proxy (např. když se připojuje přes Tor)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="357"/>
@@ -1005,7 +1005,7 @@ Adresa: %4
     <message>
         <location filename="../forms/overviewpage.ui" line="47"/>
         <location filename="../forms/overviewpage.ui" line="204"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Toakrona network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1122,7 +1122,7 @@ Adresa: %4
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Bitcoin debug window</source>
+        <source>Toakrona debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1205,7 +1205,7 @@ Adresa: %4
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="299"/>
-        <source>Open the Bitcoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
+        <source>Open the Toakrona debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1230,7 +1230,7 @@ Adresa: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="212"/>
-        <source>Welcome to the Bitcoin RPC console.</source>
+        <source>Welcome to the Toakrona RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1414,8 +1414,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="26"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Zadej Bitcoinovou adresu (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Toakrona address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Zadej Toakronaovou adresu (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1863,12 +1863,12 @@ Adresa: %4
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="20"/>
-        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Bitcoin address used to sign the message.</source>
+        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Toakrona address used to sign the message.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="62"/>
-        <source>Verify a message and obtain the Bitcoin address used to sign the message</source>
+        <source>Verify a message and obtain the Toakrona address used to sign the message</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1898,7 +1898,7 @@ Adresa: %4
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="28"/>
-        <source>Enter Bitcoin signature</source>
+        <source>Enter Toakrona signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1970,515 +1970,515 @@ Adresa: %4
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>toakrona-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="43"/>
-        <source>Bitcoin version</source>
-        <translation>Verze Bitcoinu</translation>
+        <location filename="../toakronastrings.cpp" line="43"/>
+        <source>Toakrona version</source>
+        <translation>Verze Toakronau</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="44"/>
+        <location filename="../toakronastrings.cpp" line="44"/>
         <source>Usage:</source>
         <translation>Užití:</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="45"/>
-        <source>Send command to -server or bitcoind</source>
-        <translation>Poslat příkaz pro -server nebo bitcoind</translation>
+        <location filename="../toakronastrings.cpp" line="45"/>
+        <source>Send command to -server or toakronad</source>
+        <translation>Poslat příkaz pro -server nebo toakronad</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="46"/>
+        <location filename="../toakronastrings.cpp" line="46"/>
         <source>List commands</source>
         <translation>Výpis příkazů</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="47"/>
+        <location filename="../toakronastrings.cpp" line="47"/>
         <source>Get help for a command</source>
         <translation>Získat nápovědu pro příkaz</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="49"/>
+        <location filename="../toakronastrings.cpp" line="49"/>
         <source>Options:</source>
         <translation>Možnosti:</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="50"/>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Konfigurační soubor (výchozí: bitcoin.conf)</translation>
+        <location filename="../toakronastrings.cpp" line="50"/>
+        <source>Specify configuration file (default: toakrona.conf)</source>
+        <translation>Konfigurační soubor (výchozí: toakrona.conf)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="51"/>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>PID soubor (výchozí: bitcoind.pid)</translation>
+        <location filename="../toakronastrings.cpp" line="51"/>
+        <source>Specify pid file (default: toakronad.pid)</source>
+        <translation>PID soubor (výchozí: toakronad.pid)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="52"/>
+        <location filename="../toakronastrings.cpp" line="52"/>
         <source>Generate coins</source>
         <translation>Generovat mince</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="53"/>
+        <location filename="../toakronastrings.cpp" line="53"/>
         <source>Don&apos;t generate coins</source>
         <translation>Negenerovat mince</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="54"/>
+        <location filename="../toakronastrings.cpp" line="54"/>
         <source>Specify data directory</source>
         <translation>Adresář pro data</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="55"/>
+        <location filename="../toakronastrings.cpp" line="55"/>
         <source>Set database cache size in megabytes (default: 25)</source>
         <translation>Nastavit velikost databázové vyrovnávací paměti v megabajtech (výchozí: 25)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="56"/>
+        <location filename="../toakronastrings.cpp" line="56"/>
         <source>Set database disk log size in megabytes (default: 100)</source>
         <translation>Nastavit velikost databázového souboru s logy v megabajtech (výchozí: 100)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="57"/>
+        <location filename="../toakronastrings.cpp" line="57"/>
         <source>Specify connection timeout (in milliseconds)</source>
         <translation>Zadej časový limit spojení (v milisekundách)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="63"/>
+        <location filename="../toakronastrings.cpp" line="63"/>
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
         <translation>Čekat na spojení na &lt;portu&gt; (výchozí: 8333 nebo testnet: 18333)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="64"/>
+        <location filename="../toakronastrings.cpp" line="64"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
         <translation>Povol nejvýše &lt;n&gt; připojení k uzlům (výchozí: 125)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="66"/>
+        <location filename="../toakronastrings.cpp" line="66"/>
         <source>Connect only to the specified node</source>
         <translation>Připojovat se pouze k udanému uzlu</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="67"/>
+        <location filename="../toakronastrings.cpp" line="67"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="68"/>
+        <location filename="../toakronastrings.cpp" line="68"/>
         <source>Specify your own public address</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="69"/>
+        <location filename="../toakronastrings.cpp" line="69"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4 or IPv6)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="70"/>
+        <location filename="../toakronastrings.cpp" line="70"/>
         <source>Try to discover public IP address (default: 1)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="73"/>
+        <location filename="../toakronastrings.cpp" line="73"/>
         <source>Bind to given address. Use [host]:port notation for IPv6</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="75"/>
+        <location filename="../toakronastrings.cpp" line="75"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>Práh pro odpojování nesprávně se chovajících uzlů (výchozí: 100)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="76"/>
+        <location filename="../toakronastrings.cpp" line="76"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
         <translation>Doba ve vteřinách, po kterou se nebudou moci nesprávně se chovající uzly znovu připojit (výchozí: 86400)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="79"/>
+        <location filename="../toakronastrings.cpp" line="79"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 10000)</source>
         <translation>Maximální velikost přijímacího bufferu pro každé spojení, &lt;n&gt;*1000 bytů (výchozí: 10000)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="80"/>
+        <location filename="../toakronastrings.cpp" line="80"/>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 10000)</source>
         <translation>Maximální velikost odesílacího bufferu pro každé spojení, &lt;n&gt;*1000 bytů (výchozí: 10000)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="83"/>
+        <location filename="../toakronastrings.cpp" line="83"/>
         <source>Detach block and address databases. Increases shutdown time (default: 0)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="86"/>
+        <location filename="../toakronastrings.cpp" line="86"/>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Akceptovat příkazy z příkazové řádky a přes JSON-RPC</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="87"/>
+        <location filename="../toakronastrings.cpp" line="87"/>
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Běžet na pozadí jako démon a akceptovat příkazy</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="88"/>
+        <location filename="../toakronastrings.cpp" line="88"/>
         <source>Use the test network</source>
         <translation>Použít testovací síť (testnet)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="89"/>
+        <location filename="../toakronastrings.cpp" line="89"/>
         <source>Output extra debugging information</source>
         <translation>Tisknout speciální ladící informace</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="90"/>
+        <location filename="../toakronastrings.cpp" line="90"/>
         <source>Prepend debug output with timestamp</source>
         <translation>Připojit před ladící výstup časové razítko</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="91"/>
+        <location filename="../toakronastrings.cpp" line="91"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Posílat stopovací/ladící informace do konzole místo do souboru debug.log</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="92"/>
+        <location filename="../toakronastrings.cpp" line="92"/>
         <source>Send trace/debug info to debugger</source>
         <translation>Posílat stopovací/ladící informace do debuggeru</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="93"/>
+        <location filename="../toakronastrings.cpp" line="93"/>
         <source>Username for JSON-RPC connections</source>
         <translation>Uživatelské jméno pro JSON-RPC spojení</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="94"/>
+        <location filename="../toakronastrings.cpp" line="94"/>
         <source>Password for JSON-RPC connections</source>
         <translation>Heslo pro JSON-RPC spojení</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="95"/>
+        <location filename="../toakronastrings.cpp" line="95"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332)</source>
         <translation>Čekat na JSON-RPC spojení na &lt;portu&gt; (výchozí: 8332)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="96"/>
+        <location filename="../toakronastrings.cpp" line="96"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation>Povolit JSON-RPC spojení ze specifikované IP adresy</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="97"/>
+        <location filename="../toakronastrings.cpp" line="97"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
         <translation>Posílat příkazy uzlu běžícím na &lt;ip&gt; (výchozí: 127.0.0.1)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="98"/>
+        <location filename="../toakronastrings.cpp" line="98"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>Spustit příkaz, když se změní nejlepší blok (%s se v příkazu nahradí hashem bloku)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="101"/>
+        <location filename="../toakronastrings.cpp" line="101"/>
         <source>Upgrade wallet to latest format</source>
         <translation>Převést peněženku na nejnovější formát</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="102"/>
+        <location filename="../toakronastrings.cpp" line="102"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
         <translation>Nastavit zásobník klíčů na velikost &lt;n&gt; (výchozí: 100)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="103"/>
+        <location filename="../toakronastrings.cpp" line="103"/>
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation>Přeskenovat řetězec bloků na chybějící transakce tvé pěněženky</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="104"/>
+        <location filename="../toakronastrings.cpp" line="104"/>
         <source>How many blocks to check at startup (default: 2500, 0 = all)</source>
         <translation>Kolik bloků při startu zkontrolovat (výchozí: 2500, 0 = všechny)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="105"/>
+        <location filename="../toakronastrings.cpp" line="105"/>
         <source>How thorough the block verification is (0-6, default: 1)</source>
         <translation>Jak moc důkladná má verifikace bloků být (0-6, výchozí: 1)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="106"/>
+        <location filename="../toakronastrings.cpp" line="106"/>
         <source>Imports blocks from external blk000?.dat file</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="108"/>
+        <location filename="../toakronastrings.cpp" line="108"/>
         <source>
-SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+SSL options: (see the Toakrona Wiki for SSL setup instructions)</source>
         <translation>
-Možnosti SSL: (viz instrukce nastavení SSL v Bitcoin Wiki)</translation>
+Možnosti SSL: (viz instrukce nastavení SSL v Toakrona Wiki)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="111"/>
+        <location filename="../toakronastrings.cpp" line="111"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>Použít OpenSSL (https) pro JSON-RPC spojení</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="112"/>
+        <location filename="../toakronastrings.cpp" line="112"/>
         <source>Server certificate file (default: server.cert)</source>
         <translation>Soubor se serverovým certifikátem (výchozí: server.cert)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="113"/>
+        <location filename="../toakronastrings.cpp" line="113"/>
         <source>Server private key (default: server.pem)</source>
         <translation>Soubor se serverovým soukromým klíčem (výchozí: server.pem)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="114"/>
+        <location filename="../toakronastrings.cpp" line="114"/>
         <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
         <translation>Akceptovatelné šifry (výchozí: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="145"/>
+        <location filename="../toakronastrings.cpp" line="145"/>
         <source>Warning: Disk space is low</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="107"/>
+        <location filename="../toakronastrings.cpp" line="107"/>
         <source>This help message</source>
         <translation>Tato nápověda</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="121"/>
-        <source>Cannot obtain a lock on data directory %s.  Bitcoin is probably already running.</source>
-        <translation>Nedaří se mi získat zámek na datový adresář %s. Bitcoin pravděpodobně už jednou běží.</translation>
+        <location filename="../toakronastrings.cpp" line="121"/>
+        <source>Cannot obtain a lock on data directory %s.  Toakrona is probably already running.</source>
+        <translation>Nedaří se mi získat zámek na datový adresář %s. Toakrona pravděpodobně už jednou běží.</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="48"/>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <location filename="../toakronastrings.cpp" line="48"/>
+        <source>Toakrona</source>
+        <translation>Toakrona</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="30"/>
+        <location filename="../toakronastrings.cpp" line="30"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="58"/>
+        <location filename="../toakronastrings.cpp" line="58"/>
         <source>Connect through socks proxy</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="59"/>
+        <location filename="../toakronastrings.cpp" line="59"/>
         <source>Select the version of socks proxy to use (4 or 5, 5 is default)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="60"/>
+        <location filename="../toakronastrings.cpp" line="60"/>
         <source>Do not use proxy for connections to network &lt;net&gt; (IPv4 or IPv6)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="61"/>
+        <location filename="../toakronastrings.cpp" line="61"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="62"/>
+        <location filename="../toakronastrings.cpp" line="62"/>
         <source>Pass DNS requests to (SOCKS5) proxy</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="142"/>
+        <location filename="../toakronastrings.cpp" line="142"/>
         <source>Loading addresses...</source>
         <translation>Načítám adresy...</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="132"/>
+        <location filename="../toakronastrings.cpp" line="132"/>
         <source>Error loading blkindex.dat</source>
         <translation>Chyba při načítání blkindex.dat</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="134"/>
+        <location filename="../toakronastrings.cpp" line="134"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
         <translation>Chyba při načítání wallet.dat: peněženka je poškozená</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="135"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi Bitcoinu</translation>
+        <location filename="../toakronastrings.cpp" line="135"/>
+        <source>Error loading wallet.dat: Wallet requires newer version of Toakrona</source>
+        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi Toakronau</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="136"/>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Soubor s peněženkou potřeboval přepsat: restartuj Bitcoin, aby se operace dokončila</translation>
+        <location filename="../toakronastrings.cpp" line="136"/>
+        <source>Wallet needed to be rewritten: restart Toakrona to complete</source>
+        <translation>Soubor s peněženkou potřeboval přepsat: restartuj Toakrona, aby se operace dokončila</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="137"/>
+        <location filename="../toakronastrings.cpp" line="137"/>
         <source>Error loading wallet.dat</source>
         <translation>Chyba při načítání wallet.dat</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="124"/>
+        <location filename="../toakronastrings.cpp" line="124"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="125"/>
+        <location filename="../toakronastrings.cpp" line="125"/>
         <source>Unknown network specified in -noproxy: &apos;%s&apos;</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="127"/>
+        <location filename="../toakronastrings.cpp" line="127"/>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="126"/>
+        <location filename="../toakronastrings.cpp" line="126"/>
         <source>Unknown -socks proxy version requested: %i</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="128"/>
+        <location filename="../toakronastrings.cpp" line="128"/>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="129"/>
+        <location filename="../toakronastrings.cpp" line="129"/>
         <source>Not listening on any port</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="130"/>
+        <location filename="../toakronastrings.cpp" line="130"/>
         <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="117"/>
+        <location filename="../toakronastrings.cpp" line="117"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="143"/>
+        <location filename="../toakronastrings.cpp" line="143"/>
         <source>Error: could not start node</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="31"/>
+        <location filename="../toakronastrings.cpp" line="31"/>
         <source>Error: Wallet locked, unable to create transaction  </source>
         <translation>Chyba: Peněženka je zamčená, nemohu vytvořit transakci  </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="32"/>
+        <location filename="../toakronastrings.cpp" line="32"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds  </source>
         <translation>Chyba: Tahle transakce vyžaduje transakční poplatek nejméně %s kvůli velikosti zasílané částky, komplexnosti nebo použití nedávno přijatých mincí  </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="35"/>
+        <location filename="../toakronastrings.cpp" line="35"/>
         <source>Error: Transaction creation failed  </source>
         <translation>Chyba: Vytvoření transakce selhalo  </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="36"/>
+        <location filename="../toakronastrings.cpp" line="36"/>
         <source>Sending...</source>
         <translation>Posílám...</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="37"/>
+        <location filename="../toakronastrings.cpp" line="37"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>Chyba Transakce byla odmítnuta.  Tohle může nastat, pokud nějaké mince z tvé peněženky už jednou byly utraceny, například pokud používáš kopii souboru wallet.dat a mince byly utraceny v druhé kopii, ale nebyly označeny jako utracené v této.</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="41"/>
+        <location filename="../toakronastrings.cpp" line="41"/>
         <source>Invalid amount</source>
         <translation>Neplatná částka</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="42"/>
+        <location filename="../toakronastrings.cpp" line="42"/>
         <source>Insufficient funds</source>
         <translation>Nedostatek prostředků</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="131"/>
+        <location filename="../toakronastrings.cpp" line="131"/>
         <source>Loading block index...</source>
         <translation>Načítám index bloků...</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="65"/>
+        <location filename="../toakronastrings.cpp" line="65"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Přidat uzel, ke kterému se připojit a snažit se spojení udržet</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="28"/>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
+        <location filename="../toakronastrings.cpp" line="28"/>
+        <source>Unable to bind to %s on this computer. Toakrona is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="71"/>
+        <location filename="../toakronastrings.cpp" line="71"/>
         <source>Find peers using internet relay chat (default: 0)</source>
         <translation>Hledat uzly přes IRC (výchozí: 0)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="72"/>
+        <location filename="../toakronastrings.cpp" line="72"/>
         <source>Accept connections from outside (default: 1)</source>
         <translation>Přijímat spojení zvenčí (výchozí: 1)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="74"/>
+        <location filename="../toakronastrings.cpp" line="74"/>
         <source>Find peers using DNS lookup (default: 1)</source>
         <translation>Hledat uzly přes DNS (výchozí: 1)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="81"/>
+        <location filename="../toakronastrings.cpp" line="81"/>
         <source>Use Universal Plug and Play to map the listening port (default: 1)</source>
         <translation>Použít Universal Plug and Play k namapování naslouchacího portu (výchozí: 1)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="82"/>
+        <location filename="../toakronastrings.cpp" line="82"/>
         <source>Use Universal Plug and Play to map the listening port (default: 0)</source>
         <translation>Použít Universal Plug and Play k namapování naslouchacího portu (výchozí: 0)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="85"/>
+        <location filename="../toakronastrings.cpp" line="85"/>
         <source>Fee per KB to add to transactions you send</source>
         <translation>Poplatek za KB, který se přidá ke každé odeslané transakci</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="118"/>
+        <location filename="../toakronastrings.cpp" line="118"/>
         <source>Warning: -paytxfee is set very high. This is the transaction fee you will pay if you send a transaction.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="133"/>
+        <location filename="../toakronastrings.cpp" line="133"/>
         <source>Loading wallet...</source>
         <translation>Načítám peněženku...</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="138"/>
+        <location filename="../toakronastrings.cpp" line="138"/>
         <source>Cannot downgrade wallet</source>
         <translation>Nemohu převést peněženku do staršího formátu</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="139"/>
+        <location filename="../toakronastrings.cpp" line="139"/>
         <source>Cannot initialize keypool</source>
         <translation>Nemohu inicializovat zásobník klíčů</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="140"/>
+        <location filename="../toakronastrings.cpp" line="140"/>
         <source>Cannot write default address</source>
         <translation>Nemohu napsat výchozí adresu</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="141"/>
+        <location filename="../toakronastrings.cpp" line="141"/>
         <source>Rescanning...</source>
         <translation>Přeskenovávám...</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="144"/>
+        <location filename="../toakronastrings.cpp" line="144"/>
         <source>Done loading</source>
         <translation>Načítání dokončeno</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="8"/>
+        <location filename="../toakronastrings.cpp" line="8"/>
         <source>To use the %s option</source>
         <translation>K použití volby %s</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="9"/>
+        <location filename="../toakronastrings.cpp" line="9"/>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=toakronarpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -2486,24 +2486,24 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation>%s, musíš nastavit rpcpassword v konfiguračním souboru:
  %s
 Je vhodné použít následující náhodné heslo:
-rpcuser=bitcoinrpc
+rpcuser=toakronarpc
 rpcpassword=%s
 (není potřeba si ho pamatovat)
 Pokud konfigurační soubor ještě neexistuje, vytvoř ho tak, aby ho mohl číst pouze vlastník.
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="18"/>
+        <location filename="../toakronastrings.cpp" line="18"/>
         <source>Error</source>
         <translation>Chyba</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="19"/>
+        <location filename="../toakronastrings.cpp" line="19"/>
         <source>An error occured while setting up the RPC port %i for listening: %s</source>
         <translation>Při nastavování naslouchacího RPC portu %i nastala chyba: %s</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="20"/>
+        <location filename="../toakronastrings.cpp" line="20"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
@@ -2512,9 +2512,9 @@ If the file does not exist, create it with owner-readable-only file permissions.
 Pokud konfigurační soubor ještě neexistuje, vytvoř ho tak, aby ho mohl číst pouze vlastník.</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="25"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas.  Pokud jsou nastaveny špatně, Bitcoin nebude fungovat správně.</translation>
+        <location filename="../toakronastrings.cpp" line="25"/>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Toakrona will not work properly.</source>
+        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas.  Pokud jsou nastaveny špatně, Toakrona nebude fungovat správně.</translation>
     </message>
 </context>
 </TS>

@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2012 The Bitcoin developers
+// Copyright (c) 2009-2012 The Toakrona developers
 // Copyright (c) 2011-2012 Litecoin Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -466,7 +466,7 @@ vector<unsigned char> ParseHex(const string& str)
 
 static void InterpretNegativeSetting(string name, map<string, string>& mapSettingsRet)
 {
-    // interpret -noBAR as -BAR=0 (and -noBAR=0 as -BAR=1) as long as -BAR not set
+    // interpret -noTOA as -TOA=0 (and -noTOA=0 as -TOA=1) as long as -TOA not set
     if (name.find("-no") == 0)
     {
         std::string positive("-");
@@ -510,7 +510,7 @@ void ParseParameters(int argc, const char* const argv[])
     {
         string name = entry.first;
 
-        //  interpret --BAR as -BAR (as long as both are not set)
+        //  interpret --TOA as -TOA (as long as both are not set)
         if (name.find("--") == 0)
         {
             std::string singleDash(name.begin()+1, name.end());
@@ -519,7 +519,7 @@ void ParseParameters(int argc, const char* const argv[])
             name = singleDash;
         }
 
-        // interpret -noBAR as -BAR=0 (and -noBAR=0 as -BAR=1) as long as -BAR not set
+        // interpret -noTOA as -TOA=0 (and -noTOA=0 as -TOA=1) as long as -TOA not set
         InterpretNegativeSetting(name, mapArgs);
     }
 }
@@ -1057,7 +1057,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
         if (mapSettingsRet.count(strKey) == 0)
         {
             mapSettingsRet[strKey] = it->value[0];
-            // interpret noBAR=1 as BAR=0 (and noBAR=0 as BAR=1) as long as BAR not set)
+            // interpret noTOA=1 as TOA=0 (and noTOA=0 as TOA=1) as long as TOA not set)
             InterpretNegativeSetting(strKey, mapSettingsRet);
         }
         mapMultiSettingsRet[strKey].push_back(it->value[0]);
@@ -1242,7 +1242,7 @@ string FormatFullVersion()
     return CLIENT_BUILD;
 }
 
-// Format the subversion field according to BIP 14 spec (https://en.bitcoin.it/wiki/BIP_0014)
+// Format the subversion field according to BIP 14 spec (https://en.toakrona.it/wiki/BIP_0014)
 std::string FormatSubVersion(const std::string& name, int nClientVersion, const std::vector<std::string>& comments)
 {
     std::ostringstream ss;

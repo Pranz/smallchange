@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #
-# Copyright (c) 2011 The Bitcoin developers
+# Copyright (c) 2011 The Toakrona developers
 # Distributed under the MIT/X11 software license, see the accompanying
 # file license.txt or http://www.opensource.org/licenses/mit-license.php.
 #
@@ -22,7 +22,7 @@ MAX_NONCE = 1000000L
 settings = {}
 pp = pprint.PrettyPrinter(indent=4)
 
-class BitcoinRPC:
+class ToakronaRPC:
 	OBJID = 1
 
 	def __init__(self, host, port, username, password):
@@ -183,7 +183,7 @@ class Miner:
 			self.submit_work(rpc, work['data'], nonce_bin)
 
 	def loop(self):
-		rpc = BitcoinRPC(settings['host'], settings['port'],
+		rpc = ToakronaRPC(settings['host'], settings['port'],
 				 settings['rpcuser'], settings['rpcpass'])
 		if rpc is None:
 			return
@@ -240,7 +240,7 @@ if __name__ == '__main__':
 		thr_list.append(p)
 		time.sleep(1)			# stagger threads
 
-	print settings['threads'], "mining threads started"
+	print settings['threads'], "plumbing threads started"
 
 	print time.asctime(), "Miner Starts - %s:%s" % (settings['host'], settings['port'])
 	try:

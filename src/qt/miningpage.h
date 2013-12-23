@@ -1,5 +1,5 @@
-#ifndef MININGPAGE_H
-#define MININGPAGE_H
+#ifndef PLUMBINGPAGE_H
+#define PLUMBINGPAGE_H
 
 #include "clientmodel.h"
 
@@ -22,17 +22,17 @@
 #define LONGPOLL 4
 
 namespace Ui {
-    class MiningPage;
+    class PlumbingPage;
 }
 class ClientModel;
 
-class MiningPage : public QWidget
+class PlumbingPage : public QWidget
 {
     Q_OBJECT
 
 public:
-    explicit MiningPage(QWidget *parent = 0);
-    ~MiningPage();
+    explicit PlumbingPage(QWidget *parent = 0);
+    ~PlumbingPage();
 
     bool minerActive;
 
@@ -55,8 +55,8 @@ public:
 public slots:
     void startPressed();
 
-    void startPoolMining();
-    void stopPoolMining();
+    void startPoolPlumbing();
+    void stopPoolPlumbing();
 
     void updateSpeed();
 
@@ -73,19 +73,19 @@ public slots:
     void readProcessOutput();
 
     QString getTime(QString);
-    void enableMiningControls(bool enable);
-    void enablePoolMiningControls(bool enable);
-    ClientModel::MiningType getMiningType();
+    void enablePlumbingControls(bool enable);
+    void enablePoolPlumbingControls(bool enable);
+    ClientModel::PlumbingType getPlumbingType();
     void typeChanged(int index);
     void debugToggled(bool checked);
 
 private slots:
 
 private:
-    Ui::MiningPage *ui;
+    Ui::PlumbingPage *ui;
     ClientModel *model;
 
-    void resetMiningButton();
+    void resetPlumbingButton();
 };
 
-#endif // MININGPAGE_H
+#endif // PLUMBINGPAGE_H

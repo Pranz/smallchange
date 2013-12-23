@@ -4,24 +4,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Bitcoin</source>
-        <translation>Bitcoin hakkında</translation>
+        <source>About Toakrona</source>
+        <translation>Toakrona hakkında</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Bitcoin&lt;/b&gt; sürüm</translation>
+        <source>&lt;b&gt;Toakrona&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Toakrona&lt;/b&gt; sürüm</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="97"/>
-        <source>Copyright © 2009-2012 Bitcoin Developers
+        <source>Copyright © 2009-2012 Toakrona Developers
 
 This is experimental software.
 
 Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>Telif hakkı © 2009-2012 Bitcoin geliştiricileri
+        <translation>Telif hakkı © 2009-2012 Toakrona geliştiricileri
 
 Bu yazılım deneme safhasındadır.
 
@@ -39,8 +39,8 @@ Bu ürün OpenSSL projesi tarafından OpenSSL araç takımı (http://www.openssl
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Bitcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Bunlar, ödemeleri almak için Bitcoin adresleridir.  Kimin ödeme yaptığını izleyebilmek için her ödeme yollaması gereken kişiye değişik bir adres verebilirsiniz.</translation>
+        <source>These are your Toakrona addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Bunlar, ödemeleri almak için Toakrona adresleridir.  Kimin ödeme yaptığını izleyebilmek için her ödeme yollaması gereken kişiye değişik bir adres verebilirsiniz.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="36"/>
@@ -210,7 +210,7 @@ Bu ürün OpenSSL projesi tarafından OpenSSL araç takımı (http://www.openssl
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="101"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TOAKRONAS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
         <translation>UYARI: Eğer cüzdanınızı şifrelerseniz ve parolanızı kaybederseniz, &lt;b&gt;TÜM BİTCOİNLERİNİZİ KAYBEDERSİNİZ&lt;/b&gt;!
 Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
@@ -223,8 +223,8 @@ Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="111"/>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Şifreleme işlemini tamamlamak için Bitcoin şimdi kapanacaktır. Cüzdanınızı şifrelemenin, Bitcoinlerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
+        <source>Toakrona will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your toakronas from being stolen by malware infecting your computer.</source>
+        <translation>Şifreleme işlemini tamamlamak için Toakrona şimdi kapanacaktır. Cüzdanınızı şifrelemenin, Toakronalerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="207"/>
@@ -275,301 +275,301 @@ Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>ToakronaGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="73"/>
-        <source>Bitcoin Wallet</source>
-        <translation>Bitcoin cüzdanı</translation>
+        <location filename="../toakronagui.cpp" line="73"/>
+        <source>Toakrona Wallet</source>
+        <translation>Toakrona cüzdanı</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="215"/>
+        <location filename="../toakronagui.cpp" line="215"/>
         <source>Sign &amp;message...</source>
         <translation>&amp;Mesaj imzala...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="248"/>
-        <source>Show/Hide &amp;Bitcoin</source>
-        <translation>&amp;Bitcoin&apos;i Göster/Sakla</translation>
+        <location filename="../toakronagui.cpp" line="248"/>
+        <source>Show/Hide &amp;Toakrona</source>
+        <translation>&amp;Toakrona&apos;i Göster/Sakla</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="515"/>
+        <location filename="../toakronagui.cpp" line="515"/>
         <source>Synchronizing with network...</source>
         <translation>Şebeke ile senkronizasyon...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="185"/>
+        <location filename="../toakronagui.cpp" line="185"/>
         <source>&amp;Overview</source>
         <translation>&amp;Genel bakış</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="186"/>
+        <location filename="../toakronagui.cpp" line="186"/>
         <source>Show general overview of wallet</source>
         <translation>Cüzdana genel bakışı gösterir</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="191"/>
+        <location filename="../toakronagui.cpp" line="191"/>
         <source>&amp;Transactions</source>
         <translation>&amp;Muameleler</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="192"/>
+        <location filename="../toakronagui.cpp" line="192"/>
         <source>Browse transaction history</source>
         <translation>Muamele tarihçesini tara</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="197"/>
+        <location filename="../toakronagui.cpp" line="197"/>
         <source>&amp;Address Book</source>
         <translation>&amp;Adres defteri</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="198"/>
+        <location filename="../toakronagui.cpp" line="198"/>
         <source>Edit the list of stored addresses and labels</source>
         <translation>Saklanan adres ve etiket listesini düzenler</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="203"/>
+        <location filename="../toakronagui.cpp" line="203"/>
         <source>&amp;Receive coins</source>
-        <translation>Bitcoin &amp;al</translation>
+        <translation>Toakrona &amp;al</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="204"/>
+        <location filename="../toakronagui.cpp" line="204"/>
         <source>Show the list of addresses for receiving payments</source>
         <translation>Ödeme alma adreslerinin listesini gösterir</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="209"/>
+        <location filename="../toakronagui.cpp" line="209"/>
         <source>&amp;Send coins</source>
-        <translation>Bitcoin &amp;yolla</translation>
+        <translation>Toakrona &amp;yolla</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="216"/>
+        <location filename="../toakronagui.cpp" line="216"/>
         <source>Prove you control an address</source>
         <translation>Bu adresin kontrolünüz altında olduğunu ispatlayın</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="235"/>
+        <location filename="../toakronagui.cpp" line="235"/>
         <source>E&amp;xit</source>
         <translation>&amp;Çık</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="236"/>
+        <location filename="../toakronagui.cpp" line="236"/>
         <source>Quit application</source>
         <translation>Uygulamadan çıkar</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="239"/>
+        <location filename="../toakronagui.cpp" line="239"/>
         <source>&amp;About %1</source>
         <translation>%1 &amp;hakkında</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show information about Bitcoin</source>
-        <translation>Bitcoin hakkında bilgi gösterir</translation>
+        <location filename="../toakronagui.cpp" line="240"/>
+        <source>Show information about Toakrona</source>
+        <translation>Toakrona hakkında bilgi gösterir</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="242"/>
+        <location filename="../toakronagui.cpp" line="242"/>
         <source>About &amp;Qt</source>
         <translation>&amp;Qt hakkında</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="243"/>
+        <location filename="../toakronagui.cpp" line="243"/>
         <source>Show information about Qt</source>
         <translation>Qt hakkında bilgi görüntüler</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="245"/>
+        <location filename="../toakronagui.cpp" line="245"/>
         <source>&amp;Options...</source>
         <translation>&amp;Seçenekler...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="252"/>
+        <location filename="../toakronagui.cpp" line="252"/>
         <source>&amp;Encrypt Wallet...</source>
         <translation>Cüzdanı &amp;şifrele...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="255"/>
+        <location filename="../toakronagui.cpp" line="255"/>
         <source>&amp;Backup Wallet...</source>
         <translation>Cüzdanı &amp;yedekle...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="257"/>
+        <location filename="../toakronagui.cpp" line="257"/>
         <source>&amp;Change Passphrase...</source>
         <translation>Parolayı &amp;değiştir...</translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="517"/>
+        <location filename="../toakronagui.cpp" line="517"/>
         <source>~%n block(s) remaining</source>
         <translation><numerusform>~%n blok kaldı</numerusform></translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="528"/>
+        <location filename="../toakronagui.cpp" line="528"/>
         <source>Downloaded %1 of %2 blocks of transaction history (%3% done).</source>
         <translation>Muamele tarihçesinden %1 blok indirildi (toplam %2 blok, %%3 tamamlandı).</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="250"/>
+        <location filename="../toakronagui.cpp" line="250"/>
         <source>&amp;Export...</source>
         <translation>&amp;Dışa aktar...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="210"/>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Bir Bitcoin adresine Bitcoin yollar</translation>
+        <location filename="../toakronagui.cpp" line="210"/>
+        <source>Send coins to a Toakrona address</source>
+        <translation>Bir Toakrona adresine Toakrona yollar</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="246"/>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation>Bitcoin seçeneklerinin yapılandırmasını değiştirir</translation>
+        <location filename="../toakronagui.cpp" line="246"/>
+        <source>Modify configuration options for Toakrona</source>
+        <translation>Toakrona seçeneklerinin yapılandırmasını değiştirir</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="249"/>
-        <source>Show or hide the Bitcoin window</source>
-        <translation>Bitcoin penceresini göster ya da sakla</translation>
+        <location filename="../toakronagui.cpp" line="249"/>
+        <source>Show or hide the Toakrona window</source>
+        <translation>Toakrona penceresini göster ya da sakla</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="251"/>
+        <location filename="../toakronagui.cpp" line="251"/>
         <source>Export the data in the current tab to a file</source>
         <translation>Güncel sekmedeki verileri bir dosyaya aktar</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="253"/>
+        <location filename="../toakronagui.cpp" line="253"/>
         <source>Encrypt or decrypt wallet</source>
         <translation>Cüzdanı şifreler ya da şifreyi açar</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="256"/>
+        <location filename="../toakronagui.cpp" line="256"/>
         <source>Backup wallet to another location</source>
         <translation>Cüzdanı diğer bir konumda yedekle</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="258"/>
+        <location filename="../toakronagui.cpp" line="258"/>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Cüzdan şifrelemesi için kullanılan parolayı değiştirir</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="259"/>
+        <location filename="../toakronagui.cpp" line="259"/>
         <source>&amp;Debug window</source>
         <translation>&amp;Hata ayıklama penceresi</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="260"/>
+        <location filename="../toakronagui.cpp" line="260"/>
         <source>Open debugging and diagnostic console</source>
         <translation>Hata ayıklama ve teşhis penceresini aç</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="261"/>
+        <location filename="../toakronagui.cpp" line="261"/>
         <source>&amp;Verify message...</source>
         <translation>&amp;Mesaj kontrol et...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="262"/>
+        <location filename="../toakronagui.cpp" line="262"/>
         <source>Verify a message signature</source>
         <translation>Mesaj imzasını kontrol et</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="286"/>
+        <location filename="../toakronagui.cpp" line="286"/>
         <source>&amp;File</source>
         <translation>&amp;Dosya</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="296"/>
+        <location filename="../toakronagui.cpp" line="296"/>
         <source>&amp;Settings</source>
         <translation>&amp;Ayarlar</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="302"/>
+        <location filename="../toakronagui.cpp" line="302"/>
         <source>&amp;Help</source>
         <translation>&amp;Yardım</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="311"/>
+        <location filename="../toakronagui.cpp" line="311"/>
         <source>Tabs toolbar</source>
         <translation>Sekme araç çubuğu</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="322"/>
+        <location filename="../toakronagui.cpp" line="322"/>
         <source>Actions toolbar</source>
         <translation>Faaliyet araç çubuğu</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="334"/>
-        <location filename="../bitcoingui.cpp" line="343"/>
+        <location filename="../toakronagui.cpp" line="334"/>
+        <location filename="../toakronagui.cpp" line="343"/>
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="343"/>
-        <location filename="../bitcoingui.cpp" line="399"/>
-        <source>Bitcoin client</source>
-        <translation>Bitcoin istemcisi</translation>
+        <location filename="../toakronagui.cpp" line="343"/>
+        <location filename="../toakronagui.cpp" line="399"/>
+        <source>Toakrona client</source>
+        <translation>Toakrona istemcisi</translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="492"/>
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>Bitcoin şebekesine %n etkin bağlantı</numerusform></translation>
+        <location filename="../toakronagui.cpp" line="492"/>
+        <source>%n active connection(s) to Toakrona network</source>
+        <translation><numerusform>Toakrona şebekesine %n etkin bağlantı</numerusform></translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="540"/>
+        <location filename="../toakronagui.cpp" line="540"/>
         <source>Downloaded %1 blocks of transaction history.</source>
         <translation>Muamele tarihçesinin %1 adet bloku indirildi.</translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="555"/>
+        <location filename="../toakronagui.cpp" line="555"/>
         <source>%n second(s) ago</source>
         <translation><numerusform>%n saniye önce</numerusform></translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="559"/>
+        <location filename="../toakronagui.cpp" line="559"/>
         <source>%n minute(s) ago</source>
         <translation><numerusform>%n dakika önce</numerusform></translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="563"/>
+        <location filename="../toakronagui.cpp" line="563"/>
         <source>%n hour(s) ago</source>
         <translation><numerusform>%n saat önce</numerusform></translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="567"/>
+        <location filename="../toakronagui.cpp" line="567"/>
         <source>%n day(s) ago</source>
         <translation><numerusform>%n gün önce</numerusform></translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="573"/>
+        <location filename="../toakronagui.cpp" line="573"/>
         <source>Up to date</source>
         <translation>Güncel</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="580"/>
+        <location filename="../toakronagui.cpp" line="580"/>
         <source>Catching up...</source>
         <translation>Aralık kapatılıyor...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="590"/>
+        <location filename="../toakronagui.cpp" line="590"/>
         <source>Last received block was generated %1.</source>
         <translation>Son alınan blok şu vakit oluşturulmuştu: %1.</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="649"/>
+        <location filename="../toakronagui.cpp" line="649"/>
         <source>This transaction is over the size limit.  You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network.  Do you want to pay the fee?</source>
         <translation>Bu muamele boyut sınırlarını aşmıştır.  Gene de %1 ücret ödeyerek gönderebilirsiniz, ki bu ücret muamelenizi işleyen ve şebekeye yardım eden düğümlere ödenecektir.  Ücreti ödemek istiyor musunuz?</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="654"/>
+        <location filename="../toakronagui.cpp" line="654"/>
         <source>Confirm transaction fee</source>
         <translation>Muamele ücretini teyit et</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="681"/>
+        <location filename="../toakronagui.cpp" line="681"/>
         <source>Sent transaction</source>
         <translation>Muamele yollandı</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="682"/>
+        <location filename="../toakronagui.cpp" line="682"/>
         <source>Incoming transaction</source>
         <translation>Gelen muamele</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="683"/>
+        <location filename="../toakronagui.cpp" line="683"/>
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -582,39 +582,39 @@ Adres: %4
 </translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="804"/>
+        <location filename="../toakronagui.cpp" line="804"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Cüzdan &lt;b&gt;şifrelenmiştir&lt;/b&gt; ve şu anda &lt;b&gt;kilidi açılmıştır&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="812"/>
+        <location filename="../toakronagui.cpp" line="812"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Cüzdan &lt;b&gt;şifrelenmiştir&lt;/b&gt; ve şu anda &lt;b&gt;kilitlidir&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="835"/>
+        <location filename="../toakronagui.cpp" line="835"/>
         <source>Backup Wallet</source>
         <translation>Cüzdanı yedekle</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="835"/>
+        <location filename="../toakronagui.cpp" line="835"/>
         <source>Wallet Data (*.dat)</source>
         <translation>Cüzdan verileri (*.dat)</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="838"/>
+        <location filename="../toakronagui.cpp" line="838"/>
         <source>Backup Failed</source>
         <translation>Yedekleme başarısız oldu</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="838"/>
+        <location filename="../toakronagui.cpp" line="838"/>
         <source>There was an error trying to save the wallet data to the new location.</source>
         <translation>Cüzdan verilerinin başka bir konumda kaydedilmesi sırasında bir hata meydana geldi.</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="112"/>
-        <source>A fatal error occured. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Ciddi bir hata oluştu. Artık Bitcoin güvenli bir şekilde işlemeye devam edemez ve kapanacaktır.</translation>
+        <location filename="../toakrona.cpp" line="112"/>
+        <source>A fatal error occured. Toakrona can no longer continue safely and will quit.</source>
+        <translation>Ciddi bir hata oluştu. Artık Toakrona güvenli bir şekilde işlemeye devam edemez ve kapanacaktır.</translation>
     </message>
 </context>
 <context>
@@ -639,8 +639,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="263"/>
-        <source>The user interface language can be set here. This setting will only take effect after restarting Bitcoin.</source>
-        <translation>Kullanıcı arayüzünün dili burada belirtilebilir. Bu ayar Bitcoin tekrar başlatıldığında etkinleşecektir.</translation>
+        <source>The user interface language can be set here. This setting will only take effect after restarting Toakrona.</source>
+        <translation>Kullanıcı arayüzünün dili burada belirtilebilir. Bu ayar Toakrona tekrar başlatıldığında etkinleşecektir.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="252"/>
@@ -655,7 +655,7 @@ Adres: %4
     <message>
         <location filename="../optionsdialog.cpp" line="277"/>
         <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
-        <translation>Bitcoin gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz</translation>
+        <translation>Toakrona gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="284"/>
@@ -664,8 +664,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="285"/>
-        <source>Whether to show Bitcoin addresses in the transaction list</source>
-        <translation>Muamele listesinde Bitcoin adreslerinin gösterilip gösterilmeyeceklerini belirler</translation>
+        <source>Whether to show Toakrona addresses in the transaction list</source>
+        <translation>Muamele listesinde Toakrona adreslerinin gösterilip gösterilmeyeceklerini belirler</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="303"/>
@@ -674,8 +674,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="303"/>
-        <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation>Bu ayarlar Bitcoin tekrar başlatıldığında etkinleşecektir.</translation>
+        <source>This setting will take effect after restarting Toakrona.</source>
+        <translation>Bu ayarlar Toakrona tekrar başlatıldığında etkinleşecektir.</translation>
     </message>
 </context>
 <context>
@@ -732,8 +732,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>Girilen &quot;%1&quot; adresi geçerli bir Bitcoin adresi değildir.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Toakrona address.</source>
+        <translation>Girilen &quot;%1&quot; adresi geçerli bir Toakrona adresi değildir.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -749,43 +749,43 @@ Adres: %4
 <context>
     <name>HelpMessageBox</name>
     <message>
-        <location filename="../bitcoin.cpp" line="133"/>
-        <location filename="../bitcoin.cpp" line="143"/>
-        <source>Bitcoin-Qt</source>
-        <translation>Bitcoin-Qt</translation>
+        <location filename="../toakrona.cpp" line="133"/>
+        <location filename="../toakrona.cpp" line="143"/>
+        <source>Toakrona-Qt</source>
+        <translation>Toakrona-Qt</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="133"/>
+        <location filename="../toakrona.cpp" line="133"/>
         <source>version</source>
         <translation>sürüm</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="135"/>
+        <location filename="../toakrona.cpp" line="135"/>
         <source>Usage:</source>
         <translation>Kullanım:</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="136"/>
+        <location filename="../toakrona.cpp" line="136"/>
         <source>options</source>
         <translation>seçenekler</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="138"/>
+        <location filename="../toakrona.cpp" line="138"/>
         <source>UI options</source>
         <translation>Kullanıcı arayüzü seçenekleri</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="139"/>
+        <location filename="../toakrona.cpp" line="139"/>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
         <translation>Lisan belirt, mesela &quot;de_De&quot; (varsayılan: sistem dili)</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="140"/>
+        <location filename="../toakrona.cpp" line="140"/>
         <source>Start minimized</source>
         <translation>Küçültülmüş olarak başla</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="141"/>
+        <location filename="../toakrona.cpp" line="141"/>
         <source>Show splash screen on startup (default: 1)</source>
         <translation>Başlatıldığında başlangıç ekranını göster (varsayılan: 1)</translation>
     </message>
@@ -814,13 +814,13 @@ Adres: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="222"/>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation>Bitcoin&apos;i sistem oturumuyla &amp;başlat</translation>
+        <source>&amp;Start Toakrona on system login</source>
+        <translation>Toakrona&apos;i sistem oturumuyla &amp;başlat</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="223"/>
-        <source>Automatically start Bitcoin after logging in to the system</source>
-        <translation>Sistemde oturum açıldığında Bitcoin&apos;i otomatik olarak başlat</translation>
+        <source>Automatically start Toakrona after logging in to the system</source>
+        <translation>Sistemde oturum açıldığında Toakrona&apos;i otomatik olarak başlat</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="226"/>
@@ -907,8 +907,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../messagepage.cpp" line="30"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Bitcoin adresi giriniz (mesela 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Toakrona address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Toakrona adresi giriniz (mesela 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location filename="../messagepage.cpp" line="83"/>
@@ -953,8 +953,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="348"/>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönlendiricide Bitcoin istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
+        <source>Automatically open the Toakrona client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönlendiricide Toakrona istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="351"/>
@@ -964,7 +964,7 @@ Adres: %4
     <message>
         <location filename="../optionsdialog.cpp" line="352"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Bitcoin şebekesine SOCKS4 vekil sunucusu vasıtasıyla bağlanır (mesela Tor ile bağlanıldığında)</translation>
+        <translation>Toakrona şebekesine SOCKS4 vekil sunucusu vasıtasıyla bağlanır (mesela Tor ile bağlanıldığında)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="357"/>
@@ -1005,7 +1005,7 @@ Adres: %4
     <message>
         <location filename="../forms/overviewpage.ui" line="47"/>
         <location filename="../forms/overviewpage.ui" line="204"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Toakrona network after a connection is established, but this process has not completed yet.</source>
         <translation>Görüntülenen veriler zaman aşımını uğramış olabilir. Bağlantı kurulduğunda cüzdanınız otomatik olarak şebeke ile eşleşir ancak bu işlem henüz tamamlanmamıştır.</translation>
     </message>
     <message>
@@ -1122,8 +1122,8 @@ Adres: %4
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Bitcoin debug window</source>
-        <translation>Bitcoin hata ayıklama penceresi</translation>
+        <source>Toakrona debug window</source>
+        <translation>Toakrona hata ayıklama penceresi</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="46"/>
@@ -1205,8 +1205,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="299"/>
-        <source>Open the Bitcoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
-        <translation>Güncel veri klasöründen Bitcoin hata ayıklama kütüğünü aç. Büyük kütük dosyaları için bu birkaç saniye alabilir.</translation>
+        <source>Open the Toakrona debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
+        <translation>Güncel veri klasöründen Toakrona hata ayıklama kütüğünü aç. Büyük kütük dosyaları için bu birkaç saniye alabilir.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="302"/>
@@ -1230,8 +1230,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="212"/>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation>Bitcoin RPC konsoluna hoş geldiniz.</translation>
+        <source>Welcome to the Toakrona RPC console.</source>
+        <translation>Toakrona RPC konsoluna hoş geldiniz.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="213"/>
@@ -1256,7 +1256,7 @@ Adres: %4
         <location filename="../sendcoinsdialog.cpp" line="148"/>
         <location filename="../sendcoinsdialog.cpp" line="153"/>
         <source>Send Coins</source>
-        <translation>Bitcoin yolla</translation>
+        <translation>Toakrona yolla</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="64"/>
@@ -1414,8 +1414,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="26"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Bitcoin adresi giriniz (mesela 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Toakrona address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Toakrona adresi giriniz (mesela 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1556,7 +1556,7 @@ Adres: %4
     <message>
         <location filename="../transactiondesc.cpp" line="229"/>
         <source>Generated coins must wait 120 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Oluşturulan Bitcoin&apos;lerin harcanabilmelerinden önce 120 blok beklemeleri gerekmektedir.  Bu blok, oluşturduğunuzda, blok zincirine eklenmesi için ağda yayınlandı.  Zincire eklenmesi başarısız olursa, &quot;kabul edilmedi&quot; olarak değiştirilecek ve harcanamayacaktır.  Bu, bazen başka bir düğüm sizden birkaç saniye önce ya da sonra blok oluşturursa meydana gelebilir.</translation>
+        <translation>Oluşturulan Toakrona&apos;lerin harcanabilmelerinden önce 120 blok beklemeleri gerekmektedir.  Bu blok, oluşturduğunuzda, blok zincirine eklenmesi için ağda yayınlandı.  Zincire eklenmesi başarısız olursa, &quot;kabul edilmedi&quot; olarak değiştirilecek ve harcanamayacaktır.  Bu, bazen başka bir düğüm sizden birkaç saniye önce ya da sonra blok oluşturursa meydana gelebilir.</translation>
     </message>
 </context>
 <context>
@@ -1863,13 +1863,13 @@ Adres: %4
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="20"/>
-        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Bitcoin address used to sign the message.</source>
-        <translation>Mesajı imzalamak için kullanılan Bitcoin adresini elde etmek için mesaj ve imzayı aşağıda giriniz (yani satırlar, boşluklar ve sekmeler gibi görünmeyen karakterleri doğru şekilde kopyalamaya dikkat ediniz).</translation>
+        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Toakrona address used to sign the message.</source>
+        <translation>Mesajı imzalamak için kullanılan Toakrona adresini elde etmek için mesaj ve imzayı aşağıda giriniz (yani satırlar, boşluklar ve sekmeler gibi görünmeyen karakterleri doğru şekilde kopyalamaya dikkat ediniz).</translation>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="62"/>
-        <source>Verify a message and obtain the Bitcoin address used to sign the message</source>
-        <translation>Mesajı kontrol et ve imzalamak için kullanılan Bitcoin adresini elde et</translation>
+        <source>Verify a message and obtain the Toakrona address used to sign the message</source>
+        <translation>Mesajı kontrol et ve imzalamak için kullanılan Toakrona adresini elde et</translation>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="65"/>
@@ -1898,8 +1898,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="28"/>
-        <source>Enter Bitcoin signature</source>
-        <translation>Bitcoin imzası gir</translation>
+        <source>Enter Toakrona signature</source>
+        <translation>Toakrona imzası gir</translation>
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="29"/>
@@ -1970,515 +1970,515 @@ Adres: %4
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>toakrona-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="43"/>
-        <source>Bitcoin version</source>
-        <translation>Bitcoin sürümü</translation>
+        <location filename="../toakronastrings.cpp" line="43"/>
+        <source>Toakrona version</source>
+        <translation>Toakrona sürümü</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="44"/>
+        <location filename="../toakronastrings.cpp" line="44"/>
         <source>Usage:</source>
         <translation>Kullanım:</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="45"/>
-        <source>Send command to -server or bitcoind</source>
-        <translation>-server ya da bitcoind&apos;ye komut gönder</translation>
+        <location filename="../toakronastrings.cpp" line="45"/>
+        <source>Send command to -server or toakronad</source>
+        <translation>-server ya da toakronad&apos;ye komut gönder</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="46"/>
+        <location filename="../toakronastrings.cpp" line="46"/>
         <source>List commands</source>
         <translation>Komutları listele</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="47"/>
+        <location filename="../toakronastrings.cpp" line="47"/>
         <source>Get help for a command</source>
         <translation>Bir komut için yardım al</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="49"/>
+        <location filename="../toakronastrings.cpp" line="49"/>
         <source>Options:</source>
         <translation>Seçenekler:</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="50"/>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Yapılandırma dosyası belirt (varsayılan: bitcoin.conf)</translation>
+        <location filename="../toakronastrings.cpp" line="50"/>
+        <source>Specify configuration file (default: toakrona.conf)</source>
+        <translation>Yapılandırma dosyası belirt (varsayılan: toakrona.conf)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="51"/>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>Pid dosyası belirt (varsayılan: bitcoind.pid)</translation>
+        <location filename="../toakronastrings.cpp" line="51"/>
+        <source>Specify pid file (default: toakronad.pid)</source>
+        <translation>Pid dosyası belirt (varsayılan: toakronad.pid)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="52"/>
+        <location filename="../toakronastrings.cpp" line="52"/>
         <source>Generate coins</source>
-        <translation>Madenî para (Bitcoin) oluştur</translation>
+        <translation>Madenî para (Toakrona) oluştur</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="53"/>
+        <location filename="../toakronastrings.cpp" line="53"/>
         <source>Don&apos;t generate coins</source>
-        <translation>Bitcoin oluşturmasını devre dışı bırak</translation>
+        <translation>Toakrona oluşturmasını devre dışı bırak</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="54"/>
+        <location filename="../toakronastrings.cpp" line="54"/>
         <source>Specify data directory</source>
         <translation>Veri dizinini belirt</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="55"/>
+        <location filename="../toakronastrings.cpp" line="55"/>
         <source>Set database cache size in megabytes (default: 25)</source>
         <translation>Veritabanı önbellek boyutunu megabayt olarak belirt (varsayılan: 25)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="56"/>
+        <location filename="../toakronastrings.cpp" line="56"/>
         <source>Set database disk log size in megabytes (default: 100)</source>
         <translation>Diskteki veritabanı kütüğü boyutunu megabayt olarak belirt (varsayılan: 100)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="57"/>
+        <location filename="../toakronastrings.cpp" line="57"/>
         <source>Specify connection timeout (in milliseconds)</source>
         <translation>Bağlantı zaman aşım süresini milisaniye olarak belirt</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="63"/>
+        <location filename="../toakronastrings.cpp" line="63"/>
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
         <translation>Bağlantılar için dinlenecek &lt;port&gt; (varsayılan: 8333 ya da testnet: 18333)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="64"/>
+        <location filename="../toakronastrings.cpp" line="64"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
         <translation>Eşler ile en çok &lt;n&gt; adet bağlantı kur (varsayılan: 125)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="66"/>
+        <location filename="../toakronastrings.cpp" line="66"/>
         <source>Connect only to the specified node</source>
         <translation>Sadece belirtilen düğüme bağlan</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="67"/>
+        <location filename="../toakronastrings.cpp" line="67"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>Eş adresleri elde etmek için bir düğüme bağlan ve ardından bağlantıyı kes</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="68"/>
+        <location filename="../toakronastrings.cpp" line="68"/>
         <source>Specify your own public address</source>
         <translation>Kendi genel adresinizi tanımlayın</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="69"/>
+        <location filename="../toakronastrings.cpp" line="69"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4 or IPv6)</source>
         <translation>Sadece &lt;net&gt; şebekesindeki düğümlere bağlan (IPv4 ya da IPv6)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="70"/>
+        <location filename="../toakronastrings.cpp" line="70"/>
         <source>Try to discover public IP address (default: 1)</source>
         <translation>Genel IP adresini keşfetmeye çalış (varsayılan: 1)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="73"/>
+        <location filename="../toakronastrings.cpp" line="73"/>
         <source>Bind to given address. Use [host]:port notation for IPv6</source>
         <translation>Belirtilen adresle ilişiklendir. IPv6 için [makine]:port simgelemini kullanınız</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="75"/>
+        <location filename="../toakronastrings.cpp" line="75"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>Aksaklık gösteren eşlerle bağlantıyı kesme sınırı (varsayılan: 100)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="76"/>
+        <location filename="../toakronastrings.cpp" line="76"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
         <translation>Aksaklık gösteren eşlerle yeni bağlantıları engelleme süresi, saniye olarak (varsayılan: 86400)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="79"/>
+        <location filename="../toakronastrings.cpp" line="79"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 10000)</source>
         <translation>Her bağlantı için alım tamponu, &lt;n&gt;*1000 bayt (varsayılan: 10000)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="80"/>
+        <location filename="../toakronastrings.cpp" line="80"/>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 10000)</source>
         <translation>Her bağlantı için yollama tamponu, &lt;n&gt;*1000 bayt (varsayılan: 10000)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="83"/>
+        <location filename="../toakronastrings.cpp" line="83"/>
         <source>Detach block and address databases. Increases shutdown time (default: 0)</source>
         <translation>Blok ve adres veri tabanlarını ayır. Kapatma süresini arttırır (varsayılan: 0)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="86"/>
+        <location filename="../toakronastrings.cpp" line="86"/>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Konut satırı ve JSON-RPC komutlarını kabul et</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="87"/>
+        <location filename="../toakronastrings.cpp" line="87"/>
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Arka planda daemon (servis) olarak çalış ve komutları kabul et</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="88"/>
+        <location filename="../toakronastrings.cpp" line="88"/>
         <source>Use the test network</source>
         <translation>Deneme şebekesini kullan</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="89"/>
+        <location filename="../toakronastrings.cpp" line="89"/>
         <source>Output extra debugging information</source>
         <translation>İlâve hata ayıklama verisi çıkar</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="90"/>
+        <location filename="../toakronastrings.cpp" line="90"/>
         <source>Prepend debug output with timestamp</source>
         <translation>Hata ayıklama çıktısına tarih ön ekleri ilâve et</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="91"/>
+        <location filename="../toakronastrings.cpp" line="91"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Trace/hata ayıklama verilerini debug.log dosyası yerine konsola gönder</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="92"/>
+        <location filename="../toakronastrings.cpp" line="92"/>
         <source>Send trace/debug info to debugger</source>
         <translation>Hata ayıklayıcıya -debugger- trace/hata ayıklama verileri gönder</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="93"/>
+        <location filename="../toakronastrings.cpp" line="93"/>
         <source>Username for JSON-RPC connections</source>
         <translation>JSON-RPC bağlantıları için kullanıcı ismi</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="94"/>
+        <location filename="../toakronastrings.cpp" line="94"/>
         <source>Password for JSON-RPC connections</source>
         <translation>JSON-RPC bağlantıları için parola</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="95"/>
+        <location filename="../toakronastrings.cpp" line="95"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332)</source>
         <translation>JSON-RPC bağlantıları için dinlenecek &lt;port&gt; (varsayılan: 8332)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="96"/>
+        <location filename="../toakronastrings.cpp" line="96"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation>Belirtilen İP adresinden JSON-RPC bağlantılarını kabul et</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="97"/>
+        <location filename="../toakronastrings.cpp" line="97"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
         <translation>Şu &lt;ip&gt; adresinde (varsayılan: 127.0.0.1) çalışan düğüme komut yolla</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="98"/>
+        <location filename="../toakronastrings.cpp" line="98"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>En iyi blok değiştiğinde komutu çalıştır (cmd için %s blok hash değeri ile değiştirilecektir)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="101"/>
+        <location filename="../toakronastrings.cpp" line="101"/>
         <source>Upgrade wallet to latest format</source>
         <translation>Cüzdanı en yeni biçime güncelle</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="102"/>
+        <location filename="../toakronastrings.cpp" line="102"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
         <translation>Anahtar alan boyutunu &lt;n&gt; değerine ayarla (varsayılan: 100)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="103"/>
+        <location filename="../toakronastrings.cpp" line="103"/>
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation>Blok zincirini eksik cüzdan muameleleri için tekrar tara</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="104"/>
+        <location filename="../toakronastrings.cpp" line="104"/>
         <source>How many blocks to check at startup (default: 2500, 0 = all)</source>
         <translation>Başlangıçta ne kadar blokun denetleneceği (varsayılan: 2500, 0 = tümü)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="105"/>
+        <location filename="../toakronastrings.cpp" line="105"/>
         <source>How thorough the block verification is (0-6, default: 1)</source>
         <translation>Blok kontrolünün derinliği (0 ilâ 6, varsayılan: 1)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="106"/>
+        <location filename="../toakronastrings.cpp" line="106"/>
         <source>Imports blocks from external blk000?.dat file</source>
         <translation>Harici blk000?.dat dosyasından blokları içe aktarır</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="108"/>
+        <location filename="../toakronastrings.cpp" line="108"/>
         <source>
-SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+SSL options: (see the Toakrona Wiki for SSL setup instructions)</source>
         <translation>
-SSL seçenekleri: (SSL kurulum bilgisi için Bitcoin vikisine bakınız)</translation>
+SSL seçenekleri: (SSL kurulum bilgisi için Toakrona vikisine bakınız)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="111"/>
+        <location filename="../toakronastrings.cpp" line="111"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>JSON-RPC bağlantıları için OpenSSL (https) kullan</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="112"/>
+        <location filename="../toakronastrings.cpp" line="112"/>
         <source>Server certificate file (default: server.cert)</source>
         <translation>Sunucu sertifika dosyası (varsayılan: server.cert)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="113"/>
+        <location filename="../toakronastrings.cpp" line="113"/>
         <source>Server private key (default: server.pem)</source>
         <translation>Sunucu özel anahtarı (varsayılan: server.pem)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="114"/>
+        <location filename="../toakronastrings.cpp" line="114"/>
         <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
         <translation>Kabul edilebilir şifreler (varsayılan: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="145"/>
+        <location filename="../toakronastrings.cpp" line="145"/>
         <source>Warning: Disk space is low</source>
         <translation>Uyarı: Disk alanı düşük</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="107"/>
+        <location filename="../toakronastrings.cpp" line="107"/>
         <source>This help message</source>
         <translation>Bu yardım mesajı</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="121"/>
-        <source>Cannot obtain a lock on data directory %s.  Bitcoin is probably already running.</source>
-        <translation>%s veri dizininde kilit elde edilemedi.  Bitcoin muhtemelen hâlihazırda çalışmaktadır.</translation>
+        <location filename="../toakronastrings.cpp" line="121"/>
+        <source>Cannot obtain a lock on data directory %s.  Toakrona is probably already running.</source>
+        <translation>%s veri dizininde kilit elde edilemedi.  Toakrona muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="48"/>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <location filename="../toakronastrings.cpp" line="48"/>
+        <source>Toakrona</source>
+        <translation>Toakrona</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="30"/>
+        <location filename="../toakronastrings.cpp" line="30"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation>Bu bilgisayarda %s unsuruna bağlanılamadı. (bind şu hatayı iletti: %d, %s)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="58"/>
+        <location filename="../toakronastrings.cpp" line="58"/>
         <source>Connect through socks proxy</source>
         <translation>Socks vekil sunucusu vasıtasıyla bağlan</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="59"/>
+        <location filename="../toakronastrings.cpp" line="59"/>
         <source>Select the version of socks proxy to use (4 or 5, 5 is default)</source>
         <translation>Kullanılacak socks vekil sunucu sürümünü seç (4 veya 5, ki 5 varsayılan değerdir)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="60"/>
+        <location filename="../toakronastrings.cpp" line="60"/>
         <source>Do not use proxy for connections to network &lt;net&gt; (IPv4 or IPv6)</source>
         <translation>&lt;net&gt; şebekesi ile bağlantılarda vekil sunucu kullanma (IPv4 ya da IPv6)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="61"/>
+        <location filename="../toakronastrings.cpp" line="61"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>-addnode, -seednode ve -connect için DNS aramalarına izin ver</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="62"/>
+        <location filename="../toakronastrings.cpp" line="62"/>
         <source>Pass DNS requests to (SOCKS5) proxy</source>
         <translation>DNS isteklerini (SOCKS5) vekil sunucusuna devret</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="142"/>
+        <location filename="../toakronastrings.cpp" line="142"/>
         <source>Loading addresses...</source>
         <translation>Adresler yükleniyor...</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="132"/>
+        <location filename="../toakronastrings.cpp" line="132"/>
         <source>Error loading blkindex.dat</source>
         <translation>blkindex.dat dosyasının yüklenmesinde hata oluştu</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="134"/>
+        <location filename="../toakronastrings.cpp" line="134"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
         <translation>wallet.dat dosyasının yüklenmesinde hata oluştu: bozuk cüzdan</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="135"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>wallet.dat dosyasının yüklenmesinde hata oluştu: cüzdanın daha yeni bir Bitcoin sürümüne ihtiyacı var</translation>
+        <location filename="../toakronastrings.cpp" line="135"/>
+        <source>Error loading wallet.dat: Wallet requires newer version of Toakrona</source>
+        <translation>wallet.dat dosyasının yüklenmesinde hata oluştu: cüzdanın daha yeni bir Toakrona sürümüne ihtiyacı var</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="136"/>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Cüzdanın tekrar yazılması gerekiyordu: işlemi tamamlamak için Bitcoin&apos;i yeniden başlatınız</translation>
+        <location filename="../toakronastrings.cpp" line="136"/>
+        <source>Wallet needed to be rewritten: restart Toakrona to complete</source>
+        <translation>Cüzdanın tekrar yazılması gerekiyordu: işlemi tamamlamak için Toakrona&apos;i yeniden başlatınız</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="137"/>
+        <location filename="../toakronastrings.cpp" line="137"/>
         <source>Error loading wallet.dat</source>
         <translation>wallet.dat dosyasının yüklenmesinde hata oluştu</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="124"/>
+        <location filename="../toakronastrings.cpp" line="124"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation>Geçersiz -proxy adresi: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="125"/>
+        <location filename="../toakronastrings.cpp" line="125"/>
         <source>Unknown network specified in -noproxy: &apos;%s&apos;</source>
         <translation>-noproxy&apos;de bilinmeyen bir şebeke belirtildi: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="127"/>
+        <location filename="../toakronastrings.cpp" line="127"/>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
         <translation>-onlynet için bilinmeyen bir şebeke belirtildi: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="126"/>
+        <location filename="../toakronastrings.cpp" line="126"/>
         <source>Unknown -socks proxy version requested: %i</source>
         <translation>Bilinmeyen bir -socks vekil sürümü talep edildi: %i</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="128"/>
+        <location filename="../toakronastrings.cpp" line="128"/>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
         <translation>-bind adresi çözümlenemedi: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="129"/>
+        <location filename="../toakronastrings.cpp" line="129"/>
         <source>Not listening on any port</source>
         <translation>Hiçbir port dinlenmiyor</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="130"/>
+        <location filename="../toakronastrings.cpp" line="130"/>
         <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
         <translation>-externalip adresi çözümlenemedi: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="117"/>
+        <location filename="../toakronastrings.cpp" line="117"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation>-paytxfee=&lt;miktar&gt; için geçersiz miktar: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="143"/>
+        <location filename="../toakronastrings.cpp" line="143"/>
         <source>Error: could not start node</source>
         <translation>Hata: düğüm başlatılamadı</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="31"/>
+        <location filename="../toakronastrings.cpp" line="31"/>
         <source>Error: Wallet locked, unable to create transaction  </source>
         <translation>Hata: Cüzdan kilitli, muamele oluşturulamadı  </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="32"/>
+        <location filename="../toakronastrings.cpp" line="32"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds  </source>
         <translation>Hata: Muamelenin miktarı, karmaşıklığı ya da yakın geçmişte alınan fonların kullanılması nedeniyle bu muamele en az %s tutarında ücret gerektirmektedir  </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="35"/>
+        <location filename="../toakronastrings.cpp" line="35"/>
         <source>Error: Transaction creation failed  </source>
         <translation>Hata: Muamele oluşturması başarısız oldu  </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="36"/>
+        <location filename="../toakronastrings.cpp" line="36"/>
         <source>Sending...</source>
         <translation>Gönderiliyor...</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="37"/>
+        <location filename="../toakronastrings.cpp" line="37"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>Hata: Muamele reddedildi.  Cüzdanınızdaki madenî paraların bazıları zaten harcanmış olduğunda bu meydana gelebilir. Örneğin wallet.dat dosyasının bir kopyasını kullandıysanız ve kopyada para harcandığında ancak burada harcandığı işaretlenmediğinde.</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="41"/>
+        <location filename="../toakronastrings.cpp" line="41"/>
         <source>Invalid amount</source>
         <translation>Geçersiz miktar</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="42"/>
+        <location filename="../toakronastrings.cpp" line="42"/>
         <source>Insufficient funds</source>
         <translation>Yetersiz bakiye</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="131"/>
+        <location filename="../toakronastrings.cpp" line="131"/>
         <source>Loading block index...</source>
         <translation>Blok indeksi yükleniyor...</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="65"/>
+        <location filename="../toakronastrings.cpp" line="65"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Bağlanılacak düğüm ekle ve bağlantıyı zinde tutmaya çalış</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="28"/>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation>Bu bilgisayarda %s unsuruna bağlanılamadı. Bitcoin muhtemelen hâlihazırda çalışmaktadır.</translation>
+        <location filename="../toakronastrings.cpp" line="28"/>
+        <source>Unable to bind to %s on this computer. Toakrona is probably already running.</source>
+        <translation>Bu bilgisayarda %s unsuruna bağlanılamadı. Toakrona muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="71"/>
+        <location filename="../toakronastrings.cpp" line="71"/>
         <source>Find peers using internet relay chat (default: 0)</source>
         <translation>Eşleri Internet Relay Chat vasıtasıyla bul (varsayılan: 0)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="72"/>
+        <location filename="../toakronastrings.cpp" line="72"/>
         <source>Accept connections from outside (default: 1)</source>
         <translation>Dışarıdan gelen bağlantıları kabul et (varsayılan: 1)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="74"/>
+        <location filename="../toakronastrings.cpp" line="74"/>
         <source>Find peers using DNS lookup (default: 1)</source>
         <translation>Eşleri DNS araması vasıtasıyla bul (varsayılan: 1)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="81"/>
+        <location filename="../toakronastrings.cpp" line="81"/>
         <source>Use Universal Plug and Play to map the listening port (default: 1)</source>
         <translation>Dinlenecek portu haritalamak için Universal Plug and Play kullan (varsayılan: 1)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="82"/>
+        <location filename="../toakronastrings.cpp" line="82"/>
         <source>Use Universal Plug and Play to map the listening port (default: 0)</source>
         <translation>Dinlenecek portu haritalamak için Universal Plug and Play kullan (varsayılan: 0)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="85"/>
+        <location filename="../toakronastrings.cpp" line="85"/>
         <source>Fee per KB to add to transactions you send</source>
         <translation>Yolladığınız muameleler için eklenecek KB başı ücret</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="118"/>
+        <location filename="../toakronastrings.cpp" line="118"/>
         <source>Warning: -paytxfee is set very high. This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Uyarı: -paytxfee çok yüksek bir değere ayarlanmış. Bu, muamele gönderirseniz ödeyeceğiniz muamele ücretidir.</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="133"/>
+        <location filename="../toakronastrings.cpp" line="133"/>
         <source>Loading wallet...</source>
         <translation>Cüzdan yükleniyor...</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="138"/>
+        <location filename="../toakronastrings.cpp" line="138"/>
         <source>Cannot downgrade wallet</source>
         <translation>Cüzdan eski biçime geri alınamaz</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="139"/>
+        <location filename="../toakronastrings.cpp" line="139"/>
         <source>Cannot initialize keypool</source>
         <translation>Keypool başlatılamadı</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="140"/>
+        <location filename="../toakronastrings.cpp" line="140"/>
         <source>Cannot write default address</source>
         <translation>Varsayılan adres yazılamadı</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="141"/>
+        <location filename="../toakronastrings.cpp" line="141"/>
         <source>Rescanning...</source>
         <translation>Yeniden tarama...</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="144"/>
+        <location filename="../toakronastrings.cpp" line="144"/>
         <source>Done loading</source>
         <translation>Yükleme tamamlandı</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="8"/>
+        <location filename="../toakronastrings.cpp" line="8"/>
         <source>To use the %s option</source>
         <translation>%s seçeneğini kullanmak için</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="9"/>
+        <location filename="../toakronastrings.cpp" line="9"/>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=toakronarpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -2486,24 +2486,24 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation>%s, şu yapılandırma dosyasında rpc parolası belirtmeniz gerekir:
  %s
 Aşağıdaki rastgele oluşturulan parolayı kullanmanız tavsiye edilir:
-rpcuser=bitcoinrpc
+rpcuser=toakronarpc
 rpcpassword=%s
 (bu parolayı hatırlamanız gerekli değildir)
 Dosya mevcut değilse, sadece sahibi için okumayla sınırlı izin ile oluşturunuz.
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="18"/>
+        <location filename="../toakronastrings.cpp" line="18"/>
         <source>Error</source>
         <translation>Hata</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="19"/>
+        <location filename="../toakronastrings.cpp" line="19"/>
         <source>An error occured while setting up the RPC port %i for listening: %s</source>
         <translation>%i RPC portunun dinleme için kurulması sırasında bir hata meydana geldi: %s</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="20"/>
+        <location filename="../toakronastrings.cpp" line="20"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
@@ -2512,9 +2512,9 @@ If the file does not exist, create it with owner-readable-only file permissions.
 Dosya mevcut değilse, sadece sahibi için okumayla sınırlı izin ile oluşturunuz.</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="25"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olup olmadığını kontrol ediniz.  Saatiniz doğru değilse Bitcoin gerektiği gibi çalışamaz.</translation>
+        <location filename="../toakronastrings.cpp" line="25"/>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Toakrona will not work properly.</source>
+        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olup olmadığını kontrol ediniz.  Saatiniz doğru değilse Toakrona gerektiği gibi çalışamaz.</translation>
     </message>
 </context>
 </TS>

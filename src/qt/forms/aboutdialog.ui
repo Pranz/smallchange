@@ -23,7 +23,7 @@
       </sizepolicy>
      </property>
      <property name="pixmap">
-      <pixmap resource="../bitcoin.qrc">:/images/about</pixmap>
+      <pixmap resource="../toakrona.qrc">:/images/about</pixmap>
      </property>
     </widget>
    </item>
@@ -95,7 +95,7 @@
        </property>
        <property name="text">
         <string>
-          Copyright © 2009-2012 Bitcoin Developers
+          Copyright © 2009-2012 Toakrona Developers
           Copyright © 2011-2012 Litecoin Developers
           Copyright © 2013-2014 shakezula 
 
@@ -143,7 +143,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../bitcoin.qrc"/>
+  <include location="../toakrona.qrc"/>
  </resources>
  <connections>
   <connection>

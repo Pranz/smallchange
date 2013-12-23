@@ -1,7 +1,7 @@
 #include "guiutil.h"
-#include "bitcoinaddressvalidator.h"
+#include "toakronaaddressvalidator.h"
 #include "walletmodel.h"
-#include "bitcoinunits.h"
+#include "toakronaunits.h"
 #include "util.h"
 #include "init.h"
 #include "base58.h"
@@ -53,7 +53,7 @@ QString dateTimeStr(qint64 nTime)
     return dateTimeStr(QDateTime::fromTime_t((qint32)nTime));
 }
 
-QFont bitcoinAddressFont()
+QFont toakronaAddressFont()
 {
     QFont font("Monospace");
     font.setStyleHint(QFont::TypeWriter);
@@ -62,9 +62,9 @@ QFont bitcoinAddressFont()
 
 void setupAddressWidget(QLineEdit *widget, QWidget *parent)
 {
-    widget->setMaxLength(BitcoinAddressValidator::MaxAddressLength);
-    widget->setValidator(new BitcoinAddressValidator(parent));
-    widget->setFont(bitcoinAddressFont());
+    widget->setMaxLength(ToakronaAddressValidator::MaxAddressLength);
+    widget->setValidator(new ToakronaAddressValidator(parent));
+    widget->setFont(toakronaAddressFont());
 }
 
 void setupAmountWidget(QLineEdit *widget, QWidget *parent)
@@ -76,13 +76,13 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
     widget->setAlignment(Qt::AlignRight|Qt::AlignVCenter);
 }
 
-bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
+bool parseToakronaURI(const QUrl &uri, SendCoinsRecipient *out)
 {
     if(uri.scheme() != QString("toakrona"))
         return false;
 
     // check if the address is valid
-    CBitcoinAddress addressFromUri(uri.path().toStdString());
+    CToakronaAddress addressFromUri(uri.path().toStdString());
     if (!addressFromUri.IsValid())
         return false;
 
@@ -108,7 +108,7 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
         {
             if(!i->second.isEmpty())
             {
-                if(!BitcoinUnits::parse(BitcoinUnits::BTC, i->second, &rv.amount))
+                if(!ToakronaUnits::parse(ToakronaUnits::BTC, i->second, &rv.amount))
                 {
                     return false;
                 }
@@ -126,7 +126,7 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
     return true;
 }
 
-bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
+bool parseToakronaURI(QString uri, SendCoinsRecipient *out)
 {
     // Convert toakrona:// to toakrona:
     //
@@ -137,7 +137,7 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
         uri.replace(0, 11, "toakrona:");
     }
     QUrl uriInstance(uri);
-    return parseBitcoinURI(uriInstance, out);
+    return parseToakronaURI(uriInstance, out);
 }
 
 QString HtmlEscape(const QString& str, bool fMultiLine)
@@ -185,7 +185,7 @@ QString getSaveFileName(QWidget *parent, const QString &caption,
     }
     QString result = QFileDialog::getSaveFileName(parent, caption, myDir, filter, &selectedFilter);
 
-    /* Extract first suffix from filter pattern "Description (*.BAR)" or "Description (*.BAR *.bar ...) */
+    /* Extract first suffix from filter pattern "Description (*.TOA)" or "Description (*.TOA *.bar ...) */
     QRegExp filter_re(".* \\(\\*\\.(.*)[ \\)]");
     QString selectedSuffix;
     if(filter_re.exactMatch(selectedFilter))

@@ -1,5 +1,5 @@
 // Copyright (c) 2010 Satoshi Nakamoto
-// Copyright (c) 2009-2012 The Bitcoin developers
+// Copyright (c) 2009-2012 The Toakrona developers
 // Copyright (c) 2011-2012 The Litecoin Developers
 // Copyright (c) 2013 adam m.
 // Distributed under the MIT/X11 software license, see the accompanying
@@ -13,7 +13,7 @@
 #include "init.h"
 #include "ui_interface.h"
 #include "base58.h"
-#include "bitcoinrpc.h"
+#include "toakronarpc.h"
 
 #undef printf
 #include <boost/asio.hpp>
@@ -380,7 +380,7 @@ Value setgenerate(const Array& params, bool fHelp)
     }
     mapArgs["-gen"] = (fGenerate ? "1" : "0");
 
-    GenerateBitcoins(fGenerate, pwalletMain);
+    GenerateToakronas(fGenerate, pwalletMain);
     return Value::null;
 }
 
@@ -429,12 +429,12 @@ Value getinfo(const Array& params, bool fHelp)
 }
 
 
-Value getmininginfo(const Array& params, bool fHelp)
+Value getplumbinginfo(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 0)
         throw runtime_error(
-            "getmininginfo\n"
-            "Returns an object containing mining-related information.");
+            "getplumbinginfo\n"
+            "Returns an object containing plumbing-related information.");
 
     Object obj;
     obj.push_back(Pair("blocks",        (int)nBestHeight));
@@ -477,11 +477,11 @@ Value getnewaddress(const Array& params, bool fHelp)
 
     pwalletMain->SetAddressBookName(keyID, strAccount);
 
-    return CBitcoinAddress(keyID).ToString();
+    return CToakronaAddress(keyID).ToString();
 }
 
 
-CBitcoinAddress GetAccountAddress(string strAccount, bool bForceNew=false)
+CToakronaAddress GetAccountAddress(string strAccount, bool bForceNew=false)
 {
     CWalletDB walletdb(pwalletMain->strWalletFile);
 
@@ -516,7 +516,7 @@ CBitcoinAddress GetAccountAddress(string strAccount, bool bForceNew=false)
         walletdb.WriteAccount(strAccount, account);
     }
 
-    return CBitcoinAddress(account.vchPubKey.GetID());
+    return CToakronaAddress(account.vchPubKey.GetID());
 }
 
 Value getaccountaddress(const Array& params, bool fHelp)
@@ -545,7 +545,7 @@ Value setaccount(const Array& params, bool fHelp)
             "setaccount <toakrona address> <account>\n"
             "Sets the account associated with the given address.");
 
-    CBitcoinAddress address(params[0].get_str());
+    CToakronaAddress address(params[0].get_str());
     if (!address.IsValid())
         throw JSONRPCError(-5, "Invalid toakrona address");
 
@@ -575,7 +575,7 @@ Value getaccount(const Array& params, bool fHelp)
             "getaccount <toakrona address>\n"
             "Returns the account associated with the given address.");
 
-    CBitcoinAddress address(params[0].get_str());
+    CToakronaAddress address(params[0].get_str());
     if (!address.IsValid())
         throw JSONRPCError(-5, "Invalid toakrona address");
 
@@ -598,9 +598,9 @@ Value getaddressesbyaccount(const Array& params, bool fHelp)
 
     // Find all addresses that have the given account
     Array ret;
-    BOOST_FOREACH(const PAIRTYPE(CBitcoinAddress, string)& item, pwalletMain->mapAddressBook)
+    BOOST_FOREACH(const PAIRTYPE(CToakronaAddress, string)& item, pwalletMain->mapAddressBook)
     {
-        const CBitcoinAddress& address = item.first;
+        const CToakronaAddress& address = item.first;
         const string& strName = item.second;
         if (strName == strAccount)
             ret.push_back(address.ToString());
@@ -648,7 +648,7 @@ Value sendtoaddress(const Array& params, bool fHelp)
             "<amount> is a real and is rounded to the nearest 0.00000001"
             + HelpRequiringPassphrase());
 
-    CBitcoinAddress address(params[0].get_str());
+    CToakronaAddress address(params[0].get_str());
     if (!address.IsValid())
         throw JSONRPCError(-5, "Invalid toakrona address");
 
@@ -684,7 +684,7 @@ Value signmessage(const Array& params, bool fHelp)
     string strAddress = params[0].get_str();
     string strMessage = params[1].get_str();
 
-    CBitcoinAddress addr(strAddress);
+    CToakronaAddress addr(strAddress);
     if (!addr.IsValid())
         throw JSONRPCError(-3, "Invalid address");
 
@@ -718,7 +718,7 @@ Value verifymessage(const Array& params, bool fHelp)
     string strSign     = params[1].get_str();
     string strMessage  = params[2].get_str();
 
-    CBitcoinAddress addr(strAddress);
+    CToakronaAddress addr(strAddress);
     if (!addr.IsValid())
         throw JSONRPCError(-3, "Invalid address");
 
@@ -752,7 +752,7 @@ Value getreceivedbyaddress(const Array& params, bool fHelp)
             "Returns the total amount received by <toakrona address> in transactions with at least [minconf] confirmations.");
 
     // toakrona address
-    CBitcoinAddress address = CBitcoinAddress(params[0].get_str());
+    CToakronaAddress address = CToakronaAddress(params[0].get_str());
     CScript scriptPubKey;
     if (!address.IsValid())
         throw JSONRPCError(-5, "Invalid toakrona address");
@@ -974,7 +974,7 @@ Value sendfrom(const Array& params, bool fHelp)
             + HelpRequiringPassphrase());
 
     string strAccount = AccountFromValue(params[0]);
-    CBitcoinAddress address(params[1].get_str());
+    CToakronaAddress address(params[1].get_str());
     if (!address.IsValid())
         throw JSONRPCError(-5, "Invalid toakrona address");
     int64 nAmount = AmountFromValue(params[2]);
@@ -1024,13 +1024,13 @@ Value sendmany(const Array& params, bool fHelp)
     if (params.size() > 3 && params[3].type() != null_type && !params[3].get_str().empty())
         wtx.mapValue["comment"] = params[3].get_str();
 
-    set<CBitcoinAddress> setAddress;
+    set<CToakronaAddress> setAddress;
     vector<pair<CScript, int64> > vecSend;
 
     int64 totalAmount = 0;
     BOOST_FOREACH(const Pair& s, sendTo)
     {
-        CBitcoinAddress address(s.name_);
+        CToakronaAddress address(s.name_);
         if (!address.IsValid())
             throw JSONRPCError(-5, string("Invalid toakrona address:")+s.name_);
 
@@ -1100,7 +1100,7 @@ Value addmultisigaddress(const Array& params, bool fHelp)
         const std::string& ks = keys[i].get_str();
 
         // Case 1: toakrona address and we have full public key:
-        CBitcoinAddress address(ks);
+        CToakronaAddress address(ks);
         if (address.IsValid())
         {
             CKeyID keyID;
@@ -1135,7 +1135,7 @@ Value addmultisigaddress(const Array& params, bool fHelp)
     pwalletMain->AddCScript(inner);
 
     pwalletMain->SetAddressBookName(innerID, strAccount);
-    return CBitcoinAddress(innerID).ToString();
+    return CToakronaAddress(innerID).ToString();
 }
 
 
@@ -1163,7 +1163,7 @@ Value ListReceived(const Array& params, bool fByAccounts)
         fIncludeEmpty = params[1].get_bool();
 
     // Tally
-    map<CBitcoinAddress, tallyitem> mapTally;
+    map<CToakronaAddress, tallyitem> mapTally;
     for (map<uint256, CWalletTx>::iterator it = pwalletMain->mapWallet.begin(); it != pwalletMain->mapWallet.end(); ++it)
     {
         const CWalletTx& wtx = (*it).second;
@@ -1190,11 +1190,11 @@ Value ListReceived(const Array& params, bool fByAccounts)
     // Reply
     Array ret;
     map<string, tallyitem> mapAccountTally;
-    BOOST_FOREACH(const PAIRTYPE(CBitcoinAddress, string)& item, pwalletMain->mapAddressBook)
+    BOOST_FOREACH(const PAIRTYPE(CToakronaAddress, string)& item, pwalletMain->mapAddressBook)
     {
-        const CBitcoinAddress& address = item.first;
+        const CToakronaAddress& address = item.first;
         const string& strAccount = item.second;
-        map<CBitcoinAddress, tallyitem>::iterator it = mapTally.find(address);
+        map<CToakronaAddress, tallyitem>::iterator it = mapTally.find(address);
         if (it == mapTally.end() && !fIncludeEmpty)
             continue;
 
@@ -1309,7 +1309,7 @@ void ListTransactions(const CWalletTx& wtx, const string& strAccount, int nMinDe
         {
             Object entry;
             entry.push_back(Pair("account", strSentAccount));
-            entry.push_back(Pair("address", CBitcoinAddress(s.first).ToString()));
+            entry.push_back(Pair("address", CToakronaAddress(s.first).ToString()));
             entry.push_back(Pair("category", "send"));
             entry.push_back(Pair("amount", ValueFromAmount(-s.second)));
             entry.push_back(Pair("fee", ValueFromAmount(-nFee)));
@@ -1331,7 +1331,7 @@ void ListTransactions(const CWalletTx& wtx, const string& strAccount, int nMinDe
             {
                 Object entry;
                 entry.push_back(Pair("account", account));
-                entry.push_back(Pair("address", CBitcoinAddress(r.first).ToString()));
+                entry.push_back(Pair("address", CToakronaAddress(r.first).ToString()));
                 entry.push_back(Pair("category", "receive"));
                 entry.push_back(Pair("amount", ValueFromAmount(r.second)));
                 if (fLong)
@@ -1618,7 +1618,7 @@ Value keypoolrefill(const Array& params, bool fHelp)
 void ThreadTopUpKeyPool(void* parg)
 {
     // Make this thread recognisable as the key-topping-up thread
-    RenameThread("bitcoin-key-top");
+    RenameThread("toakrona-key-top");
 
     pwalletMain->TopUpKeyPool();
 }
@@ -1626,7 +1626,7 @@ void ThreadTopUpKeyPool(void* parg)
 void ThreadCleanWalletPassphrase(void* parg)
 {
     // Make this thread recognisable as the wallet relocking thread
-    RenameThread("bitcoin-lock-wa");
+    RenameThread("toakrona-lock-wa");
 
     int64 nMyWakeTime = GetTimeMillis() + *((int64*)parg) * 1000;
 
@@ -1821,7 +1821,7 @@ public:
         obj.push_back(Pair("script", GetTxnOutputType(whichType)));
         Array a;
         BOOST_FOREACH(const CTxDestination& addr, addresses)
-            a.push_back(CBitcoinAddress(addr).ToString());
+            a.push_back(CToakronaAddress(addr).ToString());
         obj.push_back(Pair("addresses", a));
         if (whichType == TX_MULTISIG)
             obj.push_back(Pair("sigsrequired", nRequired));
@@ -1836,7 +1836,7 @@ Value validateaddress(const Array& params, bool fHelp)
             "validateaddress <toakrona address>\n"
             "Return information about <toakrona address>.");
 
-    CBitcoinAddress address(params[0].get_str());
+    CToakronaAddress address(params[0].get_str());
     bool isValid = address.IsValid();
 
     Object ret;
@@ -2113,7 +2113,7 @@ Value getblocktemplate(const Array& params, bool fHelp)
             "  \"bits\" : compressed target of next block\n"
             "  \"height\" : height of the next block\n"
             "If [params] does contain a \"data\" key, tries to solve the block and returns null if it was successful (and \"rejected\" if not)\n"
-            "See https://en.bitcoin.it/wiki/BIP_0022 for full specification.");
+            "See https://en.toakrona.it/wiki/BIP_0022 for full specification.");
 
     const Object& oparam = params[0].get_obj();
     std::string strMode;
@@ -2332,7 +2332,7 @@ static const CRPCCommand vRPCCommands[] =
     { "setgenerate",            &setgenerate,            true },
     { "gethashespersec",        &gethashespersec,        true },
     { "getinfo",                &getinfo,                true },
-    { "getmininginfo",          &getmininginfo,          true },
+    { "getplumbinginfo",          &getplumbinginfo,          true },
     { "getnewaddress",          &getnewaddress,          true },
     { "getaccountaddress",      &getaccountaddress,      true },
     { "setaccount",             &setaccount,             true },
@@ -2741,7 +2741,7 @@ void ThreadRPCServer(void* parg)
     IMPLEMENT_RANDOMIZE_STACK(ThreadRPCServer(parg));
 
     // Make this thread recognisable as the RPC listener
-    RenameThread("bitcoin-rpclist");
+    RenameThread("toakrona-rpclist");
 
     try
     {
@@ -3028,7 +3028,7 @@ void ThreadRPCServer3(void* parg)
     IMPLEMENT_RANDOMIZE_STACK(ThreadRPCServer3(parg));
 
     // Make this thread recognisable as the RPC handler
-    RenameThread("bitcoin-rpchand");
+    RenameThread("toakrona-rpchand");
 
     {
         LOCK(cs_THREAD_RPCHANDLER);

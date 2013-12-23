@@ -24,16 +24,16 @@ namespace GUIUtil
     QString dateTimeStr(qint64 nTime);
 
     // Render addresses in monospace font
-    QFont bitcoinAddressFont();
+    QFont toakronaAddressFont();
 
     // Set up widgets for address and amounts
     void setupAddressWidget(QLineEdit *widget, QWidget *parent);
     void setupAmountWidget(QLineEdit *widget, QWidget *parent);
 
     // Parse "toakrona:" URI into recipient object, return true on succesful parsing
-    // See Bitcoin URI definition discussion here: https://bitcointalk.org/index.php?topic=33490.0
-    bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out);
-    bool parseBitcoinURI(QString uri, SendCoinsRecipient *out);
+    // See Toakrona URI definition discussion here: https://toakronatalk.org/index.php?topic=33490.0
+    bool parseToakronaURI(const QUrl &uri, SendCoinsRecipient *out);
+    bool parseToakronaURI(QString uri, SendCoinsRecipient *out);
 
     // HTML escaping for rich text controls
     QString HtmlEscape(const QString& str, bool fMultiLine=false);

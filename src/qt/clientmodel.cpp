@@ -23,29 +23,29 @@ ClientModel::ClientModel(OptionsModel *optionsModel, QObject *parent) :
     // Read our specific settings from the wallet db
     /*
     CWalletDB walletdb(optionsModel->getWallet()->strWalletFile);
-    walletdb.ReadSetting("miningDebug", miningDebug);
-    walletdb.ReadSetting("miningScanTime", miningScanTime);
+    walletdb.ReadSetting("plumbingDebug", plumbingDebug);
+    walletdb.ReadSetting("plumbingScanTime", plumbingScanTime);
     std::string str;
-    walletdb.ReadSetting("miningServer", str);
-    miningServer = QString::fromStdString(str);
-    walletdb.ReadSetting("miningPort", str);
-    miningPort = QString::fromStdString(str);
-    walletdb.ReadSetting("miningUsername", str);
-    miningUsername = QString::fromStdString(str);
-    walletdb.ReadSetting("miningPassword", str);
-    miningPassword = QString::fromStdString(str);
+    walletdb.ReadSetting("plumbingServer", str);
+    plumbingServer = QString::fromStdString(str);
+    walletdb.ReadSetting("plumbingPort", str);
+    plumbingPort = QString::fromStdString(str);
+    walletdb.ReadSetting("plumbingUsername", str);
+    plumbingUsername = QString::fromStdString(str);
+    walletdb.ReadSetting("plumbingPassword", str);
+    plumbingPassword = QString::fromStdString(str);
     */
-//    if (fGenerateBitcoins)
+//    if (fGenerateToakronas)
 //    {
-        miningType = SoloMining;
-        miningStarted = true;
+        plumbingType = SoloPlumbing;
+        plumbingStarted = true;
 //    }
 //    else
 //    {
-//        miningType = PoolMining;
-//        walletdb.ReadSetting("miningStarted", miningStarted);
+//        plumbingType = PoolPlumbing;
+//        walletdb.ReadSetting("plumbingStarted", plumbingStarted);
 //    }
-//    miningThreads = nLimitProcessors;
+//    plumbingThreads = nLimitProcessors;
 
     pollTimer->setInterval(MODEL_UPDATE_DELAY);
     pollTimer->start();
@@ -75,85 +75,85 @@ int ClientModel::getNumBlocksAtStartup()
     return numBlocksAtStartup;
 }
 
-ClientModel::MiningType ClientModel::getMiningType() const
+ClientModel::PlumbingType ClientModel::getPlumbingType() const
 {
-    return miningType;
+    return plumbingType;
 }
 
-int ClientModel::getMiningThreads() const
+int ClientModel::getPlumbingThreads() const
 {
-    return miningThreads;
+    return plumbingThreads;
 }
 
-bool ClientModel::getMiningStarted() const
+bool ClientModel::getPlumbingStarted() const
 {
-    return miningStarted;
+    return plumbingStarted;
 }
 
-bool ClientModel::getMiningDebug() const
+bool ClientModel::getPlumbingDebug() const
 {
-    return miningDebug;
+    return plumbingDebug;
 }
 
-void ClientModel::setMiningDebug(bool debug)
+void ClientModel::setPlumbingDebug(bool debug)
 {
-    miningDebug = debug;
-//    WriteSetting("miningDebug", miningDebug);
+    plumbingDebug = debug;
+//    WriteSetting("plumbingDebug", plumbingDebug);
 }
 
-int ClientModel::getMiningScanTime() const
+int ClientModel::getPlumbingScanTime() const
 {
-    return miningScanTime;
+    return plumbingScanTime;
 }
 
-void ClientModel::setMiningScanTime(int scantime)
+void ClientModel::setPlumbingScanTime(int scantime)
 {
-    miningScanTime = scantime;
-//    WriteSetting("miningScanTime", miningScanTime);
+    plumbingScanTime = scantime;
+//    WriteSetting("plumbingScanTime", plumbingScanTime);
 }
 
-QString ClientModel::getMiningServer() const
+QString ClientModel::getPlumbingServer() const
 {
-    return miningServer;
+    return plumbingServer;
 }
 
-void ClientModel::setMiningServer(QString server)
+void ClientModel::setPlumbingServer(QString server)
 {
-    miningServer = server;
-//    WriteSetting("miningServer", miningServer.toStdString());
+    plumbingServer = server;
+//    WriteSetting("plumbingServer", plumbingServer.toStdString());
 }
 
-QString ClientModel::getMiningPort() const
+QString ClientModel::getPlumbingPort() const
 {
-    return miningPort;
+    return plumbingPort;
 }
 
-void ClientModel::setMiningPort(QString port)
+void ClientModel::setPlumbingPort(QString port)
 {
-    miningPort = port;
-//    WriteSetting("miningPort", miningPort.toStdString());
+    plumbingPort = port;
+//    WriteSetting("plumbingPort", plumbingPort.toStdString());
 }
 
-QString ClientModel::getMiningUsername() const
+QString ClientModel::getPlumbingUsername() const
 {
-    return miningUsername;
+    return plumbingUsername;
 }
 
-void ClientModel::setMiningUsername(QString username)
+void ClientModel::setPlumbingUsername(QString username)
 {
-    miningUsername = username;
-//    WriteSetting("miningUsername", miningUsername.toStdString());
+    plumbingUsername = username;
+//    WriteSetting("plumbingUsername", plumbingUsername.toStdString());
 }
 
-QString ClientModel::getMiningPassword() const
+QString ClientModel::getPlumbingPassword() const
 {
-    return miningPassword;
+    return plumbingPassword;
 }
 
-void ClientModel::setMiningPassword(QString password)
+void ClientModel::setPlumbingPassword(QString password)
 {
-    miningPassword = password;
-//    WriteSetting("miningPassword", miningPassword.toStdString());
+    plumbingPassword = password;
+//    WriteSetting("plumbingPassword", plumbingPassword.toStdString());
 }
 
 int ClientModel::getHashrate() const
@@ -163,7 +163,7 @@ int ClientModel::getHashrate() const
     return (boost::int64_t)dHashesPerSec;
 }
 
-// Litecoin: copied from bitcoinrpc.cpp.
+// Litecoin: copied from toakronarpc.cpp.
 double ClientModel::GetDifficulty() const
 {
     // Floating point number that is a multiple of the minimum difficulty,
@@ -208,12 +208,12 @@ void ClientModel::updateTimer()
     cachedNumBlocks = newNumBlocks;
     cachedNumBlocksOfPeers = newNumBlocksOfPeers;
 
-    // Only need to update if solo mining. When pool mining, stats are pushed.
-    if (miningType == SoloMining)
+    // Only need to update if solo plumbing. When pool plumbing, stats are pushed.
+    if (plumbingType == SoloPlumbing)
     {
         int newHashrate = getHashrate();
         if (cachedHashrate != newHashrate)
-            emit miningChanged(miningStarted, newHashrate);
+            emit plumbingChanged(plumbingStarted, newHashrate);
         cachedHashrate = newHashrate;
     }
 }
@@ -257,18 +257,18 @@ int ClientModel::getNumBlocksOfPeers() const
     return GetNumBlocksOfPeers();
 }
 
-void ClientModel::setMining(MiningType type, bool mining, int threads, int hashrate)
+void ClientModel::setPlumbing(PlumbingType type, bool plumbing, int threads, int hashrate)
 {
-    if (type == SoloMining && mining != miningStarted)
+    if (type == SoloPlumbing && plumbing != plumbingStarted)
     {
-        GenerateBitcoins(mining ? 1 : 0, pwalletMain);
+        GenerateToakronas(plumbing ? 1 : 0, pwalletMain);
     }
-    miningType = type;
-    miningStarted = mining;
-//    WriteSetting("miningStarted", mining);
+    plumbingType = type;
+    plumbingStarted = plumbing;
+//    WriteSetting("plumbingStarted", plumbing);
 //    WriteSetting("fLimitProcessors", 1);
 //    WriteSetting("nLimitProcessors", threads);
-    emit miningChanged(mining, hashrate);
+    emit plumbingChanged(plumbing, hashrate);
 }
 
 QString ClientModel::getStatusBarWarnings() const

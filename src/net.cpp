@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2012 The Bitcoin developers
+// Copyright (c) 2009-2012 The Toakrona developers
 // Copyright (c) 2011-2012 Litecoin Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -401,7 +401,7 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 void ThreadGetMyExternalIP(void* parg)
 {
     // Make this thread recognisable as the external IP detection thread
-    RenameThread("bitcoin-ext-ip");
+    RenameThread("toakrona-ext-ip");
 
     CNetAddr addrLocalHost;
     if (GetMyExternalIP(addrLocalHost))
@@ -634,7 +634,7 @@ void ThreadSocketHandler(void* parg)
     IMPLEMENT_RANDOMIZE_STACK(ThreadSocketHandler(parg));
 
     // Make this thread recognisable as the networking thread
-    RenameThread("bitcoin-net");
+    RenameThread("toakrona-net");
 
     try
     {
@@ -1005,7 +1005,7 @@ void ThreadDNSAddressSeed(void* parg)
     IMPLEMENT_RANDOMIZE_STACK(ThreadDNSAddressSeed(parg));
 
     // Make this thread recognisable as the DNS seeding thread
-    RenameThread("bitcoin-dnsseed");
+    RenameThread("toakrona-dnsseed");
 
     try
     {
@@ -1102,7 +1102,7 @@ void ThreadDumpAddress(void* parg)
     IMPLEMENT_RANDOMIZE_STACK(ThreadDumpAddress(parg));
 
     // Make this thread recognisable as the address dumping thread
-    RenameThread("bitcoin-adrdump");
+    RenameThread("toakrona-adrdump");
 
     try
     {
@@ -1119,7 +1119,7 @@ void ThreadOpenConnections(void* parg)
     IMPLEMENT_RANDOMIZE_STACK(ThreadOpenConnections(parg));
 
     // Make this thread recognisable as the connection opening thread
-    RenameThread("bitcoin-opencon");
+    RenameThread("toakrona-opencon");
 
     try
     {
@@ -1276,7 +1276,7 @@ void ThreadOpenAddedConnections(void* parg)
     IMPLEMENT_RANDOMIZE_STACK(ThreadOpenAddedConnections(parg));
 
     // Make this thread recognisable as the connection opening thread
-    RenameThread("bitcoin-opencon");
+    RenameThread("toakrona-opencon");
 
     try
     {
@@ -1409,7 +1409,7 @@ void ThreadMessageHandler(void* parg)
     IMPLEMENT_RANDOMIZE_STACK(ThreadMessageHandler(parg));
 
     // Make this thread recognisable as the message handling thread
-    RenameThread("bitcoin-msghand");
+    RenameThread("toakrona-msghand");
 
     try
     {
@@ -1654,7 +1654,7 @@ void static Discover()
 void StartNode(void* parg)
 {
     // Make this thread recognisable as the startup thread
-    RenameThread("bitcoin-start");
+    RenameThread("toakrona-start");
 
     if (semOutbound == NULL) {
         // initialize semaphore
@@ -1703,7 +1703,7 @@ void StartNode(void* parg)
         printf("Error; CreateThread(ThreadDumpAddress) failed\n");
 
     // Generate coins in the background
-    GenerateBitcoins(GetBoolArg("-gen", false), pwalletMain);
+    GenerateToakronas(GetBoolArg("-gen", false), pwalletMain);
 }
 
 bool StopNode()
@@ -1729,7 +1729,7 @@ bool StopNode()
     if (vnThreadsRunning[THREAD_SOCKETHANDLER] > 0) printf("ThreadSocketHandler still running\n");
     if (vnThreadsRunning[THREAD_OPENCONNECTIONS] > 0) printf("ThreadOpenConnections still running\n");
     if (vnThreadsRunning[THREAD_MESSAGEHANDLER] > 0) printf("ThreadMessageHandler still running\n");
-    if (vnThreadsRunning[THREAD_MINER] > 0) printf("ThreadBitcoinMiner still running\n");
+    if (vnThreadsRunning[THREAD_MINER] > 0) printf("ThreadToakronaMiner still running\n");
     if (vnThreadsRunning[THREAD_RPCLISTENER] > 0) printf("ThreadRPCListener still running\n");
     if (vnThreadsRunning[THREAD_RPCHANDLER] > 0) printf("ThreadsRPCServer still running\n");
 

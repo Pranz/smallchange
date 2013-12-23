@@ -1,9 +1,9 @@
-#include "miningpage.h"
-#include "ui_miningpage.h"
+#include "plumbingpage.h"
+#include "ui_plumbingpage.h"
 
-MiningPage::MiningPage(QWidget *parent) :
+PlumbingPage::PlumbingPage(QWidget *parent) :
     QWidget(parent),
-    ui(new Ui::MiningPage)
+    ui(new Ui::PlumbingPage)
 {
     ui->setupUi(this);
 
@@ -35,27 +35,27 @@ MiningPage::MiningPage(QWidget *parent) :
     connect(minerProcess, SIGNAL(readyRead()), this, SLOT(readProcessOutput()));
 }
 
-MiningPage::~MiningPage()
+PlumbingPage::~PlumbingPage()
 {
     minerProcess->kill();
 
     delete ui;
 }
 
-void MiningPage::setModel(ClientModel *model)
+void PlumbingPage::setModel(ClientModel *model)
 {
     this->model = model;
 
     loadSettings();
 
-    bool pool = model->getMiningType() == ClientModel::PoolMining;
-    ui->threadsBox->setValue(model->getMiningThreads());
+    bool pool = model->getPlumbingType() == ClientModel::PoolPlumbing;
+    ui->threadsBox->setValue(model->getPlumbingThreads());
     ui->typeBox->setCurrentIndex(pool ? 1 : 0);
-//    if (model->getMiningStarted())
+//    if (model->getPlumbingStarted())
 //        startPressed();
 }
 
-void MiningPage::startPressed()
+void PlumbingPage::startPressed()
 {
     initThreads = ui->threadsBox->value();
 
@@ -63,21 +63,21 @@ void MiningPage::startPressed()
     {
         saveSettings();
 
-        if (getMiningType() == ClientModel::SoloMining)
+        if (getPlumbingType() == ClientModel::SoloPlumbing)
             minerStarted();
         else
-            startPoolMining();
+            startPoolPlumbing();
     }
     else
     {
-        if (getMiningType() == ClientModel::SoloMining)
+        if (getPlumbingType() == ClientModel::SoloPlumbing)
             minerFinished();
         else
-            stopPoolMining();
+            stopPoolPlumbing();
     }
 }
 
-void MiningPage::startPoolMining()
+void PlumbingPage::startPoolPlumbing()
 {
     QStringList args;
     QString url = ui->serverLine->text();
@@ -117,34 +117,34 @@ void MiningPage::startPoolMining()
     readTimer->start(500);
 }
 
-void MiningPage::stopPoolMining()
+void PlumbingPage::stopPoolPlumbing()
 {
     ui->mineSpeedLabel->setText("");
     minerProcess->kill();
     readTimer->stop();
 }
 
-void MiningPage::saveSettings()
+void PlumbingPage::saveSettings()
 {
-    model->setMiningDebug(ui->debugCheckBox->isChecked());
-    model->setMiningScanTime(ui->scantimeBox->value());
-    model->setMiningServer(ui->serverLine->text());
-    model->setMiningPort(ui->portLine->text());
-    model->setMiningUsername(ui->usernameLine->text());
-    model->setMiningPassword(ui->passwordLine->text());
+    model->setPlumbingDebug(ui->debugCheckBox->isChecked());
+    model->setPlumbingScanTime(ui->scantimeBox->value());
+    model->setPlumbingServer(ui->serverLine->text());
+    model->setPlumbingPort(ui->portLine->text());
+    model->setPlumbingUsername(ui->usernameLine->text());
+    model->setPlumbingPassword(ui->passwordLine->text());
 }
 
-void MiningPage::loadSettings()
+void PlumbingPage::loadSettings()
 {
-    ui->debugCheckBox->setChecked(model->getMiningDebug());
-    ui->scantimeBox->setValue(model->getMiningScanTime());
-    ui->serverLine->setText(model->getMiningServer());
-    ui->portLine->setText(model->getMiningPort());
-    ui->usernameLine->setText(model->getMiningUsername());
-    ui->passwordLine->setText(model->getMiningPassword());
+    ui->debugCheckBox->setChecked(model->getPlumbingDebug());
+    ui->scantimeBox->setValue(model->getPlumbingScanTime());
+    ui->serverLine->setText(model->getPlumbingServer());
+    ui->portLine->setText(model->getPlumbingPort());
+    ui->usernameLine->setText(model->getPlumbingUsername());
+    ui->passwordLine->setText(model->getPlumbingPassword());
 }
 
-void MiningPage::readProcessOutput()
+void PlumbingPage::readProcessOutput()
 {
     QByteArray output;
 
@@ -208,7 +208,7 @@ void MiningPage::readProcessOutput()
     }
 }
 
-void MiningPage::minerError(QProcess::ProcessError error)
+void PlumbingPage::minerError(QProcess::ProcessError error)
 {
     if (error == QProcess::FailedToStart)
     {
@@ -216,31 +216,31 @@ void MiningPage::minerError(QProcess::ProcessError error)
     }
 }
 
-void MiningPage::minerFinished()
+void PlumbingPage::minerFinished()
 {
-    if (getMiningType() == ClientModel::SoloMining)
-        reportToList("Solo mining stopped.", ERROR, NULL);
+    if (getPlumbingType() == ClientModel::SoloPlumbing)
+        reportToList("Solo plumbing stopped.", ERROR, NULL);
     else
         reportToList("Miner exited.", ERROR, NULL);
     ui->list->addItem("");
     minerActive = false;
-    resetMiningButton();
-    model->setMining(getMiningType(), false, initThreads, 0);
+    resetPlumbingButton();
+    model->setPlumbing(getPlumbingType(), false, initThreads, 0);
 }
 
-void MiningPage::minerStarted()
+void PlumbingPage::minerStarted()
 {
     if (!minerActive)
-        if (getMiningType() == ClientModel::SoloMining)
-            reportToList("Solo mining started.", ERROR, NULL);
+        if (getPlumbingType() == ClientModel::SoloPlumbing)
+            reportToList("Solo plumbing started.", ERROR, NULL);
         else
             reportToList("Miner started. You might not see any output for a few minutes.", STARTED, NULL);
     minerActive = true;
-    resetMiningButton();
-    model->setMining(getMiningType(), true, initThreads, 0);
+    resetPlumbingButton();
+    model->setPlumbing(getPlumbingType(), true, initThreads, 0);
 }
 
-void MiningPage::updateSpeed()
+void PlumbingPage::updateSpeed()
 {
     double totalSpeed=0;
     int totalThreads=0;
@@ -275,10 +275,10 @@ void MiningPage::updateSpeed()
 
     ui->shareCount->setText(QString("Accepted: %1 (%3) - Rejected: %2 (%4)").arg(acceptedString, rejectedString, roundAcceptedString, roundRejectedString));
 
-    model->setMining(getMiningType(), true, initThreads, totalSpeed*1000);
+    model->setPlumbing(getPlumbingType(), true, initThreads, totalSpeed*1000);
 }
 
-void MiningPage::reportToList(QString msg, int type, QString time)
+void PlumbingPage::reportToList(QString msg, int type, QString time)
 {
     QString message;
     if (time == NULL)
@@ -314,7 +314,7 @@ void MiningPage::reportToList(QString msg, int type, QString time)
 }
 
 // Function for fetching the time
-QString MiningPage::getTime(QString time)
+QString PlumbingPage::getTime(QString time)
 {
     if (time.contains("["))
     {
@@ -329,7 +329,7 @@ QString MiningPage::getTime(QString time)
         return NULL;
 }
 
-void MiningPage::enableMiningControls(bool enable)
+void PlumbingPage::enablePlumbingControls(bool enable)
 {
     ui->typeBox->setEnabled(enable);
     ui->threadsBox->setEnabled(enable);
@@ -340,7 +340,7 @@ void MiningPage::enableMiningControls(bool enable)
     ui->passwordLine->setEnabled(enable);
 }
 
-void MiningPage::enablePoolMiningControls(bool enable)
+void PlumbingPage::enablePoolPlumbingControls(bool enable)
 {
     ui->scantimeBox->setEnabled(enable);
     ui->serverLine->setEnabled(enable);
@@ -349,38 +349,38 @@ void MiningPage::enablePoolMiningControls(bool enable)
     ui->passwordLine->setEnabled(enable);
 }
 
-ClientModel::MiningType MiningPage::getMiningType()
+ClientModel::PlumbingType PlumbingPage::getPlumbingType()
 {
-    if (ui->typeBox->currentIndex() == 0)  // Solo Mining
+    if (ui->typeBox->currentIndex() == 0)  // Solo Plumbing
     {
-        return ClientModel::SoloMining;
+        return ClientModel::SoloPlumbing;
     }
-    else if (ui->typeBox->currentIndex() == 1)  // Pool Mining
+    else if (ui->typeBox->currentIndex() == 1)  // Pool Plumbing
     {
-        return ClientModel::PoolMining;
+        return ClientModel::PoolPlumbing;
     }
-    return ClientModel::SoloMining;
+    return ClientModel::SoloPlumbing;
 }
 
-void MiningPage::typeChanged(int index)
+void PlumbingPage::typeChanged(int index)
 {
-    if (index == 0)  // Solo Mining
+    if (index == 0)  // Solo Plumbing
     {
-        enablePoolMiningControls(false);
+        enablePoolPlumbingControls(false);
     }
-    else if (index == 1)  // Pool Mining
+    else if (index == 1)  // Pool Plumbing
     {
-        enablePoolMiningControls(true);
+        enablePoolPlumbingControls(true);
     }
 }
 
-void MiningPage::debugToggled(bool checked)
+void PlumbingPage::debugToggled(bool checked)
 {
-    model->setMiningDebug(checked);
+    model->setPlumbingDebug(checked);
 }
 
-void MiningPage::resetMiningButton()
+void PlumbingPage::resetPlumbingButton()
 {
-    ui->startButton->setText(minerActive ? "Stop Mining" : "Start Mining");
-    enableMiningControls(!minerActive);
+    ui->startButton->setText(minerActive ? "Stop Plumbing" : "Start Plumbing");
+    enablePlumbingControls(!minerActive);
 }

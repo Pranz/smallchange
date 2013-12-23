@@ -4,25 +4,25 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Bitcoin</source>
-        <translation>Over Bitcoin
+        <source>About Toakrona</source>
+        <translation>Over Toakrona
 </translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Bitcoin&lt;/b&gt; versie</translation>
+        <source>&lt;b&gt;Toakrona&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Toakrona&lt;/b&gt; versie</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="97"/>
-        <source>Copyright © 2009-2012 Bitcoin Developers
+        <source>Copyright © 2009-2012 Toakrona Developers
 
 This is experimental software.
 
 Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>Copyright © 2009-2012 Bitcoin Ontwikkelaars
+        <translation>Copyright © 2009-2012 Toakrona Ontwikkelaars
 
 Dit is experimentele software.
 
@@ -40,8 +40,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Bitcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn uw Bitcoin-adressen om betalingen te ontvangen. U kunt er voor kiezen om een adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
+        <source>These are your Toakrona addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dit zijn uw Toakrona-adressen om betalingen te ontvangen. U kunt er voor kiezen om een adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="36"/>
@@ -211,9 +211,9 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="101"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TOAKRONAS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>WAARSCHUWING: Wanneer uw portemonnee wordt versleuteld en u verliest uw wachtwoord, dan verliest u &lt;b&gt;AL UW BITCOINS&lt;/b&gt;!
+        <translation>WAARSCHUWING: Wanneer uw portemonnee wordt versleuteld en u verliest uw wachtwoord, dan verliest u &lt;b&gt;AL UW TOAKRONAS&lt;/b&gt;!
 Bent u er zeker van uw dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
@@ -224,8 +224,8 @@ Bent u er zeker van uw dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="111"/>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw bitcoins stelen.</translation>
+        <source>Toakrona will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your toakronas from being stolen by malware infecting your computer.</source>
+        <translation>Toakrona zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw toakronas stelen.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="207"/>
@@ -276,301 +276,301 @@ Bent u er zeker van uw dat u uw portemonnee wilt versleutelen?</translation>
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>ToakronaGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="73"/>
-        <source>Bitcoin Wallet</source>
-        <translation>Bitcoin-portemonnee</translation>
+        <location filename="../toakronagui.cpp" line="73"/>
+        <source>Toakrona Wallet</source>
+        <translation>Toakrona-portemonnee</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="215"/>
+        <location filename="../toakronagui.cpp" line="215"/>
         <source>Sign &amp;message...</source>
         <translation>&amp;Onderteken bericht...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="248"/>
-        <source>Show/Hide &amp;Bitcoin</source>
-        <translation>&amp;Toon/Verberg Bitcoin</translation>
+        <location filename="../toakronagui.cpp" line="248"/>
+        <source>Show/Hide &amp;Toakrona</source>
+        <translation>&amp;Toon/Verberg Toakrona</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="515"/>
+        <location filename="../toakronagui.cpp" line="515"/>
         <source>Synchronizing with network...</source>
         <translation>Synchroniseren met netwerk...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="185"/>
+        <location filename="../toakronagui.cpp" line="185"/>
         <source>&amp;Overview</source>
         <translation>&amp;Overzicht</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="186"/>
+        <location filename="../toakronagui.cpp" line="186"/>
         <source>Show general overview of wallet</source>
         <translation>Toon algemeen overzicht van de portemonnee</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="191"/>
+        <location filename="../toakronagui.cpp" line="191"/>
         <source>&amp;Transactions</source>
         <translation>&amp;Transacties</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="192"/>
+        <location filename="../toakronagui.cpp" line="192"/>
         <source>Browse transaction history</source>
         <translation>Blader door transactieverleden</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="197"/>
+        <location filename="../toakronagui.cpp" line="197"/>
         <source>&amp;Address Book</source>
         <translation>&amp;Adresboek</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="198"/>
+        <location filename="../toakronagui.cpp" line="198"/>
         <source>Edit the list of stored addresses and labels</source>
         <translation>Bewerk de lijst van opgeslagen adressen en labels</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="203"/>
+        <location filename="../toakronagui.cpp" line="203"/>
         <source>&amp;Receive coins</source>
         <translation>&amp;Ontvang munten</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="204"/>
+        <location filename="../toakronagui.cpp" line="204"/>
         <source>Show the list of addresses for receiving payments</source>
         <translation>Toon lijst van adressen om betalingen mee te ontvangen</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="209"/>
+        <location filename="../toakronagui.cpp" line="209"/>
         <source>&amp;Send coins</source>
         <translation>&amp;Verstuur munten</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="216"/>
+        <location filename="../toakronagui.cpp" line="216"/>
         <source>Prove you control an address</source>
         <translation>Bewijs dat u een adres bezit</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="235"/>
+        <location filename="../toakronagui.cpp" line="235"/>
         <source>E&amp;xit</source>
         <translation>&amp;Afsluiten</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="236"/>
+        <location filename="../toakronagui.cpp" line="236"/>
         <source>Quit application</source>
         <translation>Programma afsluiten</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="239"/>
+        <location filename="../toakronagui.cpp" line="239"/>
         <source>&amp;About %1</source>
         <translation>&amp;Over %1</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show information about Bitcoin</source>
-        <translation>Laat informatie zien over Bitcoin</translation>
+        <location filename="../toakronagui.cpp" line="240"/>
+        <source>Show information about Toakrona</source>
+        <translation>Laat informatie zien over Toakrona</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="242"/>
+        <location filename="../toakronagui.cpp" line="242"/>
         <source>About &amp;Qt</source>
         <translation>Over &amp;Qt</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="243"/>
+        <location filename="../toakronagui.cpp" line="243"/>
         <source>Show information about Qt</source>
         <translation>Toon informatie over Qt</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="245"/>
+        <location filename="../toakronagui.cpp" line="245"/>
         <source>&amp;Options...</source>
         <translation>O&amp;pties...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="252"/>
+        <location filename="../toakronagui.cpp" line="252"/>
         <source>&amp;Encrypt Wallet...</source>
         <translation>&amp;Versleutel Portemonnee...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="255"/>
+        <location filename="../toakronagui.cpp" line="255"/>
         <source>&amp;Backup Wallet...</source>
         <translation>&amp;Backup Portemonnee...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="257"/>
+        <location filename="../toakronagui.cpp" line="257"/>
         <source>&amp;Change Passphrase...</source>
         <translation>&amp;Wijzig Wachtwoord</translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="517"/>
+        <location filename="../toakronagui.cpp" line="517"/>
         <source>~%n block(s) remaining</source>
         <translation><numerusform>~%n blok resterend</numerusform><numerusform>~%n blokken resterend</numerusform></translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="528"/>
+        <location filename="../toakronagui.cpp" line="528"/>
         <source>Downloaded %1 of %2 blocks of transaction history (%3% done).</source>
         <translation>%1 van %2 blokken van transactiehistorie opgehaald (%3% klaar).</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="250"/>
+        <location filename="../toakronagui.cpp" line="250"/>
         <source>&amp;Export...</source>
         <translation>&amp;Exporteer...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="210"/>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Verstuur munten naar een Bitcoinadres</translation>
+        <location filename="../toakronagui.cpp" line="210"/>
+        <source>Send coins to a Toakrona address</source>
+        <translation>Verstuur munten naar een Toakronaadres</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="246"/>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation>Wijzig instellingen van Bitcoin</translation>
+        <location filename="../toakronagui.cpp" line="246"/>
+        <source>Modify configuration options for Toakrona</source>
+        <translation>Wijzig instellingen van Toakrona</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="249"/>
-        <source>Show or hide the Bitcoin window</source>
-        <translation>Toon of verberg Bitcoin venster</translation>
+        <location filename="../toakronagui.cpp" line="249"/>
+        <source>Show or hide the Toakrona window</source>
+        <translation>Toon of verberg Toakrona venster</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="251"/>
+        <location filename="../toakronagui.cpp" line="251"/>
         <source>Export the data in the current tab to a file</source>
         <translation>Exporteer de data in de huidige tab naar een bestand</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="253"/>
+        <location filename="../toakronagui.cpp" line="253"/>
         <source>Encrypt or decrypt wallet</source>
         <translation>Versleutel of ontsleutel portemonnee</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="256"/>
+        <location filename="../toakronagui.cpp" line="256"/>
         <source>Backup wallet to another location</source>
         <translation>&amp;Backup portemonnee naar een andere locatie</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="258"/>
+        <location filename="../toakronagui.cpp" line="258"/>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>wijzig het wachtwoord voor uw portemonneversleuteling</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="259"/>
+        <location filename="../toakronagui.cpp" line="259"/>
         <source>&amp;Debug window</source>
         <translation>&amp;Debugscherm</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="260"/>
+        <location filename="../toakronagui.cpp" line="260"/>
         <source>Open debugging and diagnostic console</source>
         <translation>Open debugging en diagnostische console</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="261"/>
+        <location filename="../toakronagui.cpp" line="261"/>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verifiëer bericht...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="262"/>
+        <location filename="../toakronagui.cpp" line="262"/>
         <source>Verify a message signature</source>
         <translation>Verifiëer een handtekening van een bericht</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="286"/>
+        <location filename="../toakronagui.cpp" line="286"/>
         <source>&amp;File</source>
         <translation>&amp;Bestand</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="296"/>
+        <location filename="../toakronagui.cpp" line="296"/>
         <source>&amp;Settings</source>
         <translation>&amp;Instellingen</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="302"/>
+        <location filename="../toakronagui.cpp" line="302"/>
         <source>&amp;Help</source>
         <translation>&amp;Hulp</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="311"/>
+        <location filename="../toakronagui.cpp" line="311"/>
         <source>Tabs toolbar</source>
         <translation>Tab-werkbalk</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="322"/>
+        <location filename="../toakronagui.cpp" line="322"/>
         <source>Actions toolbar</source>
         <translation>Actie-werkbalk</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="334"/>
-        <location filename="../bitcoingui.cpp" line="343"/>
+        <location filename="../toakronagui.cpp" line="334"/>
+        <location filename="../toakronagui.cpp" line="343"/>
         <source>[testnet]</source>
         <translation>[testnetwerk]</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="343"/>
-        <location filename="../bitcoingui.cpp" line="399"/>
-        <source>Bitcoin client</source>
-        <translation>Bitcoin client</translation>
+        <location filename="../toakronagui.cpp" line="343"/>
+        <location filename="../toakronagui.cpp" line="399"/>
+        <source>Toakrona client</source>
+        <translation>Toakrona client</translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="492"/>
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n actieve connectie naar Bitcoinnetwerk</numerusform><numerusform>%n actieve connecties naar Bitcoinnetwerk</numerusform></translation>
+        <location filename="../toakronagui.cpp" line="492"/>
+        <source>%n active connection(s) to Toakrona network</source>
+        <translation><numerusform>%n actieve connectie naar Toakronanetwerk</numerusform><numerusform>%n actieve connecties naar Toakronanetwerk</numerusform></translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="540"/>
+        <location filename="../toakronagui.cpp" line="540"/>
         <source>Downloaded %1 blocks of transaction history.</source>
         <translation>%1 blokken van transactiehistorie opgehaald.</translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="555"/>
+        <location filename="../toakronagui.cpp" line="555"/>
         <source>%n second(s) ago</source>
         <translation><numerusform>%n seconde geleden</numerusform><numerusform>%n seconden geleden</numerusform></translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="559"/>
+        <location filename="../toakronagui.cpp" line="559"/>
         <source>%n minute(s) ago</source>
         <translation><numerusform>%n minuut geleden</numerusform><numerusform>%n minuten geleden</numerusform></translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="563"/>
+        <location filename="../toakronagui.cpp" line="563"/>
         <source>%n hour(s) ago</source>
         <translation><numerusform>%n uur geleden</numerusform><numerusform>%n uur geleden</numerusform></translation>
     </message>
     <message numerus="yes">
-        <location filename="../bitcoingui.cpp" line="567"/>
+        <location filename="../toakronagui.cpp" line="567"/>
         <source>%n day(s) ago</source>
         <translation><numerusform>%n dag geleden</numerusform><numerusform>%n dagen geleden</numerusform></translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="573"/>
+        <location filename="../toakronagui.cpp" line="573"/>
         <source>Up to date</source>
         <translation>Bijgewerkt</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="580"/>
+        <location filename="../toakronagui.cpp" line="580"/>
         <source>Catching up...</source>
         <translation>Aan het bijwerken...</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="590"/>
+        <location filename="../toakronagui.cpp" line="590"/>
         <source>Last received block was generated %1.</source>
         <translation>Laatst ontvangen blok is %1 gegenereerd.</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="649"/>
+        <location filename="../toakronagui.cpp" line="649"/>
         <source>This transaction is over the size limit.  You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network.  Do you want to pay the fee?</source>
         <translation>Deze transactie overschrijdt de groottelimiet. Om de transactie alsnog te versturen kunt u transactiekosten betalen van %1. Deze transactiekosten gaan naar de nodes die uw transactie verwerken en het helpt op deze manier bij het ondersteunen van het netwerk. Wilt u de transactiekosten betalen?</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="654"/>
+        <location filename="../toakronagui.cpp" line="654"/>
         <source>Confirm transaction fee</source>
         <translation>Bevestig transactiekosten</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="681"/>
+        <location filename="../toakronagui.cpp" line="681"/>
         <source>Sent transaction</source>
         <translation>Verzonden transactie</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="682"/>
+        <location filename="../toakronagui.cpp" line="682"/>
         <source>Incoming transaction</source>
         <translation>Binnenkomende transactie</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="683"/>
+        <location filename="../toakronagui.cpp" line="683"/>
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -583,39 +583,39 @@ Adres: %4
 </translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="804"/>
+        <location filename="../toakronagui.cpp" line="804"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;geopend&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="812"/>
+        <location filename="../toakronagui.cpp" line="812"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;gesloten&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="835"/>
+        <location filename="../toakronagui.cpp" line="835"/>
         <source>Backup Wallet</source>
         <translation>Backup Portemonnee</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="835"/>
+        <location filename="../toakronagui.cpp" line="835"/>
         <source>Wallet Data (*.dat)</source>
         <translation>Portemonnee-data (*.dat)</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="838"/>
+        <location filename="../toakronagui.cpp" line="838"/>
         <source>Backup Failed</source>
         <translation>Backup Mislukt</translation>
     </message>
     <message>
-        <location filename="../bitcoingui.cpp" line="838"/>
+        <location filename="../toakronagui.cpp" line="838"/>
         <source>There was an error trying to save the wallet data to the new location.</source>
         <translation>Er is een fout opgetreden bij het wegschrijven van de portemonnee-data naar de nieuwe locatie.</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="112"/>
-        <source>A fatal error occured. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Er is een fatale fout opgetreden. Bitcoin kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
+        <location filename="../toakrona.cpp" line="112"/>
+        <source>A fatal error occured. Toakrona can no longer continue safely and will quit.</source>
+        <translation>Er is een fatale fout opgetreden. Toakrona kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
     </message>
 </context>
 <context>
@@ -640,8 +640,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="263"/>
-        <source>The user interface language can be set here. This setting will only take effect after restarting Bitcoin.</source>
-        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat Bitcoin herstart wordt.</translation>
+        <source>The user interface language can be set here. This setting will only take effect after restarting Toakrona.</source>
+        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat Toakrona herstart wordt.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="252"/>
@@ -665,8 +665,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="285"/>
-        <source>Whether to show Bitcoin addresses in the transaction list</source>
-        <translation>Of Bitcoinadressen getoond worden in de transactielijst</translation>
+        <source>Whether to show Toakrona addresses in the transaction list</source>
+        <translation>Of Toakronaadressen getoond worden in de transactielijst</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="303"/>
@@ -675,8 +675,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="303"/>
-        <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation>Deze instelling zal pas van kracht worden na het herstarten van Bitcoin.</translation>
+        <source>This setting will take effect after restarting Toakrona.</source>
+        <translation>Deze instelling zal pas van kracht worden na het herstarten van Toakrona.</translation>
     </message>
 </context>
 <context>
@@ -733,8 +733,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig Bitcoinadres</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Toakrona address.</source>
+        <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig Toakronaadres</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -750,44 +750,44 @@ Adres: %4
 <context>
     <name>HelpMessageBox</name>
     <message>
-        <location filename="../bitcoin.cpp" line="133"/>
-        <location filename="../bitcoin.cpp" line="143"/>
-        <source>Bitcoin-Qt</source>
-        <translation>Bitcoin-Qt</translation>
+        <location filename="../toakrona.cpp" line="133"/>
+        <location filename="../toakrona.cpp" line="143"/>
+        <source>Toakrona-Qt</source>
+        <translation>Toakrona-Qt</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="133"/>
+        <location filename="../toakrona.cpp" line="133"/>
         <source>version</source>
         <translation>versie</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="135"/>
+        <location filename="../toakrona.cpp" line="135"/>
         <source>Usage:</source>
         <translation>Gebruik:</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="136"/>
+        <location filename="../toakrona.cpp" line="136"/>
         <source>options</source>
         <translation>opties</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="138"/>
+        <location filename="../toakrona.cpp" line="138"/>
         <source>UI options</source>
         <translation>gebruikersinterfaceopties</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="139"/>
+        <location filename="../toakrona.cpp" line="139"/>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
         <translation>Stel taal in, bijvoorbeeld &apos;&apos;de_DE&quot; (standaard: systeeminstellingen)</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="140"/>
+        <location filename="../toakrona.cpp" line="140"/>
         <source>Start minimized</source>
         <translation>Geminimaliseerd starten
 </translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="141"/>
+        <location filename="../toakrona.cpp" line="141"/>
         <source>Show splash screen on startup (default: 1)</source>
         <translation>Laat laadscherm zien bij het opstarten. (standaard: 1)</translation>
     </message>
@@ -816,13 +816,13 @@ Adres: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="222"/>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation>&amp;Start Bitcoin bij het inloggen in het systeem</translation>
+        <source>&amp;Start Toakrona on system login</source>
+        <translation>&amp;Start Toakrona bij het inloggen in het systeem</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="223"/>
-        <source>Automatically start Bitcoin after logging in to the system</source>
-        <translation>Start Bitcoin automatisch na inloggen in het systeem</translation>
+        <source>Automatically start Toakrona after logging in to the system</source>
+        <translation>Start Toakrona automatisch na inloggen in het systeem</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="226"/>
@@ -909,8 +909,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../messagepage.cpp" line="30"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Vul een Bitcoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Toakrona address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Vul een Toakronaadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location filename="../messagepage.cpp" line="83"/>
@@ -955,8 +955,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="348"/>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de Bitcoin-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
+        <source>Automatically open the Toakrona client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de Toakrona-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="351"/>
@@ -966,7 +966,7 @@ Adres: %4
     <message>
         <location filename="../optionsdialog.cpp" line="352"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Verbind met het Bitcoin-netwerk door een SOCKS4 proxy (bijv. wanneer Tor gebruikt wordt)</translation>
+        <translation>Verbind met het Toakrona-netwerk door een SOCKS4 proxy (bijv. wanneer Tor gebruikt wordt)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="357"/>
@@ -1007,8 +1007,8 @@ Adres: %4
     <message>
         <location filename="../forms/overviewpage.ui" line="47"/>
         <location filename="../forms/overviewpage.ui" line="204"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het Bitcoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Toakrona network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het Toakronanetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="89"/>
@@ -1124,8 +1124,8 @@ Adres: %4
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Bitcoin debug window</source>
-        <translation>Bitcoin debugscherm</translation>
+        <source>Toakrona debug window</source>
+        <translation>Toakrona debugscherm</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="46"/>
@@ -1207,8 +1207,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="299"/>
-        <source>Open the Bitcoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
-        <translation>Open het Bitcoin-debug-logbestand van de huidige datamap. Dit kan een paar seconden duren voor grote logbestanden.</translation>
+        <source>Open the Toakrona debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
+        <translation>Open het Toakrona-debug-logbestand van de huidige datamap. Dit kan een paar seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="302"/>
@@ -1232,8 +1232,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="212"/>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation>Welkom bij de Bitcoin RPC-console.</translation>
+        <source>Welcome to the Toakrona RPC console.</source>
+        <translation>Welkom bij de Toakrona RPC-console.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="213"/>
@@ -1416,8 +1416,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="26"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Vul een Bitcoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Toakrona address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Vul een Toakronaadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1865,13 +1865,13 @@ Adres: %4
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="20"/>
-        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Bitcoin address used to sign the message.</source>
-        <translation>Voer het bericht en de handtekening hieronder in (let erop dat enters, spaties, tabs en andere onzichtbare karakters goed worden overgenomen) om het Bitcoin-adres te verkrijgen dat gebruikt is om het bericht te ondertekenen.</translation>
+        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Toakrona address used to sign the message.</source>
+        <translation>Voer het bericht en de handtekening hieronder in (let erop dat enters, spaties, tabs en andere onzichtbare karakters goed worden overgenomen) om het Toakrona-adres te verkrijgen dat gebruikt is om het bericht te ondertekenen.</translation>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="62"/>
-        <source>Verify a message and obtain the Bitcoin address used to sign the message</source>
-        <translation>Verifiëer een bericht en verkrijg het Bitcoinadres dat gebruikt is om het bericht te ondertekenen</translation>
+        <source>Verify a message and obtain the Toakrona address used to sign the message</source>
+        <translation>Verifiëer een bericht en verkrijg het Toakronaadres dat gebruikt is om het bericht te ondertekenen</translation>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="65"/>
@@ -1900,8 +1900,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="28"/>
-        <source>Enter Bitcoin signature</source>
-        <translation>Voer Bitcoin-handtekening in</translation>
+        <source>Enter Toakrona signature</source>
+        <translation>Voer Toakrona-handtekening in</translation>
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="29"/>
@@ -1972,539 +1972,539 @@ Adres: %4
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>toakrona-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="43"/>
-        <source>Bitcoin version</source>
-        <translation>Bitcoinversie</translation>
+        <location filename="../toakronastrings.cpp" line="43"/>
+        <source>Toakrona version</source>
+        <translation>Toakronaversie</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="44"/>
+        <location filename="../toakronastrings.cpp" line="44"/>
         <source>Usage:</source>
         <translation>Gebruik:</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="45"/>
-        <source>Send command to -server or bitcoind</source>
-        <translation>Stuur commando naar -server of bitcoind
+        <location filename="../toakronastrings.cpp" line="45"/>
+        <source>Send command to -server or toakronad</source>
+        <translation>Stuur commando naar -server of toakronad
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="46"/>
+        <location filename="../toakronastrings.cpp" line="46"/>
         <source>List commands</source>
         <translation>List van commando&apos;s
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="47"/>
+        <location filename="../toakronastrings.cpp" line="47"/>
         <source>Get help for a command</source>
         <translation>Toon hulp voor een commando
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="49"/>
+        <location filename="../toakronastrings.cpp" line="49"/>
         <source>Options:</source>
         <translation>Opties:
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="50"/>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Specifieer configuratiebestand (standaard: bitcoin.conf)
+        <location filename="../toakronastrings.cpp" line="50"/>
+        <source>Specify configuration file (default: toakrona.conf)</source>
+        <translation>Specifieer configuratiebestand (standaard: toakrona.conf)
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="51"/>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>Specifieer pid-bestand (standaard: bitcoind.pid)
+        <location filename="../toakronastrings.cpp" line="51"/>
+        <source>Specify pid file (default: toakronad.pid)</source>
+        <translation>Specifieer pid-bestand (standaard: toakronad.pid)
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="52"/>
+        <location filename="../toakronastrings.cpp" line="52"/>
         <source>Generate coins</source>
         <translation>Genereer munten
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="53"/>
+        <location filename="../toakronastrings.cpp" line="53"/>
         <source>Don&apos;t generate coins</source>
         <translation>Genereer geen munten
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="54"/>
+        <location filename="../toakronastrings.cpp" line="54"/>
         <source>Specify data directory</source>
         <translation>Stel datamap in
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="55"/>
+        <location filename="../toakronastrings.cpp" line="55"/>
         <source>Set database cache size in megabytes (default: 25)</source>
         <translation>Stel databankcachegrootte in in megabytes (standaard: 25)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="56"/>
+        <location filename="../toakronastrings.cpp" line="56"/>
         <source>Set database disk log size in megabytes (default: 100)</source>
         <translation>Stel databankloggrootte in in megabytes (standaard: 100)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="57"/>
+        <location filename="../toakronastrings.cpp" line="57"/>
         <source>Specify connection timeout (in milliseconds)</source>
         <translation>Specificeer de time-out tijd (in milliseconden)
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="63"/>
+        <location filename="../toakronastrings.cpp" line="63"/>
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
         <translation>Luister voor verbindingen op &lt;poort&gt; (standaard: 8333 of testnet: 18333)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="64"/>
+        <location filename="../toakronastrings.cpp" line="64"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
         <translation>Onderhoud maximaal &lt;n&gt; verbindingen naar peers (standaard: 125)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="66"/>
+        <location filename="../toakronastrings.cpp" line="66"/>
         <source>Connect only to the specified node</source>
         <translation>Verbind alleen met deze node
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="67"/>
+        <location filename="../toakronastrings.cpp" line="67"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>Verbind naar een node om adressen van anderen op te halen, en verbreek vervolgens de verbinding</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="68"/>
+        <location filename="../toakronastrings.cpp" line="68"/>
         <source>Specify your own public address</source>
         <translation>Specificeer uw eigen publieke adres</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="69"/>
+        <location filename="../toakronastrings.cpp" line="69"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4 or IPv6)</source>
         <translation>Verbind slechts naar nodes in netwerk &lt;net&gt; (IPv4 of IPv6)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="70"/>
+        <location filename="../toakronastrings.cpp" line="70"/>
         <source>Try to discover public IP address (default: 1)</source>
         <translation>Probeer om publieke IP-adres te achterhalen (standaard: 1)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="73"/>
+        <location filename="../toakronastrings.cpp" line="73"/>
         <source>Bind to given address. Use [host]:port notation for IPv6</source>
         <translation>Bind aan gegeven adres. Gebruik [host]:poort -notatie voor IPv6</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="75"/>
+        <location filename="../toakronastrings.cpp" line="75"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>Drempel om verbinding te verbreken naar zich misdragende peers (standaard: 100)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="76"/>
+        <location filename="../toakronastrings.cpp" line="76"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
         <translation>Aantal seconden dat zich misdragende peers niet opnieuw mogen verbinden (standaard: 86400)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="79"/>
+        <location filename="../toakronastrings.cpp" line="79"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 10000)</source>
         <translation>Maximale ontvangstbuffer per connectie, &lt;n&gt;*1000 bytes (standaard: 10000)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="80"/>
+        <location filename="../toakronastrings.cpp" line="80"/>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 10000)</source>
         <translation>Maximale zendbuffer per connectie, &lt;n&gt;*1000 bytes (standaard: 10000)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="83"/>
+        <location filename="../toakronastrings.cpp" line="83"/>
         <source>Detach block and address databases. Increases shutdown time (default: 0)</source>
         <translation>Ontkoppel blok- en adresdatabases. Verhoogt afsluittijd (standaard: 0)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="86"/>
+        <location filename="../toakronastrings.cpp" line="86"/>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Aanvaard commandoregel en JSON-RPC commando&apos;s
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="87"/>
+        <location filename="../toakronastrings.cpp" line="87"/>
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Draai in de achtergrond als daemon en aanvaard commando&apos;s
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="88"/>
+        <location filename="../toakronastrings.cpp" line="88"/>
         <source>Use the test network</source>
         <translation>Gebruik het testnetwerk
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="89"/>
+        <location filename="../toakronastrings.cpp" line="89"/>
         <source>Output extra debugging information</source>
         <translation>Toon extra debuggingsinformatie</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="90"/>
+        <location filename="../toakronastrings.cpp" line="90"/>
         <source>Prepend debug output with timestamp</source>
         <translation>Voorzie de debuggingsuitvoer van een tijdsaanduiding</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="91"/>
+        <location filename="../toakronastrings.cpp" line="91"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Stuur trace/debug-info naar de console in plaats van het debug.log bestand</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="92"/>
+        <location filename="../toakronastrings.cpp" line="92"/>
         <source>Send trace/debug info to debugger</source>
         <translation>Stuur trace/debug-info naar debugger</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="93"/>
+        <location filename="../toakronastrings.cpp" line="93"/>
         <source>Username for JSON-RPC connections</source>
         <translation>Gebruikersnaam voor JSON-RPC verbindingen
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="94"/>
+        <location filename="../toakronastrings.cpp" line="94"/>
         <source>Password for JSON-RPC connections</source>
         <translation>Wachtwoord voor JSON-RPC verbindingen
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="95"/>
+        <location filename="../toakronastrings.cpp" line="95"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332)</source>
         <translation>Luister voor JSON-RPC verbindingen op &lt;poort&gt; (standaard: 8332)
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="96"/>
+        <location filename="../toakronastrings.cpp" line="96"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation>Sta JSON-RPC verbindingen van opgegeven IP adres toe
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="97"/>
+        <location filename="../toakronastrings.cpp" line="97"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
         <translation>Verstuur commando&apos;s naar proces dat op &lt;ip&gt; draait (standaard: 127.0.0.1)
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="98"/>
+        <location filename="../toakronastrings.cpp" line="98"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>Voer commando uit zodra het beste blok verandert (%s in cmd wordt vervangen door blockhash)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="101"/>
+        <location filename="../toakronastrings.cpp" line="101"/>
         <source>Upgrade wallet to latest format</source>
         <translation>Vernieuw portemonnee naar nieuwste versie</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="102"/>
+        <location filename="../toakronastrings.cpp" line="102"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
         <translation>Stel sleutelpoelgrootte in op &lt;n&gt; (standaard: 100)
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="103"/>
+        <location filename="../toakronastrings.cpp" line="103"/>
         <source>Rescan the block chain for missing wallet transactions</source>
         <translation>Doorzoek de blokkenketen op ontbrekende portemonnee-transacties</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="104"/>
+        <location filename="../toakronastrings.cpp" line="104"/>
         <source>How many blocks to check at startup (default: 2500, 0 = all)</source>
         <translation>Het aantal blokken na te kijken bij opstarten (standaard: 2500, 0=alle)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="105"/>
+        <location filename="../toakronastrings.cpp" line="105"/>
         <source>How thorough the block verification is (0-6, default: 1)</source>
         <translation>De grondigheid van de blokverificatie (0-6, standaard: 1)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="106"/>
+        <location filename="../toakronastrings.cpp" line="106"/>
         <source>Imports blocks from external blk000?.dat file</source>
         <translation>Importeert blokken van extern blk000?.dat bestand</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="108"/>
+        <location filename="../toakronastrings.cpp" line="108"/>
         <source>
-SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+SSL options: (see the Toakrona Wiki for SSL setup instructions)</source>
         <translation>
-SSL-opties: (zie de Bitcoin wiki voor SSL-instructies)</translation>
+SSL-opties: (zie de Toakrona wiki voor SSL-instructies)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="111"/>
+        <location filename="../toakronastrings.cpp" line="111"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>Gebruik OpenSSL (https) voor JSON-RPC verbindingen
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="112"/>
+        <location filename="../toakronastrings.cpp" line="112"/>
         <source>Server certificate file (default: server.cert)</source>
         <translation>Certificaat-bestand voor server (standaard: server.cert)
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="113"/>
+        <location filename="../toakronastrings.cpp" line="113"/>
         <source>Server private key (default: server.pem)</source>
         <translation>Geheime sleutel voor server (standaard: server.pem)
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="114"/>
+        <location filename="../toakronastrings.cpp" line="114"/>
         <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
         <translation>Aanvaardbare ciphers (standaard: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="145"/>
+        <location filename="../toakronastrings.cpp" line="145"/>
         <source>Warning: Disk space is low</source>
         <translation>Waarschuwing: Weinig schijfruimte vrij</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="107"/>
+        <location filename="../toakronastrings.cpp" line="107"/>
         <source>This help message</source>
         <translation>Dit helpbericht
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="121"/>
-        <source>Cannot obtain a lock on data directory %s.  Bitcoin is probably already running.</source>
-        <translation>Kan geen lock op de datamap %s verkrijgen. Bitcoin draait vermoedelijk reeds.</translation>
+        <location filename="../toakronastrings.cpp" line="121"/>
+        <source>Cannot obtain a lock on data directory %s.  Toakrona is probably already running.</source>
+        <translation>Kan geen lock op de datamap %s verkrijgen. Toakrona draait vermoedelijk reeds.</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="48"/>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <location filename="../toakronastrings.cpp" line="48"/>
+        <source>Toakrona</source>
+        <translation>Toakrona</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="30"/>
+        <location filename="../toakronastrings.cpp" line="30"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation>Niet in staat om aan %s te binden op deze computer (bind gaf error %d, %s)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="58"/>
+        <location filename="../toakronastrings.cpp" line="58"/>
         <source>Connect through socks proxy</source>
         <translation>Verbind via een socks-proxy</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="59"/>
+        <location filename="../toakronastrings.cpp" line="59"/>
         <source>Select the version of socks proxy to use (4 or 5, 5 is default)</source>
         <translation>Selecteer de versie van de socks proxy om te gebruiken (4 of 5, 5 is standaard)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="60"/>
+        <location filename="../toakronastrings.cpp" line="60"/>
         <source>Do not use proxy for connections to network &lt;net&gt; (IPv4 or IPv6)</source>
         <translation>Gebruik geen proxy voor verbindingen naar netwerk &lt;net&gt; (IPv4 of IPv6)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="61"/>
+        <location filename="../toakronastrings.cpp" line="61"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Sta DNS-naslag toe voor -addnode, -seednode en -connect</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="62"/>
+        <location filename="../toakronastrings.cpp" line="62"/>
         <source>Pass DNS requests to (SOCKS5) proxy</source>
         <translation>Stuur DNS-verzoeken via (SOCKS5)proxy</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="142"/>
+        <location filename="../toakronastrings.cpp" line="142"/>
         <source>Loading addresses...</source>
         <translation>Adressen aan het laden...</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="132"/>
+        <location filename="../toakronastrings.cpp" line="132"/>
         <source>Error loading blkindex.dat</source>
         <translation>Fout bij laden blkindex.dat</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="134"/>
+        <location filename="../toakronastrings.cpp" line="134"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
         <translation>Fout bij laden wallet.dat: Portemonnee corrupt</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="135"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Bitcoin</translation>
+        <location filename="../toakronastrings.cpp" line="135"/>
+        <source>Error loading wallet.dat: Wallet requires newer version of Toakrona</source>
+        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Toakrona</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="136"/>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Portemonnee moest herschreven worden: Herstart Bitcoin om te voltooien</translation>
+        <location filename="../toakronastrings.cpp" line="136"/>
+        <source>Wallet needed to be rewritten: restart Toakrona to complete</source>
+        <translation>Portemonnee moest herschreven worden: Herstart Toakrona om te voltooien</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="137"/>
+        <location filename="../toakronastrings.cpp" line="137"/>
         <source>Error loading wallet.dat</source>
         <translation>Fout bij laden wallet.dat</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="124"/>
+        <location filename="../toakronastrings.cpp" line="124"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation>Ongeldig -proxy adres: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="125"/>
+        <location filename="../toakronastrings.cpp" line="125"/>
         <source>Unknown network specified in -noproxy: &apos;%s&apos;</source>
         <translation>Onbekend netwerk gespecificeerd in -noproxy: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="127"/>
+        <location filename="../toakronastrings.cpp" line="127"/>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
         <translation>Onbekend netwerk gespecificeerd in -onlynet: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="126"/>
+        <location filename="../toakronastrings.cpp" line="126"/>
         <source>Unknown -socks proxy version requested: %i</source>
         <translation>Onbekende -socks proxyversie aangegeven: %i</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="128"/>
+        <location filename="../toakronastrings.cpp" line="128"/>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
         <translation>Kan -bind adres niet herleiden: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="129"/>
+        <location filename="../toakronastrings.cpp" line="129"/>
         <source>Not listening on any port</source>
         <translation>Op geen enkele poort aan het luisteren</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="130"/>
+        <location filename="../toakronastrings.cpp" line="130"/>
         <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
         <translation>Kan -externlip adres niet herleiden: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="117"/>
+        <location filename="../toakronastrings.cpp" line="117"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation>Ongeldig bedrag voor -paytxfee=&lt;bedrag&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="143"/>
+        <location filename="../toakronastrings.cpp" line="143"/>
         <source>Error: could not start node</source>
         <translation>Fout: Kon node niet starten</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="31"/>
+        <location filename="../toakronastrings.cpp" line="31"/>
         <source>Error: Wallet locked, unable to create transaction  </source>
         <translation>Fout: Portemonnee gesloten, transactie maken niet mogelijk </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="32"/>
+        <location filename="../toakronastrings.cpp" line="32"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds  </source>
         <translation>Fout: Deze transactie heeft transactiekosten nodig van tenminste %s, vanwege zijn grootte, ingewikkeldheid, of het gebruik van onlangs ontvangen munten </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="35"/>
+        <location filename="../toakronastrings.cpp" line="35"/>
         <source>Error: Transaction creation failed  </source>
         <translation>Fout: Aanmaak transactie mislukt</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="36"/>
+        <location filename="../toakronastrings.cpp" line="36"/>
         <source>Sending...</source>
         <translation>Aan het versturen...</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="37"/>
+        <location filename="../toakronastrings.cpp" line="37"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>Fout: De transactie was afgewezen. Dit kan gebeuren als u eerder uitgegeven munten opnieuw wilt versturen, zoals wanneer u een kopie van uw wallet.dat heeft gebruikt en in de kopie deze munten zijn gemarkeerd als uitgegeven, maar in de huidige nog niet.</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="41"/>
+        <location filename="../toakronastrings.cpp" line="41"/>
         <source>Invalid amount</source>
         <translation>Ongeldig aantal</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="42"/>
+        <location filename="../toakronastrings.cpp" line="42"/>
         <source>Insufficient funds</source>
         <translation>Ontoereikend saldo</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="131"/>
+        <location filename="../toakronastrings.cpp" line="131"/>
         <source>Loading block index...</source>
         <translation>Blokindex aan het laden...</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="65"/>
+        <location filename="../toakronastrings.cpp" line="65"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Voeg een knooppunt om te verbinden toe en probeer de verbinding open te houden</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="28"/>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation>Niet in staat om aan %s te binden op deze computer. Bitcoin draait vermoedelijk reeds.</translation>
+        <location filename="../toakronastrings.cpp" line="28"/>
+        <source>Unable to bind to %s on this computer. Toakrona is probably already running.</source>
+        <translation>Niet in staat om aan %s te binden op deze computer. Toakrona draait vermoedelijk reeds.</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="71"/>
+        <location filename="../toakronastrings.cpp" line="71"/>
         <source>Find peers using internet relay chat (default: 0)</source>
         <translation>Vind anderen door middel van Internet Relay Chat (standaard: 0)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="72"/>
+        <location filename="../toakronastrings.cpp" line="72"/>
         <source>Accept connections from outside (default: 1)</source>
         <translation>Accepteer verbindingen van buitenaf (standaard: 1)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="74"/>
+        <location filename="../toakronastrings.cpp" line="74"/>
         <source>Find peers using DNS lookup (default: 1)</source>
         <translation>Vind anderen door middel van een DNS-naslag (standaard: 1)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="81"/>
+        <location filename="../toakronastrings.cpp" line="81"/>
         <source>Use Universal Plug and Play to map the listening port (default: 1)</source>
         <translation>Gebruik Universal Plug and Play om de inkomende poort te mappen (standaard: 1)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="82"/>
+        <location filename="../toakronastrings.cpp" line="82"/>
         <source>Use Universal Plug and Play to map the listening port (default: 0)</source>
         <translation>Gebruik Universal Plug and Play om de inkomende poort te mappen (standaard: 0)</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="85"/>
+        <location filename="../toakronastrings.cpp" line="85"/>
         <source>Fee per KB to add to transactions you send</source>
         <translation>Kosten per KB om aan transacties toe te voegen die u verstuurt</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="118"/>
+        <location filename="../toakronastrings.cpp" line="118"/>
         <source>Warning: -paytxfee is set very high. This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Waarschuwing: -paytxfee is zeer hoog ingesteld.  Dit zijn de transactiekosten die u betaalt bij het versturen van een transactie.</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="133"/>
+        <location filename="../toakronastrings.cpp" line="133"/>
         <source>Loading wallet...</source>
         <translation>Portemonnee aan het laden...</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="138"/>
+        <location filename="../toakronastrings.cpp" line="138"/>
         <source>Cannot downgrade wallet</source>
         <translation>Kan portemonnee niet downgraden</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="139"/>
+        <location filename="../toakronastrings.cpp" line="139"/>
         <source>Cannot initialize keypool</source>
         <translation>Kan sleutel-pool niet initialiseren</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="140"/>
+        <location filename="../toakronastrings.cpp" line="140"/>
         <source>Cannot write default address</source>
         <translation>Kan standaard adres niet schrijven</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="141"/>
+        <location filename="../toakronastrings.cpp" line="141"/>
         <source>Rescanning...</source>
         <translation>Opnieuw aan het scannen ...</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="144"/>
+        <location filename="../toakronastrings.cpp" line="144"/>
         <source>Done loading</source>
         <translation>Klaar met laden</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="8"/>
+        <location filename="../toakronastrings.cpp" line="8"/>
         <source>To use the %s option</source>
         <translation>Om de %s optie te gebruiken</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="9"/>
+        <location filename="../toakronastrings.cpp" line="9"/>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=toakronarpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -2512,24 +2512,24 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation>%s, je moet een rpcpassword instellen in het configuratie bestand:
  %s
 Het is aangeraden het volgende willekeurig wachtwoord te gebruiken:
-rpccuser=bitcoinrpc
+rpccuser=toakronarpc
 rpcpassword=%s
 (het is niet nodig om het wachtwoord te onthouden)
 Als het bestand niet bestaat, maak het aan, met een alleen-lezen permissie.
 </translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="18"/>
+        <location filename="../toakronastrings.cpp" line="18"/>
         <source>Error</source>
         <translation>Fout</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="19"/>
+        <location filename="../toakronastrings.cpp" line="19"/>
         <source>An error occured while setting up the RPC port %i for listening: %s</source>
         <translation>Er is een fout opgetreden tijdens het opzetten van de inkomende RPC-poort %i: %s</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="20"/>
+        <location filename="../toakronastrings.cpp" line="20"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
@@ -2538,9 +2538,9 @@ If the file does not exist, create it with owner-readable-only file permissions.
 Als het bestand niet bestaat, maak het dan aan, met een alleen-lezen permissie.</translation>
     </message>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="25"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Bitcoin niet correct werken.</translation>
+        <location filename="../toakronastrings.cpp" line="25"/>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Toakrona will not work properly.</source>
+        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Toakrona niet correct werken.</translation>
     </message>
 </context>
 </TS>

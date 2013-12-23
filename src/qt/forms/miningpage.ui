@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MiningPage</class>
- <widget class="QWidget" name="MiningPage">
+ <class>PlumbingPage</class>
+ <widget class="QWidget" name="PlumbingPage">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Mining</string>
+   <string>Plumbing</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <property name="sizeConstraint">
@@ -83,7 +83,7 @@
       </sizepolicy>
      </property>
      <property name="text">
-      <string>Start Mining</string>
+      <string>Start Plumbing</string>
      </property>
     </widget>
    </item>
@@ -202,12 +202,12 @@
      </property>
      <item>
       <property name="text">
-       <string>Solo Mining</string>
+       <string>Solo Plumbing</string>
       </property>
      </item>
      <item>
       <property name="text">
-       <string>Pool Mining</string>
+       <string>Pool Plumbing</string>
       </property>
      </item>
     </widget>

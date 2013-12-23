@@ -1,5 +1,5 @@
-bitcoin-qt usr/bin
-share/pixmaps/bitcoin32.xpm usr/share/pixmaps
-share/pixmaps/bitcoin80.xpm usr/share/pixmaps
-debian/bitcoin-qt.desktop usr/share/applications
-debian/bitcoin-qt.protocol usr/share/kde4/services/
+toakrona-qt usr/bin
+share/pixmaps/toakrona32.xpm usr/share/pixmaps
+share/pixmaps/toakrona80.xpm usr/share/pixmaps
+debian/toakrona-qt.desktop usr/share/applications
+debian/toakrona-qt.protocol usr/share/kde4/services/

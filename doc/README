@@ -1,6 +1,6 @@
 ToaKrona 1.0
 
-Copyright (c) 2009-2012 Bitcoin Developers
+Copyright (c) 2009-2012 Toakrona Developers
 Copyright (c) 2011-2012 Litecoin Developers
 Copyright (c) 2013 adam m!
 
@@ -31,6 +31,6 @@ Unpack the files into a directory and run:
  bin/64/toakrona (headless, 64-bit)
 
 
-See the documentation at the bitcoin wiki:
-  https://en.bitcoin.it/wiki/Main_Page
+See the documentation at the toakrona wiki:
+  https://en.toakrona.it/wiki/Main_Page
 for help and more information.

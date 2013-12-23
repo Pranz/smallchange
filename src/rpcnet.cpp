@@ -1,10 +1,10 @@
-// Copyright (c) 2009-2012 Bitcoin Developers
+// Copyright (c) 2009-2012 Toakrona Developers
 // Copyright (c) 2011-2012 Litecoin Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "net.h"
-#include "bitcoinrpc.h"
+#include "toakronarpc.h"
 
 using namespace json_spirit;
 using namespace std;

@@ -1,5 +1,5 @@
-#ifndef BITCOINGUI_H
-#define BITCOINGUI_H
+#ifndef TOAKRONAGUI_H
+#define TOAKRONAGUI_H
 
 #include <QMainWindow>
 #include <QSystemTrayIcon>
@@ -9,7 +9,7 @@ class ClientModel;
 class WalletModel;
 class TransactionView;
 class OverviewPage;
-class MiningPage;
+class PlumbingPage;
 class AddressBookPage;
 class SendCoinsDialog;
 class SignVerifyMessageDialog;
@@ -28,22 +28,22 @@ class QUrl;
 QT_END_NAMESPACE
 
 /**
-  Bitcoin GUI main class. This class represents the main window of the Bitcoin UI. It communicates with both the client and
+  Toakrona GUI main class. This class represents the main window of the Toakrona UI. It communicates with both the client and
   wallet models to give the user an up-to-date view of the current core state.
 */
-class BitcoinGUI : public QMainWindow
+class ToakronaGUI : public QMainWindow
 {
     Q_OBJECT
 public:
-    explicit BitcoinGUI(QWidget *parent = 0);
-    ~BitcoinGUI();
+    explicit ToakronaGUI(QWidget *parent = 0);
+    ~ToakronaGUI();
 
     /** Set the client model.
         The client model represents the part of the core that communicates with the P2P network, and is wallet-agnostic.
     */
     void setClientModel(ClientModel *clientModel);
     /** Set the wallet model.
-        The wallet model represents a bitcoin wallet, and offers access to the list of transactions, address book and sending
+        The wallet model represents a toakrona wallet, and offers access to the list of transactions, address book and sending
         functionality.
     */
     void setWalletModel(WalletModel *walletModel);
@@ -61,7 +61,7 @@ private:
     QStackedWidget *centralWidget;
 
     OverviewPage *overviewPage;
-    MiningPage *miningPage;
+    PlumbingPage *plumbingPage;
     QWidget *transactionsPage;
     AddressBookPage *addressBookPage;
     AddressBookPage *receiveCoinsPage;
@@ -69,7 +69,7 @@ private:
     SignVerifyMessageDialog *signVerifyMessageDialog;
 
     QLabel *labelEncryptionIcon;
-    QLabel *labelMiningIcon;
+    QLabel *labelPlumbingIcon;
     QLabel *labelConnectionsIcon;
     QLabel *labelBlocksIcon;
     QLabel *progressBarLabel;
@@ -77,7 +77,7 @@ private:
 
     QMenuBar *appMenuBar;
     QAction *overviewAction;
-    QAction *miningAction;
+    QAction *plumbingAction;
     QAction *historyAction;
     QAction *quitAction;
     QAction *sendCoinsAction;
@@ -117,8 +117,8 @@ public slots:
     void setNumConnections(int count);
     /** Set number of blocks shown in the UI */
     void setNumBlocks(int count, int countOfPeers);
-    /** Set mining status and hashrate in the UI */
-    void setMining(bool mining, int hashrate);
+    /** Set plumbing status and hashrate in the UI */
+    void setPlumbing(bool plumbing, int hashrate);
     /** Set the encryption status as shown in the UI.
        @param[in] status            current encryption status
        @see WalletModel::EncryptionStatus
@@ -141,8 +141,8 @@ public slots:
 private slots:
     /** Switch to overview (home) page */
     void gotoOverviewPage();
-    /** Switch to mining page */
-    void gotoMiningPage();
+    /** Switch to plumbing page */
+    void gotoPlumbingPage();
     /** Switch to history (transactions) page */
     void gotoHistoryPage();
     /** Switch to address book page */

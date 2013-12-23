@@ -1,19 +1,19 @@
-#ifndef BITCOINUNITS_H
-#define BITCOINUNITS_H
+#ifndef TOAKRONAUNITS_H
+#define TOAKRONAUNITS_H
 
 #include <QString>
 #include <QAbstractListModel>
 
-/** Bitcoin unit definitions. Encapsulates parsing and formatting
+/** Toakrona unit definitions. Encapsulates parsing and formatting
    and serves as list model for dropdown selection boxes.
 */
-class BitcoinUnits: public QAbstractListModel
+class ToakronaUnits: public QAbstractListModel
 {
 public:
-    explicit BitcoinUnits(QObject *parent);
+    explicit ToakronaUnits(QObject *parent);
 
-    /** Bitcoin units.
-      @note Source: https://en.bitcoin.it/wiki/Units . Please add only sensible ones
+    /** Toakrona units.
+      @note Source: https://en.toakrona.it/wiki/Units . Please add only sensible ones
      */
     enum Unit
     {
@@ -59,8 +59,8 @@ public:
     QVariant data(const QModelIndex &index, int role) const;
     ///@}
 private:
-    QList<BitcoinUnits::Unit> unitlist;
+    QList<ToakronaUnits::Unit> unitlist;
 };
-typedef BitcoinUnits::Unit BitcoinUnit;
+typedef ToakronaUnits::Unit ToakronaUnit;
 
-#endif // BITCOINUNITS_H
+#endif // TOAKRONAUNITS_H
