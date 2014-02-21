@@ -1,24 +1,21 @@
-#ifndef TOAKRONAADDRESSVALIDATOR_H
-#define TOAKRONAADDRESSVALIDATOR_H
+#ifndef BITCOINADDRESSVALIDATOR_H
+#define BITCOINADDRESSVALIDATOR_H
 
-#include <QRegExpValidator>
+#include <QValidator>
 
-/** Base48 entry widget validator.
-   Corrects near-miss characters and refuses characters that are no part of base48.
+/** Base58 entry widget validator.
+   Corrects near-miss characters and refuses characters that are not part of base58.
  */
-class ToakronaAddressValidator : public QValidator
+class BitcoinAddressValidator : public QValidator
 {
     Q_OBJECT
+
 public:
-    explicit ToakronaAddressValidator(QObject *parent = 0);
+    explicit BitcoinAddressValidator(QObject *parent = 0);
 
     State validate(QString &input, int &pos) const;
 
     static const int MaxAddressLength = 35;
-signals:
-
-public slots:
-
 };
 
-#endif // TOAKRONAADDRESSVALIDATOR_H
+#endif // BITCOINADDRESSVALIDATOR_H

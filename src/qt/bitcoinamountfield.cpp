@@ -1,20 +1,16 @@
 #include "bitcoinamountfield.h"
+
 #include "qvaluecombobox.h"
 #include "bitcoinunits.h"
-
 #include "guiconstants.h"
 
-#include <QLabel>
-#include <QLineEdit>
-#include <QRegExpValidator>
 #include <QHBoxLayout>
 #include <QKeyEvent>
 #include <QDoubleSpinBox>
-#include <QComboBox>
 #include <QApplication>
-#include <qmath.h>
+#include <qmath.h> // for qPow()
 
-ToakronaAmountField::ToakronaAmountField(QWidget *parent):
+BitcoinAmountField::BitcoinAmountField(QWidget *parent):
         QWidget(parent), amount(0), currentUnit(-1)
 {
     amount = new QDoubleSpinBox(this);
@@ -27,7 +23,7 @@ ToakronaAmountField::ToakronaAmountField(QWidget *parent):
     QHBoxLayout *layout = new QHBoxLayout(this);
     layout->addWidget(amount);
     unit = new QValueComboBox(this);
-    unit->setModel(new ToakronaUnits(this));
+    unit->setModel(new BitcoinUnits(this));
     layout->addWidget(unit);
     layout->addStretch(1);
     layout->setContentsMargins(0,0,0,0);
@@ -45,7 +41,7 @@ ToakronaAmountField::ToakronaAmountField(QWidget *parent):
     unitChanged(unit->currentIndex());
 }
 
-void ToakronaAmountField::setText(const QString &text)
+void BitcoinAmountField::setText(const QString &text)
 {
     if (text.isEmpty())
         amount->clear();
@@ -53,18 +49,18 @@ void ToakronaAmountField::setText(const QString &text)
         amount->setValue(text.toDouble());
 }
 
-void ToakronaAmountField::clear()
+void BitcoinAmountField::clear()
 {
     amount->clear();
     unit->setCurrentIndex(0);
 }
 
-bool ToakronaAmountField::validate()
+bool BitcoinAmountField::validate()
 {
     bool valid = true;
     if (amount->value() == 0.0)
         valid = false;
-    if (valid && !ToakronaUnits::parse(currentUnit, text(), 0))
+    if (valid && !BitcoinUnits::parse(currentUnit, text(), 0))
         valid = false;
 
     setValid(valid);
@@ -72,7 +68,7 @@ bool ToakronaAmountField::validate()
     return valid;
 }
 
-void ToakronaAmountField::setValid(bool valid)
+void BitcoinAmountField::setValid(bool valid)
 {
     if (valid)
         amount->setStyleSheet("");
@@ -80,7 +76,7 @@ void ToakronaAmountField::setValid(bool valid)
         amount->setStyleSheet(STYLE_INVALID);
 }
 
-QString ToakronaAmountField::text() const
+QString BitcoinAmountField::text() const
 {
     if (amount->text().isEmpty())
         return QString();
@@ -88,7 +84,7 @@ QString ToakronaAmountField::text() const
         return amount->text();
 }
 
-bool ToakronaAmountField::eventFilter(QObject *object, QEvent *event)
+bool BitcoinAmountField::eventFilter(QObject *object, QEvent *event)
 {
     if (event->type() == QEvent::FocusIn)
     {
@@ -102,23 +98,23 @@ bool ToakronaAmountField::eventFilter(QObject *object, QEvent *event)
         {
             // Translate a comma into a period
             QKeyEvent periodKeyEvent(event->type(), Qt::Key_Period, keyEvent->modifiers(), ".", keyEvent->isAutoRepeat(), keyEvent->count());
-            qApp->sendEvent(object, &periodKeyEvent);
+            QApplication::sendEvent(object, &periodKeyEvent);
             return true;
         }
     }
     return QWidget::eventFilter(object, event);
 }
 
-QWidget *ToakronaAmountField::setupTabChain(QWidget *prev)
+QWidget *BitcoinAmountField::setupTabChain(QWidget *prev)
 {
     QWidget::setTabOrder(prev, amount);
     return amount;
 }
 
-qint64 ToakronaAmountField::value(bool *valid_out) const
+qint64 BitcoinAmountField::value(bool *valid_out) const
 {
     qint64 val_out = 0;
-    bool valid = ToakronaUnits::parse(currentUnit, text(), &val_out);
+    bool valid = BitcoinUnits::parse(currentUnit, text(), &val_out);
     if(valid_out)
     {
         *valid_out = valid;
@@ -126,18 +122,18 @@ qint64 ToakronaAmountField::value(bool *valid_out) const
     return val_out;
 }
 
-void ToakronaAmountField::setValue(qint64 value)
+void BitcoinAmountField::setValue(qint64 value)
 {
-    setText(ToakronaUnits::format(currentUnit, value));
+    setText(BitcoinUnits::format(currentUnit, value));
 }
 
-void ToakronaAmountField::unitChanged(int idx)
+void BitcoinAmountField::unitChanged(int idx)
 {
     // Use description tooltip for current unit for the combobox
     unit->setToolTip(unit->itemData(idx, Qt::ToolTipRole).toString());
 
     // Determine new unit ID
-    int newUnit = unit->itemData(idx, ToakronaUnits::UnitRole).toInt();
+    int newUnit = unit->itemData(idx, BitcoinUnits::UnitRole).toInt();
 
     // Parse current value and convert to new unit
     bool valid = false;
@@ -146,8 +142,13 @@ void ToakronaAmountField::unitChanged(int idx)
     currentUnit = newUnit;
 
     // Set max length after retrieving the value, to prevent truncation
-    amount->setDecimals(ToakronaUnits::decimals(currentUnit));
-    amount->setMaximum(qPow(10, ToakronaUnits::amountDigits(currentUnit)) - qPow(10, -amount->decimals()));
+    amount->setDecimals(BitcoinUnits::decimals(currentUnit));
+    amount->setMaximum(qPow(10, BitcoinUnits::amountDigits(currentUnit)) - qPow(10, -amount->decimals()));
+
+    if(currentUnit == BitcoinUnits::uBTC)
+        amount->setSingleStep(0.01);
+    else
+        amount->setSingleStep(0.001);
 
     if(valid)
     {
@@ -162,7 +163,7 @@ void ToakronaAmountField::unitChanged(int idx)
     setValid(true);
 }
 
-void ToakronaAmountField::setDisplayUnit(int newUnit)
+void BitcoinAmountField::setDisplayUnit(int newUnit)
 {
     unit->setValue(newUnit);
 }

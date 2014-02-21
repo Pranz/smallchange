@@ -1,2 +1,1 @@
-debian/bin/toakronad usr/bin
-src/toakronad usr/lib/toakrona
+src/bitcoind usr/bin

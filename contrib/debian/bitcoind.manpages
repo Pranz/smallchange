@@ -1,2 +1,2 @@
-debian/manpages/toakronad.1
-debian/manpages/toakrona.conf.5
+debian/manpages/bitcoind.1
+debian/manpages/bitcoin.conf.5

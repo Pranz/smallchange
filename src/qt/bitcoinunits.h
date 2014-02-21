@@ -1,19 +1,21 @@
-#ifndef TOAKRONAUNITS_H
-#define TOAKRONAUNITS_H
+#ifndef BITCOINUNITS_H
+#define BITCOINUNITS_H
 
 #include <QString>
 #include <QAbstractListModel>
 
-/** Toakrona unit definitions. Encapsulates parsing and formatting
-   and serves as list model for dropdown selection boxes.
+/** Bitcoin unit definitions. Encapsulates parsing and formatting
+   and serves as list model for drop-down selection boxes.
 */
-class ToakronaUnits: public QAbstractListModel
+class BitcoinUnits: public QAbstractListModel
 {
-public:
-    explicit ToakronaUnits(QObject *parent);
+    Q_OBJECT
 
-    /** Toakrona units.
-      @note Source: https://en.toakrona.it/wiki/Units . Please add only sensible ones
+public:
+    explicit BitcoinUnits(QObject *parent);
+
+    /** Bitcoin units.
+      @note Source: https://en.bitcoin.it/wiki/Units . Please add only sensible ones
      */
     enum Unit
     {
@@ -26,7 +28,7 @@ public:
     //! Unit conversion and formatting
     ///@{
 
-    //! Get list of units, for dropdown box
+    //! Get list of units, for drop-down box
     static QList<Unit> availableUnits();
     //! Is unit ID valid?
     static bool valid(int unit);
@@ -49,7 +51,7 @@ public:
     ///@}
 
     //! @name AbstractListModel implementation
-    //! List model for unit dropdown selection box.
+    //! List model for unit drop-down selection box.
     ///@{
     enum RoleIndex {
         /** Unit identifier */
@@ -58,9 +60,10 @@ public:
     int rowCount(const QModelIndex &parent) const;
     QVariant data(const QModelIndex &index, int role) const;
     ///@}
-private:
-    QList<ToakronaUnits::Unit> unitlist;
-};
-typedef ToakronaUnits::Unit ToakronaUnit;
 
-#endif // TOAKRONAUNITS_H
+private:
+    QList<BitcoinUnits::Unit> unitlist;
+};
+typedef BitcoinUnits::Unit BitcoinUnit;
+
+#endif // BITCOINUNITS_H

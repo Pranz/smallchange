@@ -1,6 +1,6 @@
 [Protocol]
-exec=toakrona-qt '%u'
-protocol=toakrona
+exec=bitcoin-qt '%u'
+protocol=bitcoin
 input=none
 output=none
 helper=true

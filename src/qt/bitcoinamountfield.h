@@ -1,5 +1,5 @@
-#ifndef TOAKRONAFIELD_H
-#define TOAKRONAFIELD_H
+#ifndef BITCOINAMOUNTFIELD_H
+#define BITCOINAMOUNTFIELD_H
 
 #include <QWidget>
 
@@ -8,14 +8,16 @@ class QDoubleSpinBox;
 class QValueComboBox;
 QT_END_NAMESPACE
 
-/** Widget for entering toakrona amounts.
+/** Widget for entering bitcoin amounts.
   */
-class ToakronaAmountField: public QWidget
+class BitcoinAmountField: public QWidget
 {
     Q_OBJECT
+
     Q_PROPERTY(qint64 value READ value WRITE setValue NOTIFY textChanged USER true)
+
 public:
-    explicit ToakronaAmountField(QWidget *parent = 0);
+    explicit BitcoinAmountField(QWidget *parent = 0);
 
     qint64 value(bool *valid=0) const;
     void setValue(qint64 value);
@@ -31,7 +33,7 @@ public:
     /** Make field empty and ready for new input. */
     void clear();
 
-    /** Qt messes up the tab chain by default in some cases (issue http://bugreports.qt.nokia.com/browse/QTBUG-10907),
+    /** Qt messes up the tab chain by default in some cases (issue https://bugreports.qt-project.org/browse/QTBUG-10907),
         in these cases we have to set it up manually.
     */
     QWidget *setupTabChain(QWidget *prev);
@@ -40,7 +42,7 @@ signals:
     void textChanged();
 
 protected:
-    /** Intercept focus-in event and ',' keypresses */
+    /** Intercept focus-in event and ',' key presses */
     bool eventFilter(QObject *object, QEvent *event);
 
 private:
@@ -56,5 +58,4 @@ private slots:
 
 };
 
-
-#endif // TOAKRONAFIELD_H
+#endif // BITCOINAMOUNTFIELD_H

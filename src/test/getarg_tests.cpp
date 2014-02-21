@@ -13,7 +13,7 @@ ResetArgs(const std::string& strArg)
     boost::split(vecArg, strArg, boost::is_space(), boost::token_compress_on);
 
     // Insert dummy executable name:
-    vecArg.insert(vecArg.begin(), "testtoakrona");
+    vecArg.insert(vecArg.begin(), "testbitcoin");
 
     // Convert to char*:
     std::vector<const char*> vecChar;
@@ -25,143 +25,143 @@ ResetArgs(const std::string& strArg)
 
 BOOST_AUTO_TEST_CASE(boolarg)
 {
-    ResetArgs("-TOA");
-    BOOST_CHECK(GetBoolArg("-TOA"));
-    BOOST_CHECK(GetBoolArg("-TOA", false));
-    BOOST_CHECK(GetBoolArg("-TOA", true));
+    ResetArgs("-foo");
+    BOOST_CHECK(GetBoolArg("-foo"));
+    BOOST_CHECK(GetBoolArg("-foo", false));
+    BOOST_CHECK(GetBoolArg("-foo", true));
 
     BOOST_CHECK(!GetBoolArg("-fo"));
     BOOST_CHECK(!GetBoolArg("-fo", false));
     BOOST_CHECK(GetBoolArg("-fo", true));
 
-    BOOST_CHECK(!GetBoolArg("-TOAo"));
-    BOOST_CHECK(!GetBoolArg("-TOAo", false));
-    BOOST_CHECK(GetBoolArg("-TOAo", true));
+    BOOST_CHECK(!GetBoolArg("-fooo"));
+    BOOST_CHECK(!GetBoolArg("-fooo", false));
+    BOOST_CHECK(GetBoolArg("-fooo", true));
 
-    ResetArgs("-TOA=0");
-    BOOST_CHECK(!GetBoolArg("-TOA"));
-    BOOST_CHECK(!GetBoolArg("-TOA", false));
-    BOOST_CHECK(!GetBoolArg("-TOA", true));
+    ResetArgs("-foo=0");
+    BOOST_CHECK(!GetBoolArg("-foo"));
+    BOOST_CHECK(!GetBoolArg("-foo", false));
+    BOOST_CHECK(!GetBoolArg("-foo", true));
 
-    ResetArgs("-TOA=1");
-    BOOST_CHECK(GetBoolArg("-TOA"));
-    BOOST_CHECK(GetBoolArg("-TOA", false));
-    BOOST_CHECK(GetBoolArg("-TOA", true));
+    ResetArgs("-foo=1");
+    BOOST_CHECK(GetBoolArg("-foo"));
+    BOOST_CHECK(GetBoolArg("-foo", false));
+    BOOST_CHECK(GetBoolArg("-foo", true));
 
     // New 0.6 feature: auto-map -nosomething to !-something:
-    ResetArgs("-noTOA");
-    BOOST_CHECK(!GetBoolArg("-TOA"));
-    BOOST_CHECK(!GetBoolArg("-TOA", false));
-    BOOST_CHECK(!GetBoolArg("-TOA", true));
+    ResetArgs("-nofoo");
+    BOOST_CHECK(!GetBoolArg("-foo"));
+    BOOST_CHECK(!GetBoolArg("-foo", false));
+    BOOST_CHECK(!GetBoolArg("-foo", true));
 
-    ResetArgs("-noTOA=1");
-    BOOST_CHECK(!GetBoolArg("-TOA"));
-    BOOST_CHECK(!GetBoolArg("-TOA", false));
-    BOOST_CHECK(!GetBoolArg("-TOA", true));
+    ResetArgs("-nofoo=1");
+    BOOST_CHECK(!GetBoolArg("-foo"));
+    BOOST_CHECK(!GetBoolArg("-foo", false));
+    BOOST_CHECK(!GetBoolArg("-foo", true));
 
-    ResetArgs("-TOA -noTOA");  // -TOA should win
-    BOOST_CHECK(GetBoolArg("-TOA"));
-    BOOST_CHECK(GetBoolArg("-TOA", false));
-    BOOST_CHECK(GetBoolArg("-TOA", true));
+    ResetArgs("-foo -nofoo");  // -foo should win
+    BOOST_CHECK(GetBoolArg("-foo"));
+    BOOST_CHECK(GetBoolArg("-foo", false));
+    BOOST_CHECK(GetBoolArg("-foo", true));
 
-    ResetArgs("-TOA=1 -noTOA=1");  // -TOA should win
-    BOOST_CHECK(GetBoolArg("-TOA"));
-    BOOST_CHECK(GetBoolArg("-TOA", false));
-    BOOST_CHECK(GetBoolArg("-TOA", true));
+    ResetArgs("-foo=1 -nofoo=1");  // -foo should win
+    BOOST_CHECK(GetBoolArg("-foo"));
+    BOOST_CHECK(GetBoolArg("-foo", false));
+    BOOST_CHECK(GetBoolArg("-foo", true));
 
-    ResetArgs("-TOA=0 -noTOA=0");  // -TOA should win
-    BOOST_CHECK(!GetBoolArg("-TOA"));
-    BOOST_CHECK(!GetBoolArg("-TOA", false));
-    BOOST_CHECK(!GetBoolArg("-TOA", true));
+    ResetArgs("-foo=0 -nofoo=0");  // -foo should win
+    BOOST_CHECK(!GetBoolArg("-foo"));
+    BOOST_CHECK(!GetBoolArg("-foo", false));
+    BOOST_CHECK(!GetBoolArg("-foo", true));
 
     // New 0.6 feature: treat -- same as -:
-    ResetArgs("--TOA=1");
-    BOOST_CHECK(GetBoolArg("-TOA"));
-    BOOST_CHECK(GetBoolArg("-TOA", false));
-    BOOST_CHECK(GetBoolArg("-TOA", true));
+    ResetArgs("--foo=1");
+    BOOST_CHECK(GetBoolArg("-foo"));
+    BOOST_CHECK(GetBoolArg("-foo", false));
+    BOOST_CHECK(GetBoolArg("-foo", true));
 
-    ResetArgs("--noTOA=1");
-    BOOST_CHECK(!GetBoolArg("-TOA"));
-    BOOST_CHECK(!GetBoolArg("-TOA", false));
-    BOOST_CHECK(!GetBoolArg("-TOA", true));
+    ResetArgs("--nofoo=1");
+    BOOST_CHECK(!GetBoolArg("-foo"));
+    BOOST_CHECK(!GetBoolArg("-foo", false));
+    BOOST_CHECK(!GetBoolArg("-foo", true));
 
 }
 
 BOOST_AUTO_TEST_CASE(stringarg)
 {
     ResetArgs("");
-    BOOST_CHECK_EQUAL(GetArg("-TOA", ""), "");
-    BOOST_CHECK_EQUAL(GetArg("-TOA", "eleven"), "eleven");
+    BOOST_CHECK_EQUAL(GetArg("-foo", ""), "");
+    BOOST_CHECK_EQUAL(GetArg("-foo", "eleven"), "eleven");
 
-    ResetArgs("-TOA -bar");
-    BOOST_CHECK_EQUAL(GetArg("-TOA", ""), "");
-    BOOST_CHECK_EQUAL(GetArg("-TOA", "eleven"), "");
+    ResetArgs("-foo -bar");
+    BOOST_CHECK_EQUAL(GetArg("-foo", ""), "");
+    BOOST_CHECK_EQUAL(GetArg("-foo", "eleven"), "");
 
-    ResetArgs("-TOA=");
-    BOOST_CHECK_EQUAL(GetArg("-TOA", ""), "");
-    BOOST_CHECK_EQUAL(GetArg("-TOA", "eleven"), "");
+    ResetArgs("-foo=");
+    BOOST_CHECK_EQUAL(GetArg("-foo", ""), "");
+    BOOST_CHECK_EQUAL(GetArg("-foo", "eleven"), "");
 
-    ResetArgs("-TOA=11");
-    BOOST_CHECK_EQUAL(GetArg("-TOA", ""), "11");
-    BOOST_CHECK_EQUAL(GetArg("-TOA", "eleven"), "11");
+    ResetArgs("-foo=11");
+    BOOST_CHECK_EQUAL(GetArg("-foo", ""), "11");
+    BOOST_CHECK_EQUAL(GetArg("-foo", "eleven"), "11");
 
-    ResetArgs("-TOA=eleven");
-    BOOST_CHECK_EQUAL(GetArg("-TOA", ""), "eleven");
-    BOOST_CHECK_EQUAL(GetArg("-TOA", "eleven"), "eleven");
+    ResetArgs("-foo=eleven");
+    BOOST_CHECK_EQUAL(GetArg("-foo", ""), "eleven");
+    BOOST_CHECK_EQUAL(GetArg("-foo", "eleven"), "eleven");
 
 }
 
 BOOST_AUTO_TEST_CASE(intarg)
 {
     ResetArgs("");
-    BOOST_CHECK_EQUAL(GetArg("-TOA", 11), 11);
-    BOOST_CHECK_EQUAL(GetArg("-TOA", 0), 0);
+    BOOST_CHECK_EQUAL(GetArg("-foo", 11), 11);
+    BOOST_CHECK_EQUAL(GetArg("-foo", 0), 0);
 
-    ResetArgs("-TOA -bar");
-    BOOST_CHECK_EQUAL(GetArg("-TOA", 11), 0);
+    ResetArgs("-foo -bar");
+    BOOST_CHECK_EQUAL(GetArg("-foo", 11), 0);
     BOOST_CHECK_EQUAL(GetArg("-bar", 11), 0);
 
-    ResetArgs("-TOA=11 -bar=12");
-    BOOST_CHECK_EQUAL(GetArg("-TOA", 0), 11);
+    ResetArgs("-foo=11 -bar=12");
+    BOOST_CHECK_EQUAL(GetArg("-foo", 0), 11);
     BOOST_CHECK_EQUAL(GetArg("-bar", 11), 12);
 
-    ResetArgs("-TOA=NaN -bar=NotANumber");
-    BOOST_CHECK_EQUAL(GetArg("-TOA", 1), 0);
+    ResetArgs("-foo=NaN -bar=NotANumber");
+    BOOST_CHECK_EQUAL(GetArg("-foo", 1), 0);
     BOOST_CHECK_EQUAL(GetArg("-bar", 11), 0);
 }
 
 BOOST_AUTO_TEST_CASE(doubledash)
 {
-    ResetArgs("--TOA");
-    BOOST_CHECK_EQUAL(GetBoolArg("-TOA"), true);
+    ResetArgs("--foo");
+    BOOST_CHECK_EQUAL(GetBoolArg("-foo"), true);
 
-    ResetArgs("--TOA=verbose --bar=1");
-    BOOST_CHECK_EQUAL(GetArg("-TOA", ""), "verbose");
+    ResetArgs("--foo=verbose --bar=1");
+    BOOST_CHECK_EQUAL(GetArg("-foo", ""), "verbose");
     BOOST_CHECK_EQUAL(GetArg("-bar", 0), 1);
 }
 
 BOOST_AUTO_TEST_CASE(boolargno)
 {
-    ResetArgs("-noTOA");
-    BOOST_CHECK(!GetBoolArg("-TOA"));
-    BOOST_CHECK(!GetBoolArg("-TOA", true));
-    BOOST_CHECK(!GetBoolArg("-TOA", false));
+    ResetArgs("-nofoo");
+    BOOST_CHECK(!GetBoolArg("-foo"));
+    BOOST_CHECK(!GetBoolArg("-foo", true));
+    BOOST_CHECK(!GetBoolArg("-foo", false));
 
-    ResetArgs("-noTOA=1");
-    BOOST_CHECK(!GetBoolArg("-TOA"));
-    BOOST_CHECK(!GetBoolArg("-TOA", true));
-    BOOST_CHECK(!GetBoolArg("-TOA", false));
+    ResetArgs("-nofoo=1");
+    BOOST_CHECK(!GetBoolArg("-foo"));
+    BOOST_CHECK(!GetBoolArg("-foo", true));
+    BOOST_CHECK(!GetBoolArg("-foo", false));
 
-    ResetArgs("-noTOA=0");
-    BOOST_CHECK(GetBoolArg("-TOA"));
-    BOOST_CHECK(GetBoolArg("-TOA", true));
-    BOOST_CHECK(GetBoolArg("-TOA", false));
+    ResetArgs("-nofoo=0");
+    BOOST_CHECK(GetBoolArg("-foo"));
+    BOOST_CHECK(GetBoolArg("-foo", true));
+    BOOST_CHECK(GetBoolArg("-foo", false));
 
-    ResetArgs("-TOA --noTOA");
-    BOOST_CHECK(GetBoolArg("-TOA"));
+    ResetArgs("-foo --nofoo");
+    BOOST_CHECK(GetBoolArg("-foo"));
 
-    ResetArgs("-noTOA -TOA"); // TOA always wins:
-    BOOST_CHECK(GetBoolArg("-TOA"));
+    ResetArgs("-nofoo -foo"); // foo always wins:
+    BOOST_CHECK(GetBoolArg("-foo"));
 }
 
 BOOST_AUTO_TEST_SUITE_END()
