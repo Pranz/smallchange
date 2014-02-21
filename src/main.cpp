@@ -2758,7 +2758,6 @@ bool InitBlockIndex() {
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
-        assert(txNew.vin[0].scriptSig.size()<= 100);
 
         txNew.vout.resize(2);
         txNew.vout[0].nValue = 50 * COIN;
