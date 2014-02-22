@@ -272,7 +272,7 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 66, // Toakrona addresses start with T (Magic number? 25=A 26=B 27=C 30=E 68=U)
+        PUBKEY_ADDRESS = 66, // Toakrona addresses start with T (Magic number? 25=A 26=B 27=C 30=E 68=U 66=T)
         SCRIPT_ADDRESS = 5,
         PUBKEY_ADDRESS_TEST = 111,
         SCRIPT_ADDRESS_TEST = 196,
