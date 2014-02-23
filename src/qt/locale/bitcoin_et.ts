@@ -1406,8 +1406,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Tehingu saaja aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to (e.g. Tf9Uc7JHxfhiczByKPfe5qxP2eGK3CzkHq)</source>
+        <translation>Tehingu saaja aadress (nt: Tf9Uc7JHxfhiczByKPfe5qxP2eGK3CzkHq)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1447,8 +1447,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Toakrona address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sisesta Toakronai aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Toakrona address (e.g. Tf9Uc7JHxfhiczByKPfe5qxP2eGK3CzkHq)</source>
+        <translation>Sisesta Toakronai aadress (nt: Tf9Uc7JHxfhiczByKPfe5qxP2eGK3CzkHq)</translation>
     </message>
 </context>
 <context>
@@ -1470,8 +1470,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sõnumi signeerimise aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. Tf9Uc7JHxfhiczByKPfe5qxP2eGK3CzkHq)</source>
+        <translation>Sõnumi signeerimise aadress (nt: Tf9Uc7JHxfhiczByKPfe5qxP2eGK3CzkHq)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1543,8 +1543,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Aadress, millega sõnum allkirjastati (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. Tf9Uc7JHxfhiczByKPfe5qxP2eGK3CzkHq)</source>
+        <translation>Aadress, millega sõnum allkirjastati (nt: Tf9Uc7JHxfhiczByKPfe5qxP2eGK3CzkHq)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1564,8 +1564,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Toakrona address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sisesta Toakronai aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Toakrona address (e.g. Tf9Uc7JHxfhiczByKPfe5qxP2eGK3CzkHq)</source>
+        <translation>Sisesta Toakronai aadress (nt: Tf9Uc7JHxfhiczByKPfe5qxP2eGK3CzkHq)</translation>
     </message>
     <message>
         <location line="-2"/>

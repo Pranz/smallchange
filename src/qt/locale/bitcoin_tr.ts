@@ -1407,8 +1407,8 @@ Adres: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ödemenin gönderileceği adres (mesela Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to (e.g. Tf9Uc7JHxfhiczByKPfe5qxP2eGK3CzkHq)</source>
+        <translation>Ödemenin gönderileceği adres (mesela Tf9Uc7JHxfhiczByKPfe5qxP2eGK3CzkHq)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1448,8 +1448,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Toakrona address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Toakrona adresi giriniz (mesela Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Toakrona address (e.g. Tf9Uc7JHxfhiczByKPfe5qxP2eGK3CzkHq)</source>
+        <translation>Toakrona adresi giriniz (mesela Tf9Uc7JHxfhiczByKPfe5qxP2eGK3CzkHq)</translation>
     </message>
 </context>
 <context>
@@ -1471,8 +1471,8 @@ Adres: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Mesajın imzalanmasında kullanılacak adres (mesela Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. Tf9Uc7JHxfhiczByKPfe5qxP2eGK3CzkHq)</source>
+        <translation>Mesajın imzalanmasında kullanılacak adres (mesela Tf9Uc7JHxfhiczByKPfe5qxP2eGK3CzkHq)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1544,8 +1544,8 @@ Adres: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Mesajı imzalamak için kullanılmış olan adres (mesela Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. Tf9Uc7JHxfhiczByKPfe5qxP2eGK3CzkHq)</source>
+        <translation>Mesajı imzalamak için kullanılmış olan adres (mesela Tf9Uc7JHxfhiczByKPfe5qxP2eGK3CzkHq)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1565,8 +1565,8 @@ Adres: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Toakrona address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Toakrona adresi giriniz (mesela Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Toakrona address (e.g. Tf9Uc7JHxfhiczByKPfe5qxP2eGK3CzkHq)</source>
+        <translation>Toakrona adresi giriniz (mesela Tf9Uc7JHxfhiczByKPfe5qxP2eGK3CzkHq)</translation>
     </message>
     <message>
         <location line="-2"/>
