@@ -24,11 +24,11 @@ Build instructions
 ----------------
 1. Install the following dependencies:
 
-    boost (C++ libraries)
-    db48 (Berkeley DB 4.8)
-    qt4 (Open Source QT 4.8.4, includes qmake)
-    openssl (ssl dev libraries)
-    miniupnpc (UPNP dev libraries)
+boost (C++ libraries)
+db48 (Berkeley DB 4.8)
+qt4 (Open Source QT 4.8.4, includes qmake)
+openssl (ssl dev libraries)
+miniupnpc (UPNP dev libraries)
 
 2. Create the make file:
 
