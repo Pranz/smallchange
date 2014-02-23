@@ -22,26 +22,24 @@ Toakrona is a direct clone of Litecoin with some small changes.
 
 Build instructions
 ----------------
-1. Install the following dependencies:
+ - Install the following dependencies:
 
- - boost (C++ libraries)
- - db48 (Berkeley DB 4.8)
- - qt4 (Open Source QT 4.8.4, includes qmake)
- - openssl (ssl dev libraries)
- - miniupnpc (UPNP dev libraries)
+ 	- boost (C++ libraries)
+ 	- db48 (Berkeley DB 4.8)
+ 	- qt4 (Open Source QT 4.8.4, includes qmake)
+ 	- openssl (ssl dev libraries)
+ 	- miniupnpc (UPNP dev libraries)
 
-2. Create the make file:
+ - Create the make file:
 
 	Inside toakrona-master, type:
 
 	`qmake "USE_UPNP=-"`
 
 	Expected output:
- 	Project MESSAGE: Building without UPNP support
- 	Removed plural forms as the target language has less forms.
- 	If this sounds wrong, possibly the target language is not set or recognized.
+ 	- Project MESSAGE: Building without UPNP support Removed plural forms as the target language has less forms. 	If this sounds wrong, possibly the target language is not set or recognized.
  
-3. Compile:
+ - Compile:
 
 	`make`
 
