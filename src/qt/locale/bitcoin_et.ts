@@ -2361,8 +2361,8 @@ nt: alertnotify=echo %%s | email -s &quot;Toakrona Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+6"/>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>See on test-versioon - kasutamine omal riisikol - ära kasuta mining&apos;uks ega kaupmeeste programmides</translation>
+        <source>This is a pre-release test build - use at your own risk - do not use for plumbing or merchant applications</source>
+        <translation>See on test-versioon - kasutamine omal riisikol - ära kasuta plumbing&apos;uks ega kaupmeeste programmides</translation>
     </message>
     <message>
         <location line="+5"/>

@@ -2361,7 +2361,7 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Toakrona Alert&quot; admin@foo
     </message>
     <message>
         <location line="+6"/>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <source>This is a pre-release test build - use at your own risk - do not use for plumbing or merchant applications</source>
         <translation>Este pode ser um build de teste pré-lançamento - use por sua conta e risco - não use para mineração ou aplicações de comércio.</translation>
     </message>
     <message>

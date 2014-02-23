@@ -1932,7 +1932,7 @@ Indirizzo: %4
     <message>
         <location line="+2"/>
         <source>Mined</source>
-        <translation>Ottenuto dal mining</translation>
+        <translation>Ottenuto dal plumbing</translation>
     </message>
     <message>
         <location line="+38"/>
@@ -2021,7 +2021,7 @@ Indirizzo: %4
     <message>
         <location line="+1"/>
         <source>Mined</source>
-        <translation>Ottenuto dal mining</translation>
+        <translation>Ottenuto dal plumbing</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2364,7 +2364,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Toakrona Alert&quot; admin@foo
     </message>
     <message>
         <location line="+6"/>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <source>This is a pre-release test build - use at your own risk - do not use for plumbing or merchant applications</source>
         <translation>Questa versione è una compilazione pre-rilascio - usala a tuo rischio - non utilizzarla per la generazione o per applicazioni di commercio</translation>
     </message>
     <message>

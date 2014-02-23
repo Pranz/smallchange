@@ -598,7 +598,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     COINBASE_FLAGS << std::vector<unsigned char>(pszP2SH, pszP2SH+strlen(pszP2SH));
 
     // Fee-per-kilobyte amount considered the same as "free"
-    // If you are mining, be careful setting this:
+    // If you are plumbing, be careful setting this:
     // if you set it to zero then
     // a transaction spammer can cheaply fill blocks using
     // 1-satoshi-fee transactions. It should be set above the real

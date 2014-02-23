@@ -61,7 +61,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "leave that many cores free, default: 0)"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "This is a pre-release test build - use at your own risk - do not use for "
-"mining or merchant applications"),
+"plumbing or merchant applications"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Unable to bind to %s on this computer. Toakrona is probably already running."),
 QT_TRANSLATE_NOOP("bitcoin-core", ""

@@ -240,7 +240,7 @@ if __name__ == '__main__':
 		thr_list.append(p)
 		time.sleep(1)			# stagger threads
 
-	print settings['threads'], "mining threads started"
+	print settings['threads'], "plumbing threads started"
 
 	print time.asctime(), "Miner Starts - %s:%s" % (settings['host'], settings['port'])
 	try:
