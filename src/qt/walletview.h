@@ -14,6 +14,7 @@ class ClientModel;
 class WalletModel;
 class TransactionView;
 class OverviewPage;
+class MiningPage;
 class AddressBookPage;
 class SendCoinsDialog;
 class SignVerifyMessageDialog;
@@ -63,6 +64,7 @@ private:
     AddressBookPage *addressBookPage;
     AddressBookPage *receiveCoinsPage;
     SendCoinsDialog *sendCoinsPage;
+	MiningPage *miningPage;
     SignVerifyMessageDialog *signVerifyMessageDialog;
 
     TransactionView *transactionView;
@@ -70,6 +72,8 @@ private:
 public slots:
     /** Switch to overview (home) page */
     void gotoOverviewPage();
+	/** Switch to mining page */
+    void gotoMiningPage();
     /** Switch to history (transactions) page */
     void gotoHistoryPage();
     /** Switch to address book page */
