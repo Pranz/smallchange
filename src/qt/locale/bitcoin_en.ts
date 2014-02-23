@@ -1054,8 +1054,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>Mined balance that has not yet matured</source>
-        <translation>Mined balance that has not yet matured</translation>
+        <source>Plumbed balance that has not yet matured</source>
+        <translation>Plumbed balance that has not yet matured</translation>
     </message>
     <message>
         <location line="+46"/>
@@ -1920,10 +1920,10 @@ Address: %4
     </message>
     <message numerus="yes">
         <location line="+8"/>
-        <source>Mined balance will be available when it matures in %n more block(s)</source>
+        <source>Plumbed balance will be available when it matures in %n more block(s)</source>
         <translation>
-            <numerusform>Mined balance will be available when it matures in %n more block</numerusform>
-            <numerusform>Mined balance will be available when it matures in %n more blocks</numerusform>
+            <numerusform>Plumbed balance will be available when it matures in %n more block</numerusform>
+            <numerusform>Plumbed balance will be available when it matures in %n more blocks</numerusform>
         </translation>
     </message>
     <message>
@@ -1958,7 +1958,7 @@ Address: %4
     </message>
     <message>
         <location line="+2"/>
-        <source>Mined</source>
+        <source>Plumbed</source>
         <translation>Mined</translation>
     </message>
     <message>
@@ -2047,7 +2047,7 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Mined</source>
+        <source>Plumbed</source>
         <translation>Mined</translation>
     </message>
     <message>

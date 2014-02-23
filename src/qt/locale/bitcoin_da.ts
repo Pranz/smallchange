@@ -1040,7 +1040,7 @@ Adresse: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>Mined balance that has not yet matured</source>
+        <source>Plumbed balance that has not yet matured</source>
         <translation>Udvunden saldo, som endnu ikke er modnet</translation>
     </message>
     <message>
@@ -1894,7 +1894,7 @@ Adresse: %4
     </message>
     <message numerus="yes">
         <location line="+8"/>
-        <source>Mined balance will be available when it matures in %n more block(s)</source>
+        <source>Plumbed balance will be available when it matures in %n more block(s)</source>
         <translation><numerusform>Udvunden saldo, som vil være tilgængelig, når den modner efter yderligere %n blok(ke)</numerusform><numerusform>Udvunden saldo, som vil være tilgængelig, når den modner efter yderligere %n blok(ke)</numerusform></translation>
     </message>
     <message>
@@ -1929,7 +1929,7 @@ Adresse: %4
     </message>
     <message>
         <location line="+2"/>
-        <source>Mined</source>
+        <source>Plumbed</source>
         <translation>Udvundne</translation>
     </message>
     <message>
@@ -2018,7 +2018,7 @@ Adresse: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Mined</source>
+        <source>Plumbed</source>
         <translation>Udvundne</translation>
     </message>
     <message>

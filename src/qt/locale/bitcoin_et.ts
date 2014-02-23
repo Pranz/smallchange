@@ -1039,7 +1039,7 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Mined balance that has not yet matured</source>
+        <source>Plumbed balance that has not yet matured</source>
         <translation>Mitte aegunud mine&apos;itud jääk</translation>
     </message>
     <message>
@@ -1893,7 +1893,7 @@ Aadress: %4⏎</translation>
     </message>
     <message numerus="yes">
         <location line="+8"/>
-        <source>Mined balance will be available when it matures in %n more block(s)</source>
+        <source>Plumbed balance will be available when it matures in %n more block(s)</source>
         <translation><numerusform>Mine&apos;itud jääk muutub kättesaadavaks %n bloki läbimisel</numerusform><numerusform>Mine&apos;itud jääk muutub kättesaadavaks %n bloki läbimisel</numerusform></translation>
     </message>
     <message>
@@ -1928,7 +1928,7 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Mined</source>
+        <source>Plumbed</source>
         <translation>Mine&apos;itud</translation>
     </message>
     <message>
@@ -2017,7 +2017,7 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Mined</source>
+        <source>Plumbed</source>
         <translation>Mine&apos;itud</translation>
     </message>
     <message>

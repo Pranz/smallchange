@@ -1039,7 +1039,7 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Mined balance that has not yet matured</source>
+        <source>Plumbed balance that has not yet matured</source>
         <translation>Saldo minerado que ainda não maturou</translation>
     </message>
     <message>
@@ -1893,7 +1893,7 @@ Endereço: %4</translation>
     </message>
     <message numerus="yes">
         <location line="+8"/>
-        <source>Mined balance will be available when it matures in %n more block(s)</source>
+        <source>Plumbed balance will be available when it matures in %n more block(s)</source>
         <translation><numerusform>Saldo minerado vai estar disponível quando ele maturar em mais %n bloco</numerusform><numerusform>Saldo minerado vai estar disponível quando ele maturar em mais %n blocos</numerusform></translation>
     </message>
     <message>
@@ -1928,7 +1928,7 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Mined</source>
+        <source>Plumbed</source>
         <translation>Minerado</translation>
     </message>
     <message>
@@ -2017,7 +2017,7 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Mined</source>
+        <source>Plumbed</source>
         <translation>Minerado</translation>
     </message>
     <message>
