@@ -29,6 +29,9 @@ Build instructions
  	- qt4 (Open Source QT 4.8.4, includes qmake)
  	- openssl (ssl dev libraries)
  	- miniupnpc (UPNP dev libraries)
+ 	
+	- On debian this means to install the following packages:
+ 		- `apt-get install build-essential libboost-dev libminiupnpc-dev libdb++-dev libssl-dev libdb++-dev qt-sdk`
 
  - Create the make file:
 
