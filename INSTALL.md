@@ -10,7 +10,7 @@ Build instructions
  - Linux
  	
 	- Install the dependencies:
- 		- `apt-get install build-essential libboost-dev libminiupnpc-dev libdb++-dev libssl-dev libdb++-dev qt-sdk`
+ 		- `apt-get install build-essential libboost-dev libminiupnpc-dev libdb++-dev libssl-dev libdb++-dev qt-sdk libboost-all-dev`
 
 	- Create the make file:
 
