@@ -1,9 +1,0 @@
-Building Toakrona
-
-See doc/readme-qt.rst for instructions on building Toakrona-Qt,
-the intended-for-end-users, nice-graphical-interface, reference
-implementation of Toakrona.
-
-See doc/build-*.txt for instructions on building Toakronad,
-the intended-for-services, no-graphical-interface, reference
-implementation of Toakrona.
