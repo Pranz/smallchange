@@ -1959,7 +1959,7 @@ Address: %4
     <message>
         <location line="+2"/>
         <source>Plumbed</source>
-        <translation>Mined</translation>
+        <translation>Plumbed</translation>
     </message>
     <message>
         <location line="+38"/>
@@ -2048,7 +2048,7 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Plumbed</source>
-        <translation>Mined</translation>
+        <translation>Plumbed</translation>
     </message>
     <message>
         <location line="+1"/>
